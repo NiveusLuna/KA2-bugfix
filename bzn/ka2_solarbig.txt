@@ -1,0 +1,1134 @@
+	// Map Definitions
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1522
+	Handle zfercarg1522
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1521
+	Handle zfercarg1521
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1520
+	Handle zfercarg1520
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1519
+	Handle zfercarg1519
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1518
+	Handle zfercarg1518
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1517
+	Handle zfercarg1517
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1516
+	Handle zfercarg1516
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1515
+	Handle zfercarg1515
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1514
+	Handle zfercarg1514
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1513
+	Handle zfercarg1513
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1512
+	Handle zfercarg1512
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1511
+	Handle zfercarg1511
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1510
+	Handle zfercarg1510
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1509
+	Handle zfercarg1509
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1508
+	Handle zfercarg1508
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1507
+	Handle zfercarg1507
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1506
+	Handle zfercarg1506
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1505
+	Handle zfercarg1505
+
+	// Handle for GENERIC SCAVENGER SHIP ODF (zhumpback) object zferscav1504
+	Handle zferscav1504
+
+	// Handle for GENERIC SCAVENGER SHIP ODF (zhumpback) object zferscav1503
+	Handle zferscav1503
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1495
+	Handle pb_clssd1495
+
+	// Handle for Class Q Planet (PB_CLSSP) object pb_clssq1493
+	Handle pb_clssq1493
+
+	// Handle for Class J4 Planet (PB_CLSSJIV) object pb_clssj1491
+	Handle pb_clssj1491
+
+	// Handle for Class C Planet (PB_CLSSC) object pb_clssc1488
+	Handle pb_clssc1488
+
+	// Handle for Class C Planet (PB_CLSSC) object pb_clssc1487
+	Handle pb_clssc1487
+
+	// Handle for Class L Planet (PB_CLSSL) object pb_clssl1484
+	Handle pb_clssl1484
+
+	// Handle for Class L Planet (PB_CLSSL) object pb_clssl1483
+	Handle pb_clssl1483
+
+	// Handle for Class C Planet (PB_CLSSC) object pb_clssc1481
+	Handle pb_clssc1481
+
+	// Handle for Class U Planet (PB_CLSSU) object pb_clssu1479
+	Handle pb_clssu1479
+
+	// Handle for Class L Planet (PB_CLSSL) object pb_clssl1458
+	Handle pb_clssl1458
+
+	// Handle for Class P Planet (PB_CLSSP) object pb_clssp1456
+	Handle pb_clssp1456
+
+	// Handle for Class L Planet (PB_CLSSL) object pb_clssl1454
+	Handle pb_clssl1454
+
+	// Handle for Class P Planet (PB_CLSSP) object pb_clssp1452
+	Handle pb_clssp1452
+
+	// Handle for Class B Planet (PB_CLSSB) object pb_clssb1449
+	Handle pb_clssb1449
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1446
+	Handle pb_clssd1446
+
+	// Handle for Class C Planet (PB_CLSSC) object pb_clssc1445
+	Handle pb_clssc1445
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1442
+	Handle pb_clssd1442
+
+	// Handle for Class C Planet (PB_CLSSC) object pb_clssc1441
+	Handle pb_clssc1441
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1398
+	Handle pb_clssd1398
+
+	// Handle for Class K Planet (PB_CLSSK) object pb_clssk1395
+	Handle pb_clssk1395
+
+	// Handle for Asteroid Fragment (asterfield05) object asterfie1247
+	Handle asterfie1247
+
+	// Handle for Asteroid Fragment (asterfield05) object asterfie1246
+	Handle asterfie1246
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1236
+	Handle asterfie1236
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1235
+	Handle asterfie1235
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1234
+	Handle asterfie1234
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1233
+	Handle asterfie1233
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1232
+	Handle asterfie1232
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1231
+	Handle asterfie1231
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1230
+	Handle asterfie1230
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1229
+	Handle asterfie1229
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1228
+	Handle asterfie1228
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1227
+	Handle asterfie1227
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1226
+	Handle asterfie1226
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1225
+	Handle asterfie1225
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1224
+	Handle asterfie1224
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1223
+	Handle asterfie1223
+
+	// Handle for Asteroid Fragment (asterfield05) object asterfie1222
+	Handle asterfie1222
+
+	// Handle for Asteroid Fragment (asterfield05) object asterfie1221
+	Handle asterfie1221
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1220
+	Handle asterfie1220
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1219
+	Handle asterfie1219
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1218
+	Handle asterfie1218
+
+	// Handle for Big Asteroid Fragment (asterfield06) object asterfie1217
+	Handle asterfie1217
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1216
+	Handle asterfie1216
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1215
+	Handle asterfie1215
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1214
+	Handle asterfie1214
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1213
+	Handle asterfie1213
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1212
+	Handle asterfie1212
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1211
+	Handle asterfie1211
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1210
+	Handle asterfie1210
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1209
+	Handle asterfie1209
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1208
+	Handle asterfie1208
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1207
+	Handle asterfie1207
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1206
+	Handle asterfie1206
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1205
+	Handle asterfie1205
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1204
+	Handle asterfie1204
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1203
+	Handle asterfie1203
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1202
+	Handle asterfie1202
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1200
+	Handle asterfie1200
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1199
+	Handle asterfie1199
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1198
+	Handle asterfie1198
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1197
+	Handle asterfie1197
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1196
+	Handle asterfie1196
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1195
+	Handle asterfie1195
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1193
+	Handle asterfie1193
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1192
+	Handle asterfie1192
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1191
+	Handle asterfie1191
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1190
+	Handle asterfie1190
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1189
+	Handle asterfie1189
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1188
+	Handle asterfie1188
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1187
+	Handle asterfie1187
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1186
+	Handle asterfie1186
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1185
+	Handle asterfie1185
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1184
+	Handle asterfie1184
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1183
+	Handle asterfie1183
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1182
+	Handle asterfie1182
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1181
+	Handle asterfie1181
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1180
+	Handle asterfie1180
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1179
+	Handle asterfie1179
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1178
+	Handle asterfie1178
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1177
+	Handle asterfie1177
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1176
+	Handle asterfie1176
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1175
+	Handle asterfie1175
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1174
+	Handle asterfie1174
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1173
+	Handle asterfie1173
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1172
+	Handle asterfie1172
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1171
+	Handle asterfie1171
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1170
+	Handle asterfie1170
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1169
+	Handle asterfie1169
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1167
+	Handle asterfie1167
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1166
+	Handle asterfie1166
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1165
+	Handle asterfie1165
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1163
+	Handle asterfie1163
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1162
+	Handle asterfie1162
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1161
+	Handle asterfie1161
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1160
+	Handle asterfie1160
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1159
+	Handle asterfie1159
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1158
+	Handle asterfie1158
+
+	// Handle for Asteroid Field (asterfield02) object asterfie1157
+	Handle asterfie1157
+
+	// Handle for Asteroid Fragment (asterfield04) object asterfie1155
+	Handle asterfie1155
+
+	// Handle for Asteroid Fragment (asterfield04) object asterfie1154
+	Handle asterfie1154
+
+	// Handle for Asteroid Fragment (asterfield04) object asterfie1153
+	Handle asterfie1153
+
+	// Handle for Asteroid Fragment (asterfield04) object asterfie1152
+	Handle asterfie1152
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1151
+	Handle asterfie1151
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1150
+	Handle asterfie1150
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1149
+	Handle asterfie1149
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1148
+	Handle asterfie1148
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1147
+	Handle asterfie1147
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1146
+	Handle asterfie1146
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1145
+	Handle asterfie1145
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1144
+	Handle asterfie1144
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1143
+	Handle asterfie1143
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1142
+	Handle asterfie1142
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1141
+	Handle asterfie1141
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1140
+	Handle asterfie1140
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1139
+	Handle asterfie1139
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1138
+	Handle asterfie1138
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1137
+	Handle asterfie1137
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1136
+	Handle asterfie1136
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1135
+	Handle asterfie1135
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1134
+	Handle asterfie1134
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1133
+	Handle asterfie1133
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1132
+	Handle asterfie1132
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1131
+	Handle asterfie1131
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1130
+	Handle asterfie1130
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1129
+	Handle asterfie1129
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1128
+	Handle asterfie1128
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1127
+	Handle asterfie1127
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1126
+	Handle asterfie1126
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1125
+	Handle asterfie1125
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1124
+	Handle asterfie1124
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1123
+	Handle asterfie1123
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1122
+	Handle asterfie1122
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1121
+	Handle asterfie1121
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1119
+	Handle asterfie1119
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1118
+	Handle asterfie1118
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1117
+	Handle asterfie1117
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1116
+	Handle asterfie1116
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1115
+	Handle asterfie1115
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1114
+	Handle asterfie1114
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1111
+	Handle asterfie1111
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1110
+	Handle asterfie1110
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1109
+	Handle asterfie1109
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1108
+	Handle asterfie1108
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1107
+	Handle asterfie1107
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1106
+	Handle asterfie1106
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1105
+	Handle asterfie1105
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1104
+	Handle asterfie1104
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1103
+	Handle asterfie1103
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1102
+	Handle asterfie1102
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1098
+	Handle asterfie1098
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1097
+	Handle asterfie1097
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1096
+	Handle asterfie1096
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1095
+	Handle asterfie1095
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1094
+	Handle asterfie1094
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1092
+	Handle asterfie1092
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1091
+	Handle asterfie1091
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1090
+	Handle asterfie1090
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1089
+	Handle asterfie1089
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1088
+	Handle asterfie1088
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1086
+	Handle asterfie1086
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1085
+	Handle asterfie1085
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1084
+	Handle asterfie1084
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1083
+	Handle asterfie1083
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1081
+	Handle asterfie1081
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1080
+	Handle asterfie1080
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1079
+	Handle asterfie1079
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1078
+	Handle asterfie1078
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1077
+	Handle asterfie1077
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1076
+	Handle asterfie1076
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1074
+	Handle asterfie1074
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1073
+	Handle asterfie1073
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1072
+	Handle asterfie1072
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1071
+	Handle asterfie1071
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1070
+	Handle asterfie1070
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1069
+	Handle asterfie1069
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1068
+	Handle asterfie1068
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1067
+	Handle asterfie1067
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1066
+	Handle asterfie1066
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1065
+	Handle asterfie1065
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1064
+	Handle asterfie1064
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1063
+	Handle asterfie1063
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1062
+	Handle asterfie1062
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1061
+	Handle asterfie1061
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1060
+	Handle asterfie1060
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1057
+	Handle asterfie1057
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1056
+	Handle asterfie1056
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1055
+	Handle asterfie1055
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1054
+	Handle asterfie1054
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1052
+	Handle asterfie1052
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1051
+	Handle asterfie1051
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1050
+	Handle asterfie1050
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1049
+	Handle asterfie1049
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1048
+	Handle asterfie1048
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1047
+	Handle asterfie1047
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1046
+	Handle asterfie1046
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1045
+	Handle asterfie1045
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1044
+	Handle asterfie1044
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1043
+	Handle asterfie1043
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1042
+	Handle asterfie1042
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1041
+	Handle asterfie1041
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1040
+	Handle asterfie1040
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1039
+	Handle asterfie1039
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1038
+	Handle asterfie1038
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1037
+	Handle asterfie1037
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1036
+	Handle asterfie1036
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1035
+	Handle asterfie1035
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1034
+	Handle asterfie1034
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1033
+	Handle asterfie1033
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1032
+	Handle asterfie1032
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1031
+	Handle asterfie1031
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1030
+	Handle asterfie1030
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1029
+	Handle asterfie1029
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1028
+	Handle asterfie1028
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1027
+	Handle asterfie1027
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1026
+	Handle asterfie1026
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1025
+	Handle asterfie1025
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1024
+	Handle asterfie1024
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1023
+	Handle asterfie1023
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1020
+	Handle asterfie1020
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1019
+	Handle asterfie1019
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1018
+	Handle asterfie1018
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1017
+	Handle asterfie1017
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1016
+	Handle asterfie1016
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1015
+	Handle asterfie1015
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1014
+	Handle asterfie1014
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1013
+	Handle asterfie1013
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1012
+	Handle asterfie1012
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1011
+	Handle asterfie1011
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1010
+	Handle asterfie1010
+
+	// Handle for Asteroid Field (asterfield01) object asterfie1009
+	Handle asterfie1009
+
+	// Handle for Class C Planet (PB_CLSSC) object pb_clssc1007
+	Handle pb_clssc1007
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1005
+	Handle pb_clssd1005
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1399
+	Handle pb_clssd1399
+
+	// Handle for Class M Planet (PB_QONOS) object Earth
+	Handle Earth
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1403
+	Handle pb_clssd1403
+
+	// Handle for Class N Planet (PB_CLSSK) object pb_clssn1404
+	Handle pb_clssn1404
+
+	// Handle for Class A Planet (PB_CLSSA) object pb_clssa1413
+	Handle pb_clssa1413
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1425
+	Handle mdmoon1425
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1426
+	Handle mdmoon1426
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1427
+	Handle mdmoon1427
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1428
+	Handle mdmoon1428
+
+	// Handle for Blue Dilithium Moon (mdmoon1) object mdmoon11429
+	Handle mdmoon11429
+
+	// Handle for Blue Dilithium Moon (mdmoon1) object mdmoon11430
+	Handle mdmoon11430
+
+	// Handle for Blue Dilithium Moon (mdmoon1) object mdmoon11431
+	Handle mdmoon11431
+
+	// Handle for Blue Dilithium Moon (mdmoon1) object mdmoon11432
+	Handle mdmoon11432
+
+	// Handle for Dark Rocky Moon (mdtritan3) object mdtritan1433
+	Handle mdtritan1433
+
+	// Handle for Dark Rocky Moon (mdtritan3) object mdtritan1434
+	Handle mdtritan1434
+
+	// Handle for Dark Rocky Moon (mdtritan3) object mdtritan1435
+	Handle mdtritan1435
+
+	// Handle for Class J Planet (PB_CLSSJ) object pb_clssj1436
+	Handle pb_clssj1436
+
+	// Handle for Class J3 Planet (PB_CLSSJIII) object pb_clssj1460
+	Handle pb_clssj1460
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1463
+	Handle pb_clssd1463
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1464
+	Handle pb_clssd1464
+
+	// Handle for Class H Planet (PB_CLSSH) object pb_clssh1467
+	Handle pb_clssh1467
+
+	// Handle for Class C Planet (PB_CLSSC) object pb_clssc1468
+	Handle pb_clssc1468
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1471
+	Handle pb_clssd1471
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1472
+	Handle pb_clssd1472
+
+	// Handle for Class C Planet (PB_CLSSC) object pb_clssc1475
+	Handle pb_clssc1475
+
+	// Handle for Class C Planet (PB_CLSSC) object pb_clssc1476
+	Handle pb_clssc1476
+
+
+
+
+	// Map Object Initialization
+
+	zfercarg1522 = GetHandle( "zfercarg1522" );
+	zfercarg1521 = GetHandle( "zfercarg1521" );
+	zfercarg1520 = GetHandle( "zfercarg1520" );
+	zfercarg1519 = GetHandle( "zfercarg1519" );
+	zfercarg1518 = GetHandle( "zfercarg1518" );
+	zfercarg1517 = GetHandle( "zfercarg1517" );
+	zfercarg1516 = GetHandle( "zfercarg1516" );
+	zfercarg1515 = GetHandle( "zfercarg1515" );
+	zfercarg1514 = GetHandle( "zfercarg1514" );
+	zfercarg1513 = GetHandle( "zfercarg1513" );
+	zfercarg1512 = GetHandle( "zfercarg1512" );
+	zfercarg1511 = GetHandle( "zfercarg1511" );
+	zfercarg1510 = GetHandle( "zfercarg1510" );
+	zfercarg1509 = GetHandle( "zfercarg1509" );
+	zfercarg1508 = GetHandle( "zfercarg1508" );
+	zfercarg1507 = GetHandle( "zfercarg1507" );
+	zfercarg1506 = GetHandle( "zfercarg1506" );
+	zfercarg1505 = GetHandle( "zfercarg1505" );
+	zferscav1504 = GetHandle( "zferscav1504" );
+	zferscav1503 = GetHandle( "zferscav1503" );
+	pb_clssd1495 = GetHandle( "pb_clssd1495" );
+	pb_clssq1493 = GetHandle( "pb_clssq1493" );
+	pb_clssj1491 = GetHandle( "pb_clssj1491" );
+	pb_clssc1488 = GetHandle( "pb_clssc1488" );
+	pb_clssc1487 = GetHandle( "pb_clssc1487" );
+	pb_clssl1484 = GetHandle( "pb_clssl1484" );
+	pb_clssl1483 = GetHandle( "pb_clssl1483" );
+	pb_clssc1481 = GetHandle( "pb_clssc1481" );
+	pb_clssu1479 = GetHandle( "pb_clssu1479" );
+	pb_clssl1458 = GetHandle( "pb_clssl1458" );
+	pb_clssp1456 = GetHandle( "pb_clssp1456" );
+	pb_clssl1454 = GetHandle( "pb_clssl1454" );
+	pb_clssp1452 = GetHandle( "pb_clssp1452" );
+	pb_clssb1449 = GetHandle( "pb_clssb1449" );
+	pb_clssd1446 = GetHandle( "pb_clssd1446" );
+	pb_clssc1445 = GetHandle( "pb_clssc1445" );
+	pb_clssd1442 = GetHandle( "pb_clssd1442" );
+	pb_clssc1441 = GetHandle( "pb_clssc1441" );
+	pb_clssd1398 = GetHandle( "pb_clssd1398" );
+	pb_clssk1395 = GetHandle( "pb_clssk1395" );
+	asterfie1247 = GetHandle( "asterfie1247" );
+	asterfie1246 = GetHandle( "asterfie1246" );
+	asterfie1236 = GetHandle( "asterfie1236" );
+	asterfie1235 = GetHandle( "asterfie1235" );
+	asterfie1234 = GetHandle( "asterfie1234" );
+	asterfie1233 = GetHandle( "asterfie1233" );
+	asterfie1232 = GetHandle( "asterfie1232" );
+	asterfie1231 = GetHandle( "asterfie1231" );
+	asterfie1230 = GetHandle( "asterfie1230" );
+	asterfie1229 = GetHandle( "asterfie1229" );
+	asterfie1228 = GetHandle( "asterfie1228" );
+	asterfie1227 = GetHandle( "asterfie1227" );
+	asterfie1226 = GetHandle( "asterfie1226" );
+	asterfie1225 = GetHandle( "asterfie1225" );
+	asterfie1224 = GetHandle( "asterfie1224" );
+	asterfie1223 = GetHandle( "asterfie1223" );
+	asterfie1222 = GetHandle( "asterfie1222" );
+	asterfie1221 = GetHandle( "asterfie1221" );
+	asterfie1220 = GetHandle( "asterfie1220" );
+	asterfie1219 = GetHandle( "asterfie1219" );
+	asterfie1218 = GetHandle( "asterfie1218" );
+	asterfie1217 = GetHandle( "asterfie1217" );
+	asterfie1216 = GetHandle( "asterfie1216" );
+	asterfie1215 = GetHandle( "asterfie1215" );
+	asterfie1214 = GetHandle( "asterfie1214" );
+	asterfie1213 = GetHandle( "asterfie1213" );
+	asterfie1212 = GetHandle( "asterfie1212" );
+	asterfie1211 = GetHandle( "asterfie1211" );
+	asterfie1210 = GetHandle( "asterfie1210" );
+	asterfie1209 = GetHandle( "asterfie1209" );
+	asterfie1208 = GetHandle( "asterfie1208" );
+	asterfie1207 = GetHandle( "asterfie1207" );
+	asterfie1206 = GetHandle( "asterfie1206" );
+	asterfie1205 = GetHandle( "asterfie1205" );
+	asterfie1204 = GetHandle( "asterfie1204" );
+	asterfie1203 = GetHandle( "asterfie1203" );
+	asterfie1202 = GetHandle( "asterfie1202" );
+	asterfie1200 = GetHandle( "asterfie1200" );
+	asterfie1199 = GetHandle( "asterfie1199" );
+	asterfie1198 = GetHandle( "asterfie1198" );
+	asterfie1197 = GetHandle( "asterfie1197" );
+	asterfie1196 = GetHandle( "asterfie1196" );
+	asterfie1195 = GetHandle( "asterfie1195" );
+	asterfie1193 = GetHandle( "asterfie1193" );
+	asterfie1192 = GetHandle( "asterfie1192" );
+	asterfie1191 = GetHandle( "asterfie1191" );
+	asterfie1190 = GetHandle( "asterfie1190" );
+	asterfie1189 = GetHandle( "asterfie1189" );
+	asterfie1188 = GetHandle( "asterfie1188" );
+	asterfie1187 = GetHandle( "asterfie1187" );
+	asterfie1186 = GetHandle( "asterfie1186" );
+	asterfie1185 = GetHandle( "asterfie1185" );
+	asterfie1184 = GetHandle( "asterfie1184" );
+	asterfie1183 = GetHandle( "asterfie1183" );
+	asterfie1182 = GetHandle( "asterfie1182" );
+	asterfie1181 = GetHandle( "asterfie1181" );
+	asterfie1180 = GetHandle( "asterfie1180" );
+	asterfie1179 = GetHandle( "asterfie1179" );
+	asterfie1178 = GetHandle( "asterfie1178" );
+	asterfie1177 = GetHandle( "asterfie1177" );
+	asterfie1176 = GetHandle( "asterfie1176" );
+	asterfie1175 = GetHandle( "asterfie1175" );
+	asterfie1174 = GetHandle( "asterfie1174" );
+	asterfie1173 = GetHandle( "asterfie1173" );
+	asterfie1172 = GetHandle( "asterfie1172" );
+	asterfie1171 = GetHandle( "asterfie1171" );
+	asterfie1170 = GetHandle( "asterfie1170" );
+	asterfie1169 = GetHandle( "asterfie1169" );
+	asterfie1167 = GetHandle( "asterfie1167" );
+	asterfie1166 = GetHandle( "asterfie1166" );
+	asterfie1165 = GetHandle( "asterfie1165" );
+	asterfie1163 = GetHandle( "asterfie1163" );
+	asterfie1162 = GetHandle( "asterfie1162" );
+	asterfie1161 = GetHandle( "asterfie1161" );
+	asterfie1160 = GetHandle( "asterfie1160" );
+	asterfie1159 = GetHandle( "asterfie1159" );
+	asterfie1158 = GetHandle( "asterfie1158" );
+	asterfie1157 = GetHandle( "asterfie1157" );
+	asterfie1155 = GetHandle( "asterfie1155" );
+	asterfie1154 = GetHandle( "asterfie1154" );
+	asterfie1153 = GetHandle( "asterfie1153" );
+	asterfie1152 = GetHandle( "asterfie1152" );
+	asterfie1151 = GetHandle( "asterfie1151" );
+	asterfie1150 = GetHandle( "asterfie1150" );
+	asterfie1149 = GetHandle( "asterfie1149" );
+	asterfie1148 = GetHandle( "asterfie1148" );
+	asterfie1147 = GetHandle( "asterfie1147" );
+	asterfie1146 = GetHandle( "asterfie1146" );
+	asterfie1145 = GetHandle( "asterfie1145" );
+	asterfie1144 = GetHandle( "asterfie1144" );
+	asterfie1143 = GetHandle( "asterfie1143" );
+	asterfie1142 = GetHandle( "asterfie1142" );
+	asterfie1141 = GetHandle( "asterfie1141" );
+	asterfie1140 = GetHandle( "asterfie1140" );
+	asterfie1139 = GetHandle( "asterfie1139" );
+	asterfie1138 = GetHandle( "asterfie1138" );
+	asterfie1137 = GetHandle( "asterfie1137" );
+	asterfie1136 = GetHandle( "asterfie1136" );
+	asterfie1135 = GetHandle( "asterfie1135" );
+	asterfie1134 = GetHandle( "asterfie1134" );
+	asterfie1133 = GetHandle( "asterfie1133" );
+	asterfie1132 = GetHandle( "asterfie1132" );
+	asterfie1131 = GetHandle( "asterfie1131" );
+	asterfie1130 = GetHandle( "asterfie1130" );
+	asterfie1129 = GetHandle( "asterfie1129" );
+	asterfie1128 = GetHandle( "asterfie1128" );
+	asterfie1127 = GetHandle( "asterfie1127" );
+	asterfie1126 = GetHandle( "asterfie1126" );
+	asterfie1125 = GetHandle( "asterfie1125" );
+	asterfie1124 = GetHandle( "asterfie1124" );
+	asterfie1123 = GetHandle( "asterfie1123" );
+	asterfie1122 = GetHandle( "asterfie1122" );
+	asterfie1121 = GetHandle( "asterfie1121" );
+	asterfie1119 = GetHandle( "asterfie1119" );
+	asterfie1118 = GetHandle( "asterfie1118" );
+	asterfie1117 = GetHandle( "asterfie1117" );
+	asterfie1116 = GetHandle( "asterfie1116" );
+	asterfie1115 = GetHandle( "asterfie1115" );
+	asterfie1114 = GetHandle( "asterfie1114" );
+	asterfie1111 = GetHandle( "asterfie1111" );
+	asterfie1110 = GetHandle( "asterfie1110" );
+	asterfie1109 = GetHandle( "asterfie1109" );
+	asterfie1108 = GetHandle( "asterfie1108" );
+	asterfie1107 = GetHandle( "asterfie1107" );
+	asterfie1106 = GetHandle( "asterfie1106" );
+	asterfie1105 = GetHandle( "asterfie1105" );
+	asterfie1104 = GetHandle( "asterfie1104" );
+	asterfie1103 = GetHandle( "asterfie1103" );
+	asterfie1102 = GetHandle( "asterfie1102" );
+	asterfie1098 = GetHandle( "asterfie1098" );
+	asterfie1097 = GetHandle( "asterfie1097" );
+	asterfie1096 = GetHandle( "asterfie1096" );
+	asterfie1095 = GetHandle( "asterfie1095" );
+	asterfie1094 = GetHandle( "asterfie1094" );
+	asterfie1092 = GetHandle( "asterfie1092" );
+	asterfie1091 = GetHandle( "asterfie1091" );
+	asterfie1090 = GetHandle( "asterfie1090" );
+	asterfie1089 = GetHandle( "asterfie1089" );
+	asterfie1088 = GetHandle( "asterfie1088" );
+	asterfie1086 = GetHandle( "asterfie1086" );
+	asterfie1085 = GetHandle( "asterfie1085" );
+	asterfie1084 = GetHandle( "asterfie1084" );
+	asterfie1083 = GetHandle( "asterfie1083" );
+	asterfie1081 = GetHandle( "asterfie1081" );
+	asterfie1080 = GetHandle( "asterfie1080" );
+	asterfie1079 = GetHandle( "asterfie1079" );
+	asterfie1078 = GetHandle( "asterfie1078" );
+	asterfie1077 = GetHandle( "asterfie1077" );
+	asterfie1076 = GetHandle( "asterfie1076" );
+	asterfie1074 = GetHandle( "asterfie1074" );
+	asterfie1073 = GetHandle( "asterfie1073" );
+	asterfie1072 = GetHandle( "asterfie1072" );
+	asterfie1071 = GetHandle( "asterfie1071" );
+	asterfie1070 = GetHandle( "asterfie1070" );
+	asterfie1069 = GetHandle( "asterfie1069" );
+	asterfie1068 = GetHandle( "asterfie1068" );
+	asterfie1067 = GetHandle( "asterfie1067" );
+	asterfie1066 = GetHandle( "asterfie1066" );
+	asterfie1065 = GetHandle( "asterfie1065" );
+	asterfie1064 = GetHandle( "asterfie1064" );
+	asterfie1063 = GetHandle( "asterfie1063" );
+	asterfie1062 = GetHandle( "asterfie1062" );
+	asterfie1061 = GetHandle( "asterfie1061" );
+	asterfie1060 = GetHandle( "asterfie1060" );
+	asterfie1057 = GetHandle( "asterfie1057" );
+	asterfie1056 = GetHandle( "asterfie1056" );
+	asterfie1055 = GetHandle( "asterfie1055" );
+	asterfie1054 = GetHandle( "asterfie1054" );
+	asterfie1052 = GetHandle( "asterfie1052" );
+	asterfie1051 = GetHandle( "asterfie1051" );
+	asterfie1050 = GetHandle( "asterfie1050" );
+	asterfie1049 = GetHandle( "asterfie1049" );
+	asterfie1048 = GetHandle( "asterfie1048" );
+	asterfie1047 = GetHandle( "asterfie1047" );
+	asterfie1046 = GetHandle( "asterfie1046" );
+	asterfie1045 = GetHandle( "asterfie1045" );
+	asterfie1044 = GetHandle( "asterfie1044" );
+	asterfie1043 = GetHandle( "asterfie1043" );
+	asterfie1042 = GetHandle( "asterfie1042" );
+	asterfie1041 = GetHandle( "asterfie1041" );
+	asterfie1040 = GetHandle( "asterfie1040" );
+	asterfie1039 = GetHandle( "asterfie1039" );
+	asterfie1038 = GetHandle( "asterfie1038" );
+	asterfie1037 = GetHandle( "asterfie1037" );
+	asterfie1036 = GetHandle( "asterfie1036" );
+	asterfie1035 = GetHandle( "asterfie1035" );
+	asterfie1034 = GetHandle( "asterfie1034" );
+	asterfie1033 = GetHandle( "asterfie1033" );
+	asterfie1032 = GetHandle( "asterfie1032" );
+	asterfie1031 = GetHandle( "asterfie1031" );
+	asterfie1030 = GetHandle( "asterfie1030" );
+	asterfie1029 = GetHandle( "asterfie1029" );
+	asterfie1028 = GetHandle( "asterfie1028" );
+	asterfie1027 = GetHandle( "asterfie1027" );
+	asterfie1026 = GetHandle( "asterfie1026" );
+	asterfie1025 = GetHandle( "asterfie1025" );
+	asterfie1024 = GetHandle( "asterfie1024" );
+	asterfie1023 = GetHandle( "asterfie1023" );
+	asterfie1020 = GetHandle( "asterfie1020" );
+	asterfie1019 = GetHandle( "asterfie1019" );
+	asterfie1018 = GetHandle( "asterfie1018" );
+	asterfie1017 = GetHandle( "asterfie1017" );
+	asterfie1016 = GetHandle( "asterfie1016" );
+	asterfie1015 = GetHandle( "asterfie1015" );
+	asterfie1014 = GetHandle( "asterfie1014" );
+	asterfie1013 = GetHandle( "asterfie1013" );
+	asterfie1012 = GetHandle( "asterfie1012" );
+	asterfie1011 = GetHandle( "asterfie1011" );
+	asterfie1010 = GetHandle( "asterfie1010" );
+	asterfie1009 = GetHandle( "asterfie1009" );
+	pb_clssc1007 = GetHandle( "pb_clssc1007" );
+	pb_clssd1005 = GetHandle( "pb_clssd1005" );
+	pb_clssd1399 = GetHandle( "pb_clssd1399" );
+	Earth = GetHandle( "Earth" );
+	pb_clssd1403 = GetHandle( "pb_clssd1403" );
+	pb_clssn1404 = GetHandle( "pb_clssn1404" );
+	pb_clssa1413 = GetHandle( "pb_clssa1413" );
+	mdmoon1425 = GetHandle( "mdmoon1425" );
+	mdmoon1426 = GetHandle( "mdmoon1426" );
+	mdmoon1427 = GetHandle( "mdmoon1427" );
+	mdmoon1428 = GetHandle( "mdmoon1428" );
+	mdmoon11429 = GetHandle( "mdmoon11429" );
+	mdmoon11430 = GetHandle( "mdmoon11430" );
+	mdmoon11431 = GetHandle( "mdmoon11431" );
+	mdmoon11432 = GetHandle( "mdmoon11432" );
+	mdtritan1433 = GetHandle( "mdtritan1433" );
+	mdtritan1434 = GetHandle( "mdtritan1434" );
+	mdtritan1435 = GetHandle( "mdtritan1435" );
+	pb_clssj1436 = GetHandle( "pb_clssj1436" );
+	pb_clssj1460 = GetHandle( "pb_clssj1460" );
+	pb_clssd1463 = GetHandle( "pb_clssd1463" );
+	pb_clssd1464 = GetHandle( "pb_clssd1464" );
+	pb_clssh1467 = GetHandle( "pb_clssh1467" );
+	pb_clssc1468 = GetHandle( "pb_clssc1468" );
+	pb_clssd1471 = GetHandle( "pb_clssd1471" );
+	pb_clssd1472 = GetHandle( "pb_clssd1472" );
+	pb_clssc1475 = GetHandle( "pb_clssc1475" );
+	pb_clssc1476 = GetHandle( "pb_clssc1476" );
+
+
+
+	// AI special forces
+
+
+
+	//
+	// PATHS
+	//
+
+	// Path: "Camera_1" (1 points)
+	// Path: "Camera_2" (1 points)
+	// Path: "Camera_3" (1 points)
+	// Path: "Camera_4" (1 points)
