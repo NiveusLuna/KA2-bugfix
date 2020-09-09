@@ -18,3 +18,4 @@ Bugs fixed:
 	- Romulan capture tech does not provide a cloaking device to Lyran scout
 		- This bug was only mitigated, not fixed. I chose to hide the research
 		from the player and let upstream decide what to do with the technology.
+		- See Issue 1 for details.
