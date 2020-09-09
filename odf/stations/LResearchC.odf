@@ -1,0 +1,151 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Imperial Guard Station"
+
+//tooltips
+tooltip = "Imperial Guard Station - Weapon R&D and Other Miscellaneous Projects"
+verboseTooltip = "LYR_RESEARCHC_V"
+
+//Race which can build ship & starting race of ship
+race = "lyran"
+
+//Amount of time required to build ship
+buildTime = 250.0
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Number of crew required to build ship & Starting crew
+crewCost = 200
+
+//Dilithium Cost to build
+dilithiumCost = 0
+
+//Metal cost to build
+metalCost = 750
+
+//Latinum Cost to build
+latinumCost = 500
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 1200
+maxHealth = 600
+maxShields = 1200
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 210
+enginesHitPoints = 0
+weaponsHitPoints = 210
+lifeSupportHitPoints = 210
+sensorsHitPoints = 210
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Guard Station-041" "Guard Station-094" "Guard Station-011" "Guard Station-018"
+	"Guard Station-065" "Guard Station-054" "Guard Station-023" "Guard Station-030"
+
+// Lyran Non-Combat Sensors
+rangeScan = 400.0f
+
+shieldhit = "shield_lyr_hitXL"
+shieldhitcritical = "shield_lyr_hitcritXL"
+shielddown = "shield_lyr_down"
+
+//**********************************************************************
+//Construction Parameters
+
+// KA2 Empire Notes
+// Misc 1 = Multi-Barrel Heavy Disruptors
+// Misc 2 = Heavy Phaser Cannons
+// Misc 3 = Underway Replenishment
+// Misc 4 = Energy Sphere Generation
+// Misc 5 = Mauler Cannons
+// Misc 6 = Cruise Missiles
+
+ 
+
+podHardpoints = "hp01" "hp03" "hp05" "hp02" "hp04" "hp06" "hp01" "hp03" "hp05" "hp02" "hp04" "hp06" "hp01"
+BuildItem0 = "LyrMiscR1"
+BuildItem1 = "LyrMiscR2"
+buildItem2 = "LyrMiscR3"
+buildItem3 = "LyrMiscR4"
+buildItem4 = "LyrMiscR5"
+buildItem5 = "LyrMiscR6"
+
+BuildItem6 = "LyrMix1"
+BuildItem7 = "LyrMix2"
+BuildItem8 = "LyrMix3"
+BuildItem9 = "LyrMix4"
+BuildItem10 = "LyrMix5"
+BuildItem11 = "LyrMix6"
+BuildItem12 = "LyrMix7"
+
+buildItem6Availability = 8 // If Tech not met (i.e haven't captured a ship)
+buildItem7Availability = 128 
+buildItem8Availability = 128 // If not Allied
+buildItem9Availability = 8
+buildItem10Availability = 8 
+buildItem11Availability = 8
+buildItem12Availability = 8
+
+//**********************************************************************
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp12" "hp13"
+weaponsTargetHardpoints =
+shieldGeneratorTargetHardpoints = "hp07" "hp08" "hp09"
+sensorsTargetHardpoints = "hp10" "hp11"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" 
+criticalTargetHardpoints = "hp12" "hp13"
+
+//**********************************************************************
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "AdvResearchStationSelect"
+eventAcknowledge = "AdvResearchStationAcknowledge"
+eventDecommission = "AdvResearchStationDecommission"
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "science_station"
+hotkeyLabel = "HOTKEY_F11"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 0
+transporter = 1
+ScaleSOD = 0.5
+basename = "lresearchc"
