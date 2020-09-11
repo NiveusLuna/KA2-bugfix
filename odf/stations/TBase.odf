@@ -1,2 +1,2 @@
 #include "tbase.odf"
-#include "0north-south-buffer.odf"
+#include "0north-buffer.odf"
