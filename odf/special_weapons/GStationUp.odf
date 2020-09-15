@@ -20,3 +20,4 @@ overridesubsystem = 1
 speakonattack = 0
 attackspeech = 0
 hotkeyLabel = "GAME-HOTKEY-BACKQUOTE_U"
+replacementdontremovefootprint = 1
