@@ -21,11 +21,14 @@ Bugs fixed:
 	- See Issue 1 for details.
 - Units exiting ISC large yard can get stuck against northern barrier
 - Upgrading Gorn outpost results in it losing its footprint
+
+- Type 400 civilian cargo ships and scavengers can't use their tractor beams,
+due to lacking weapon hitpoints.
 	
 TODO (list kindly provided by Admiral Nat on Discord)
 
 - The Lyran outpost upgrade loses its footprint.
-- The Klingon's Experimental BoP couldn't use the explore or search and destroy commands.
+- The Klingon's Experimental BoP couldn't use the search and destroy command
 - The Kronos Class couldn't attack planets despite being a battlecruiser, which can attack planets.
 - The Gorn's Lyran-tech Carrier stopped counting toward its cap of one if upgraded with Hydran technology.
 - The ISC transporter effect was broken. (The race odf was looking for btransport, rather than itransport.)
@@ -33,7 +36,6 @@ TODO (list kindly provided by Admiral Nat on Discord)
 - The ships repairing at Hydran Starbases and Outposts would visibly clip into the station. (Change the repairside for both to 2.)
 - The Hydran's fighter miniaturization research didn't do anything. (I added it as a requirement for the carrier conversion, since that's apparently the intention.)
 - The Orion Pirate unit cap was broken.
-- Type 400 civilian cargo ships and scavengers couldn't use their tractor beams, due to lacking weapon hitpoints.
 - There was a small chance that a Class L Planet would be named J-30823.
 - AIs wouldn't use wormhole generators properly, always opening wormholes to the bottom left corner of the map. Adding aitargetlocation = 1 to the relevant weapons fixed that.
 - The Gorn-ISC mixed-tech Plasmatic Pulsar Device was missing its hotkey.
