@@ -21,14 +21,14 @@ Bugs fixed:
 	- See Issue 1 for details.
 - Units exiting ISC large yard can get stuck against northern barrier
 - Upgrading Gorn outpost results in it losing its footprint
-
+- The Lyran outpost upgrade loses its footprint.
 - Type 400 civilian cargo ships and scavengers can't use their tractor beams,
 due to lacking weapon hitpoints.
 - The Klingon's Experimental BoP couldn't use the search and destroy command
 
 TODO (list kindly provided by Admiral Nat on Discord)
 
-- The Lyran outpost upgrade loses its footprint.
+
 - The Kronos Class couldn't attack planets despite being a battlecruiser, which can attack planets.
 - The Gorn's Lyran-tech Carrier stopped counting toward its cap of one if upgraded with Hydran technology.
 - The ISC transporter effect was broken. (The race odf was looking for btransport, rather than itransport.)
