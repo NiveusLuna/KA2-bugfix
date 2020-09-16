@@ -20,3 +20,5 @@ Bugs fixed:
 		from the player and let upstream decide what to do with the technology.
 		- See Issue 1 for details.
 	- Units exiting ISC large yard can get stuck against northern barrier
+	- Upgrading Gorn outpost results in it losing its footprint
+	
