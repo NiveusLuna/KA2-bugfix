@@ -21,7 +21,7 @@ Bugs fixed:
 	- See Issue 1 for details.
 - Units exiting ISC large yard can get stuck against northern barrier
 - Upgrading Gorn outpost results in it losing its footprint
-- The Lyran outpost upgrade loses its footprint.
+- The Lyran outpost upgrade removes its footprint.
 - Type 400 civilian cargo ships and scavengers can't use their tractor beams,
 due to lacking weapon hitpoints.
 - The Klingon's Experimental BoP can't use the search and destroy command
