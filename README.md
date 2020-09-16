@@ -1,7 +1,7 @@
 # KA2-bugfix
 Klingon Academy II - Bugfix mod
 
-As the name suggests, this is a bugfix mod for Klingon Academy II. This
+As the name suggests, this is a bugfix mod for Klingon Academy II v2.0. This
 repository is purely objective bug fixes. If there is doubt as to whether it's
 a bug, the change will not be made here.
 
