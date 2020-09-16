@@ -1,5 +1,4 @@
-#include "hbase.odf"
-#include "0north-buffer.odf"
+#include "houtpost.odf"
 
 // Dock to the right of the hardpoint
 repairSide = 2

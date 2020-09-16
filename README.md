@@ -24,16 +24,16 @@ Bugs fixed:
 - The Lyran outpost upgrade loses its footprint.
 - Type 400 civilian cargo ships and scavengers can't use their tractor beams,
 due to lacking weapon hitpoints.
-- The Klingon's Experimental BoP couldn't use the search and destroy command
-
+- The Klingon's Experimental BoP can't use the search and destroy command
+- The ships repairing at Hydran Starbases and Outposts visibly clip into the
+station.
 TODO (list kindly provided by Admiral Nat on Discord)
-
 
 - The Kronos Class couldn't attack planets despite being a battlecruiser, which can attack planets.
 - The Gorn's Lyran-tech Carrier stopped counting toward its cap of one if upgraded with Hydran technology.
 - The ISC transporter effect was broken. (The race odf was looking for btransport, rather than itransport.)
 - The ISC Carrier's Hydran-tech upgrade costed precious metals/latinum, even though the ISC don't use that resource. (I just swapped it for a tritanium/metal cost instead.)
-- The ships repairing at Hydran Starbases and Outposts would visibly clip into the station. (Change the repairside for both to 2.)
+
 - The Hydran's fighter miniaturization research didn't do anything. (I added it as a requirement for the carrier conversion, since that's apparently the intention.)
 - The Orion Pirate unit cap was broken.
 - There was a small chance that a Class L Planet would be named J-30823.
