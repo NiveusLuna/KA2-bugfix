@@ -27,6 +27,8 @@ due to lacking weapon hitpoints.
 - The Klingon's Experimental BoP can't use the search and destroy command
 - The ships repairing at Hydran Starbases and Outposts visibly clip into the
 station.
+- AIs wouldn't use wormhole generators properly, always opening wormholes to
+the bottom left corner of the map.
 
 TODO (list kindly provided by Admiral Nat on Discord)
 
@@ -37,5 +39,4 @@ TODO (list kindly provided by Admiral Nat on Discord)
 - The Hydran's fighter miniaturization research didn't do anything. (I added it as a requirement for the carrier conversion, since that's apparently the intention.)
 - The Orion Pirate unit cap was broken.
 - There was a small chance that a Class L Planet would be named J-30823.
-- AIs wouldn't use wormhole generators properly, always opening wormholes to the bottom left corner of the map. Adding aitargetlocation = 1 to the relevant weapons fixed that.
 - The Gorn-ISC mixed-tech Plasmatic Pulsar Device was missing its hotkey.
