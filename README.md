@@ -30,6 +30,8 @@ station.
 - AIs don't use wormhole generators properly, always opening wormholes to
 the bottom left corner of the map.
 - Orion destroyers and light cruisers take up fewer slots than escorts.
+- Mixed Tech research keyboard shortcuts don't work
+- Some keyboard shortcuts also trigger other shortcuts
 
 TODO (list kindly provided by Admiral Nat on Discord)
 
