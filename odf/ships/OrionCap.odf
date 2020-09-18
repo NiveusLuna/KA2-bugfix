@@ -4,9 +4,9 @@ capTooltipReached = "Maximum number of Orion Pirate ships hired"
 fleetcapclass0 = "PEscort"
 fleetcapclass0capvalue = 2
 fleetcapclass1 = "PDestroy"
-fleetcapclass0capvalue = 2
+fleetcapclass1capvalue = 2
 fleetcapclass2 = "PLCruise"
-fleetcapclass3capvalue = 3
+fleetcapclass2capvalue = 3
 fleetcapclass3 = "PCruise"
 fleetcapclass3capvalue = 3
 fleetcapclass4 = "PBCruise"
@@ -15,5 +15,3 @@ fleetcapclass5 = "PDread"
 fleetcapclass5capvalue = 5
 fleetcapclass6 = "PCarrier"
 fleetcapclass6capvalue = 3
-
-
