@@ -1,0 +1,19 @@
+maxcap = 10
+captooltip = "         Orion Pirate Cartel Support ( %d / %d )"
+capTooltipReached = "Maximum number of Orion Pirate ships hired"
+fleetcapclass0 = "PEscort"
+fleetcapclass0capvalue = 2
+fleetcapclass1 = "PDestroy"
+fleetcapclass0capvalue = 2
+fleetcapclass2 = "PLCruise"
+fleetcapclass3capvalue = 3
+fleetcapclass3 = "PCruise"
+fleetcapclass3capvalue = 3
+fleetcapclass4 = "PBCruise"
+fleetcapclass4capvalue = 4
+fleetcapclass5 = "PDread"
+fleetcapclass5capvalue = 5
+fleetcapclass6 = "PCarrier"
+fleetcapclass6capvalue = 3
+
+
