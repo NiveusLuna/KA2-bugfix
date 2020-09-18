@@ -27,7 +27,7 @@ due to lacking weapon hitpoints.
 - The Klingon's Experimental BoP can't use the search and destroy command
 - The ships repairing at Hydran Starbases and Outposts visibly clip into the
 station.
-- AIs wouldn't use wormhole generators properly, always opening wormholes to
+- AIs don't use wormhole generators properly, always opening wormholes to
 the bottom left corner of the map.
 - Orion destroyers and light cruisers take up fewer slots than escorts.
 
