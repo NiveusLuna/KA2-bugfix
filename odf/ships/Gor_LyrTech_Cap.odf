@@ -1,4 +1,5 @@
 fleetcapclass0 = "gcarrier"
+fleetcapclass1 = "gcarrierb"
 maxcap = 1
 simpleCapMode = 1
 countconstructions = 1
