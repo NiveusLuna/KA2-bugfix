@@ -1,0 +1,6 @@
+fleetcapclass0 = "gcarrier"
+maxcap = 1
+simpleCapMode = 1
+countconstructions = 1
+capTooltipReached = "GNS Queen Derenesktta already commissioned"
+captooltip = "         GNS Queen Derenesktta Commissioned ( %d / %d )"
