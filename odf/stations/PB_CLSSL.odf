@@ -37,7 +37,7 @@ planet = 1
 
 //Possible Craft Names
 possibleCraftNames = 
-	"L-34198" "L-68850" "L-61208" "L-78020" "L-35641" "L-39271" "L-64555" "L-25141" "L-19653" "J-30823" "Thorodrorn" "Cahermad" "Aronil" "Tarmorn" "Fathreon" "Larkith" "Urand" "Cangrim" "Zagrarg" "Cormuk" "Leda" "Callisto" "Titania" "Oberon"
+	"L-34198" "L-68850" "L-61208" "L-78020" "L-35641" "L-39271" "L-64555" "L-25141" "L-19653" "L-30823" "Thorodrorn" "Cahermad" "Aronil" "Tarmorn" "Fathreon" "Larkith" "Urand" "Cangrim" "Zagrarg" "Cormuk" "Leda" "Callisto" "Titania" "Oberon"
 
 // Solar System Map - Moons of Jupiter
 
