@@ -1,22 +1,4 @@
-wpnname = "Upgrade Fighters"
-tooltip = "Upgrade Fighters - Type CVN-VI Fleet Carrier"
-verbosetooltip = "Upgrades the selected carrier's fighters to the new Type FA-IX."
-buttonslot = 25
-showonlyifhastech = 1
-replacementmode = 2
-replacement0condition = "icarrier"
-replacement0class0 = "icarrierb"
-replacementignorefleetcap = 1
-dilithiumcost = 205
-latinumcost = 70
-biomattercost = 0
-replacementkeepname = 1
-replacementmaintainorders = 1
-classlabel = "replaceweapon"
-special = 1
-replacementregisterasnew = 0
-replacementcreationtype = 1
-overridesubsystem = 1
-speakonattack = 0
-attackspeech = 0
-hotkeyLabel = "GAME-HOTKEY-BACKQUOTE_U"
+#include "ICarrierUp.odf"
+// ISC does not use latinum
+metalcost = 70
+latinumcost = 0
