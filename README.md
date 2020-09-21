@@ -37,8 +37,8 @@ the bottom left corner of the map.
 - The Hydran's fighter miniaturization research doesn't do anything. (I added it as a requirement for the carrier conversion, since that's apparently the intention.)
 - The Gorn's Lyran-tech Carrier stops counting toward its cap of one if upgraded with Hydran technology.
 - The ISC Carrier's Hydran-tech upgrade costs precious metals/latinum, even though the ISC don't use that resource. (I just swapped it for a tritanium/metal cost instead.)
+- There is a small chance that a Class L Planet would be named J-30823.
 
 TODO (list kindly provided by Admiral Nat on Discord)
 
-- There is a small chance that a Class L Planet would be named J-30823.
 - The Gorn-ISC mixed-tech Plasmatic Pulsar Device is missing its hotkey.
