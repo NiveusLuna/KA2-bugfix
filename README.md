@@ -32,12 +32,12 @@ the bottom left corner of the map.
 - Orion destroyers and light cruisers take up fewer slots than escorts.
 - Mixed Tech research keyboard shortcuts don't work
 - Some keyboard shortcuts also trigger other shortcuts
+- The ISC transporter effect is broken. (looks for Borg transporter effect)
 
 TODO (list kindly provided by Admiral Nat on Discord)
 
 - The Kronos Class couldn't attack planets despite being a battlecruiser, which can attack planets.
 - The Gorn's Lyran-tech Carrier stopped counting toward its cap of one if upgraded with Hydran technology.
-- The ISC transporter effect was broken. (The race odf was looking for btransport, rather than itransport.)
 - The ISC Carrier's Hydran-tech upgrade costed precious metals/latinum, even though the ISC don't use that resource. (I just swapped it for a tritanium/metal cost instead.)
 - The Hydran's fighter miniaturization research didn't do anything. (I added it as a requirement for the carrier conversion, since that's apparently the intention.)
 - There was a small chance that a Class L Planet would be named J-30823.
