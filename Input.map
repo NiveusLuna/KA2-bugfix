@@ -1460,6 +1460,15 @@ wc_grppdm {
 	- keyboard	BackQuote
 }
 
+# Plasmatic Pulsar Device - Medium Variant (Gorn-ISC Mix Tech)
+wc_ggppdm {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
 # Plasmatic Pulsar Device - Heavy Variant (ISC)
 wc_gippdh {
 	+ keyboard	F7
