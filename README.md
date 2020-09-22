@@ -37,12 +37,14 @@ the bottom left corner of the map.
 		- Capture tech is now "Ctrl+Shift+FirstLetterOfFaction"
 		- Ally tech is now "Ctrl+Alt+Shift+FirstLetterOfFaction"
 - The ISC transporter effect is broken. (looks for Borg transporter effect)
-- The Kronos Class can't attack planets despite being a battlecruiser, which can attack planets.
-- The Hydran's fighter miniaturization research doesn't do anything. (I added it as a requirement for the carrier conversion, since that's apparently the intention.)
-- The Gorn's Lyran-tech Carrier stops counting toward its cap of one if upgraded with Hydran technology.
-- The ISC Carrier's Hydran-tech upgrade costs precious metals/latinum, even though the ISC don't use that resource. (I just swapped it for a tritanium/metal cost instead.)
+- The Kronos Class can't attack planets despite being a battlecruiser, which
+can attack planets.
+- The Hydran fighter miniaturization research doesn't do anything.
+	- Added as a requirement for the carrier conversion, since that appears to
+	be the intention.
+- The Gorn's Lyran-tech Carrier stops counting toward its cap of one if
+upgraded with Hydran technology.
+- The ISC Carrier's Hydran-tech upgrade costs precious metals/latinum, even
+though the ISC don't use that resource. (swapped for tritanium/metal cost)
 - There is a small chance that a Class L Planet would be named J-30823.
-
-TODO (list kindly provided by Admiral Nat on Discord)
-
 - The Gorn-ISC mixed-tech Plasmatic Pulsar Device is missing its hotkey.
