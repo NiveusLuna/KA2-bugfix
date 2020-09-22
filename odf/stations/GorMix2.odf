@@ -1,0 +1,50 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Captured Klingon Databank Analysis"
+
+//tooltips
+tooltip = "Captured Klingon Databank Analysis - Captured Technology"
+verboseTooltip = "Analyse captured Klingon databanks. This will enable us to construct new vessels or employ new technology. Klingon Technology will enable us to equip our King Snake and King Snake-S Class Frigates with Cloaking Devices. Now the Romulans are not the only ones on this front who can cloak..."
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+fleetcapfile = "Gor_CaptureTech_Cap1.odf"
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Amount of time required to build ship
+buildTime = 200.0
+
+//Latinum Cost to build
+dilithiumCost = 2000
+metalCost = 2200
+latinumCost = 400
+
+// Gorn Non-Combat Sensors
+rangeScan = 600.0f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "Corbimite"
+
+//**********************************************************************
+animation = 2
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "co_refractor"
+hotkeyLabel = "GAME-HOTKEY-F12_K"
+
+
+//baseName = "fedpod11"
+
+
+//make this slightly larger 
+scaleSOD = 0.5

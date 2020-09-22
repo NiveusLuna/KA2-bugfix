@@ -1,0 +1,52 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Allied Gorn Databank Analysis"
+
+//tooltips
+tooltip = "Allied Gorn Databank Analysis - Shared Technology"
+verboseTooltip = "Analyse shared Gorn databanks. This will enable us to construct new vessels or employ new technology. Gorn Technology will allow us to equip our Royal Sovereign Class Fleet Carriers with Graviton Density Distortion Spheres for defensive purposes. Our Sovereign stands resolute!"
+
+//Race which can build ship & starting race of ship
+race = "hydran"
+
+fleetcapfile = "Hyd_AlliedTech_Cap2.odf"
+
+requiredAlliedRace = "klingon" 
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Amount of time required to build ship
+buildTime = 200.0
+
+//Latinum Cost to build
+dilithiumCost = 2000
+metalCost = 2200
+latinumCost = 400
+
+// Gorn Non-Combat Sensors
+rangeScan = 600.0f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "Corbimite"
+
+//**********************************************************************
+animation = 2
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "co_refractor"
+hotkeyLabel = "GAME-HOTKEY-F12_G"
+
+
+//baseName = "fedpod11"
+
+
+//make this slightly larger 
+scaleSOD = 0.5

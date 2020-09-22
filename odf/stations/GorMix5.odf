@@ -1,0 +1,52 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Allied Hydran Databank Analysis"
+
+//tooltips
+tooltip = "Allied Hydran Databank Analysis - Shared Technology"
+verboseTooltip = "Analyse shared Hydran databanks. This will enable us to construct new vessels or employ new technology. Hydran Technology will give us the ability to upgrade our Pseudo-Fighter Stations (and the GNS Queen Derenesktta, if available) to berth 3 additional Viper Class Pseudo-Fighters. More guns are always useful."
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+fleetcapfile = "Gor_AlliedTech_Cap2.odf"
+
+requiredAlliedRace = "hydran" 
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Amount of time required to build ship
+buildTime = 200.0
+
+//Latinum Cost to build
+dilithiumCost = 2000
+metalCost = 2200
+latinumCost = 400
+
+// Gorn Non-Combat Sensors
+rangeScan = 600.0f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "Corbimite"
+
+//**********************************************************************
+animation = 2
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "co_refractor"
+hotkeyLabel = "GAME-HOTKEY-F12_H"
+
+
+//baseName = "fedpod11"
+
+
+//make this slightly larger 
+scaleSOD = 0.5

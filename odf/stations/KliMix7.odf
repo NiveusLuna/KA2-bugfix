@@ -1,0 +1,52 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Allied Lyran Databank Analysis"
+
+//tooltips
+tooltip = "Allied Lyran Databank Analysis - Shared Technology"
+verboseTooltip = "Analyse shared Lyran databanks. This will enable us to construct new vessels or employ new technology. Lyran Technology will allow us to equip our D7Q Chava'Kal (Poisoned Barb) Class Assault Transports with Expanding Sphere Generators for defensive purposes."
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+requiredAlliedRace = "lyran"
+
+fleetcapfile = "Kli_AlliedTech_Cap2.odf"
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Amount of time required to build ship
+buildTime = 200.0
+
+//Latinum Cost to build
+dilithiumCost = 2000
+metalCost = 2200
+latinumCost = 400
+
+// Klingon Non-Combat Sensors
+rangeScan = 400.0f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "Corbimite"
+
+//**********************************************************************
+animation = 2
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "co_refractor"
+hotkeyLabel = "GAME-HOTKEY-F12_L"
+
+
+//baseName = "fedpod11"
+
+
+//make this slightly larger 
+scaleSOD = 2.0

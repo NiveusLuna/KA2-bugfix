@@ -1,0 +1,50 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Captured Hydran Databank Analysis"
+
+//tooltips
+tooltip = "Captured Hydran Databank Analysis - Captured Technology"
+verboseTooltip = "Analyse captured Hydran databanks. This will enable us to construct new vessels or employ new technology. Hydran Technology will allow us to re-equip our Tribune Class Escort Carriers with new Shadowblade Cloakshape Fighters, armed with even more powerful Type M Plasma Torpedoes."
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+fleetcapfile = "Rom_CaptureTech_Cap4.odf"
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Amount of time required to build ship
+buildTime = 200.0
+
+//Latinum Cost to build
+dilithiumCost = 2000
+metalCost = 2200
+latinumCost = 400
+
+// Romulan Non-Combat Sensors
+rangeScan = 800.0f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "Corbimite"
+
+//**********************************************************************
+animation = 2
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "co_refractor"
+hotkeyLabel = "GAME-HOTKEY-F12_H"
+
+
+//baseName = "fedpod11"
+
+
+//make this slightly larger 
+scaleSOD = 2.0
