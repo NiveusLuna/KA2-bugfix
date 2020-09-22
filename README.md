@@ -32,6 +32,10 @@ the bottom left corner of the map.
 - Orion destroyers and light cruisers take up fewer slots than escorts.
 - Mixed Tech research keyboard shortcuts don't work
 - Some keyboard shortcuts also trigger other shortcuts
+- Mixed Tech research shortcuts just plain don't function
+	- Because some pairings have both capture and ally tech:
+		- Capture tech is now "Ctrl+Shift+FirstLetterOfFaction"
+		- Ally tech is now "Ctrl+Alt+Shift+FirstLetterOfFaction"
 - The ISC transporter effect is broken. (looks for Borg transporter effect)
 - The Kronos Class can't attack planets despite being a battlecruiser, which can attack planets.
 - The Hydran's fighter miniaturization research doesn't do anything. (I added it as a requirement for the carrier conversion, since that's apparently the intention.)
