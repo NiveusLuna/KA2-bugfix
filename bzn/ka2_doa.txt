@@ -1,0 +1,252 @@
+	// Map Definitions
+
+	// Handle for Invisible Space Monster Nest (masteroidm) object MNest1320
+	Handle MNest1320
+
+	// Handle for Unknown Hostile Vessel (borgsphere) object bsphere1001
+	Handle bsphere1001
+
+	// Handle for Class M4 Planet (PB_CLSSMC) object pb_clssm1002
+	Handle pb_clssm1002
+
+	// Handle for Class M2 Planet (PB_CLSSMA) object pb_clssm1005
+	Handle pb_clssm1005
+
+	// Handle for Class M Planet (PB_CLSSM) object pb_clssm1006
+	Handle pb_clssm1006
+
+	// Handle for Class M7 Planet (PB_CLSSMG) object pb_clssm1009
+	Handle pb_clssm1009
+
+	// Handle for Class T Planet (PB_CLSST) object pb_clsst1010
+	Handle pb_clsst1010
+
+	// Handle for Class T Planet (PB_CLSST) object pb_clsst1011
+	Handle pb_clsst1011
+
+	// Handle for Class S Planet (PB_CLSSS) object pb_clsss1012
+	Handle pb_clsss1012
+
+	// Handle for Class S Planet (PB_CLSSS) object pb_clsss1013
+	Handle pb_clsss1013
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1166
+	Handle asterfie1166
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1167
+	Handle asterfie1167
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1168
+	Handle asterfie1168
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1169
+	Handle asterfie1169
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1170
+	Handle asterfie1170
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1171
+	Handle asterfie1171
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1172
+	Handle asterfie1172
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1173
+	Handle asterfie1173
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1174
+	Handle asterfie1174
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1175
+	Handle asterfie1175
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1176
+	Handle asterfie1176
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1177
+	Handle asterfie1177
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1178
+	Handle asterfie1178
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1179
+	Handle asterfie1179
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1180
+	Handle asterfie1180
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1181
+	Handle asterfie1181
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1182
+	Handle asterfie1182
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1183
+	Handle asterfie1183
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1184
+	Handle asterfie1184
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1185
+	Handle asterfie1185
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1186
+	Handle asterfie1186
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1187
+	Handle asterfie1187
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1188
+	Handle asterfie1188
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1189
+	Handle asterfie1189
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1190
+	Handle asterfie1190
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1191
+	Handle asterfie1191
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1192
+	Handle asterfie1192
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1193
+	Handle asterfie1193
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1194
+	Handle asterfie1194
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1195
+	Handle asterfie1195
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1196
+	Handle asterfie1196
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1197
+	Handle asterfie1197
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1198
+	Handle asterfie1198
+
+	// Handle for Asteroid Field (asterfield03) object asterfie1199
+	Handle asterfie1199
+
+	// Handle for Big Asteroid Fragment - Green (asterfield09) object asterfie1218
+	Handle asterfie1218
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1294
+	Handle mdmoon1294
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1295
+	Handle mdmoon1295
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1296
+	Handle mdmoon1296
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1297
+	Handle mdmoon1297
+
+	// Handle for Blue Dilithium Moon (mdmoon1) object mdmoon11298
+	Handle mdmoon11298
+
+	// Handle for Blue Dilithium Moon (mdmoon1) object mdmoon11299
+	Handle mdmoon11299
+
+	// Handle for Blue Dilithium Moon (mdmoon1) object mdmoon11300
+	Handle mdmoon11300
+
+	// Handle for Blue Dilithium Moon (mdmoon1) object mdmoon11301
+	Handle mdmoon11301
+
+	// Handle for Red Dilithium Moon (mdmoon2) object mdmoon21302
+	Handle mdmoon21302
+
+	// Handle for Red Dilithium Moon (mdmoon2) object mdmoon21303
+	Handle mdmoon21303
+
+	// Handle for Dark Rocky Moon (mdtritan3) object mdtritan1304
+	Handle mdtritan1304
+
+	// Handle for Dark Rocky Moon (mdtritan3) object mdtritan1305
+	Handle mdtritan1305
+
+
+
+
+	// Map Object Initialization
+
+	MNest1320 = GetHandle( "MNest1320" );
+	bsphere1001 = GetHandle( "bsphere1001" );
+	pb_clssm1002 = GetHandle( "pb_clssm1002" );
+	pb_clssm1005 = GetHandle( "pb_clssm1005" );
+	pb_clssm1006 = GetHandle( "pb_clssm1006" );
+	pb_clssm1009 = GetHandle( "pb_clssm1009" );
+	pb_clsst1010 = GetHandle( "pb_clsst1010" );
+	pb_clsst1011 = GetHandle( "pb_clsst1011" );
+	pb_clsss1012 = GetHandle( "pb_clsss1012" );
+	pb_clsss1013 = GetHandle( "pb_clsss1013" );
+	asterfie1166 = GetHandle( "asterfie1166" );
+	asterfie1167 = GetHandle( "asterfie1167" );
+	asterfie1168 = GetHandle( "asterfie1168" );
+	asterfie1169 = GetHandle( "asterfie1169" );
+	asterfie1170 = GetHandle( "asterfie1170" );
+	asterfie1171 = GetHandle( "asterfie1171" );
+	asterfie1172 = GetHandle( "asterfie1172" );
+	asterfie1173 = GetHandle( "asterfie1173" );
+	asterfie1174 = GetHandle( "asterfie1174" );
+	asterfie1175 = GetHandle( "asterfie1175" );
+	asterfie1176 = GetHandle( "asterfie1176" );
+	asterfie1177 = GetHandle( "asterfie1177" );
+	asterfie1178 = GetHandle( "asterfie1178" );
+	asterfie1179 = GetHandle( "asterfie1179" );
+	asterfie1180 = GetHandle( "asterfie1180" );
+	asterfie1181 = GetHandle( "asterfie1181" );
+	asterfie1182 = GetHandle( "asterfie1182" );
+	asterfie1183 = GetHandle( "asterfie1183" );
+	asterfie1184 = GetHandle( "asterfie1184" );
+	asterfie1185 = GetHandle( "asterfie1185" );
+	asterfie1186 = GetHandle( "asterfie1186" );
+	asterfie1187 = GetHandle( "asterfie1187" );
+	asterfie1188 = GetHandle( "asterfie1188" );
+	asterfie1189 = GetHandle( "asterfie1189" );
+	asterfie1190 = GetHandle( "asterfie1190" );
+	asterfie1191 = GetHandle( "asterfie1191" );
+	asterfie1192 = GetHandle( "asterfie1192" );
+	asterfie1193 = GetHandle( "asterfie1193" );
+	asterfie1194 = GetHandle( "asterfie1194" );
+	asterfie1195 = GetHandle( "asterfie1195" );
+	asterfie1196 = GetHandle( "asterfie1196" );
+	asterfie1197 = GetHandle( "asterfie1197" );
+	asterfie1198 = GetHandle( "asterfie1198" );
+	asterfie1199 = GetHandle( "asterfie1199" );
+	asterfie1218 = GetHandle( "asterfie1218" );
+	mdmoon1294 = GetHandle( "mdmoon1294" );
+	mdmoon1295 = GetHandle( "mdmoon1295" );
+	mdmoon1296 = GetHandle( "mdmoon1296" );
+	mdmoon1297 = GetHandle( "mdmoon1297" );
+	mdmoon11298 = GetHandle( "mdmoon11298" );
+	mdmoon11299 = GetHandle( "mdmoon11299" );
+	mdmoon11300 = GetHandle( "mdmoon11300" );
+	mdmoon11301 = GetHandle( "mdmoon11301" );
+	mdmoon21302 = GetHandle( "mdmoon21302" );
+	mdmoon21303 = GetHandle( "mdmoon21303" );
+	mdtritan1304 = GetHandle( "mdtritan1304" );
+	mdtritan1305 = GetHandle( "mdtritan1305" );
+
+
+
+	// AI special forces
+
+	SetSpecialForcesFlag( MNest1320, true );
+	SetSpecialForcesFlag( bsphere1001, true );
+
+
+	//
+	// PATHS
+	//
+
+	// Path: "Camera_1" (1 points)
+	// Path: "Camera_2" (1 points)
+	// Path: "Camera_3" (1 points)
+	// Path: "Camera_4" (1 points)
