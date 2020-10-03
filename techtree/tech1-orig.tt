@@ -706,7 +706,7 @@ HydHull5.odf  3 hbase.odf hresearcha.odf HydHull4.odf                 	// Hull R
 HydEqu1.odf   2 hbase.odf hresearchb.odf 			      				// Conversion Kit (Scout Frigate FS)
 HydEqu2.odf   4 hbase.odf hresearchb.odf HydHull1.odf HydMiscR2.odf   	// Conversion Kit (Destroyer Leader DL)
 HydEqu3.odf   4 hbase.odf hresearchb.odf HydHull4.odf HydMiscR3.odf   	// Conversion Kit (Hellbore Monitor MH)
-HydEqu4.odf   4 hbase.odf hresearchb.odf HydHull5.odf HydMiscR2.odf   	// Conversion Kit (Fleet Carrier CV)
+//HydEqu4.odf   4 hbase.odf hresearchb.odf HydHull5.odf HydMiscR2.odf   	// Conversion Kit (Fleet Carrier CV)
 
 HydMiscR1.odf 4 hbase.odf hresearchc.odf HydHull4.odf hydpod24.odf                 	// Research Pod (Multi-Nacelled Designs - Advanced Cruisers & Capitals)
 HydMiscR2.odf 3 hbase.odf hresearchc.odf HydHull1.odf                              	// Research Pod (Fusion Beam Emitters)
