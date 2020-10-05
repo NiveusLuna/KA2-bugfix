@@ -1,0 +1,146 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Standard Shipyard (L)"
+
+//tooltips
+tooltip = "Standard Shipyard - Vessel Construction and Repair Facilities."
+verboseTooltip = "LYR_YARD1_V"
+
+//Race which can build ship & starting race of ship
+race = "lyran"
+
+//Amount of time required to build ship
+buildTime = 250.0
+
+//Number of officers required to build this ship
+officerCost = 5
+
+//Number of crew required to build ship & Starting crew
+crewCost = 500
+
+//Dilithium Cost to build
+dilithiumCost = 1500
+
+//Metal cost to build
+metalCost = 1000
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 2000
+maxHealth = 500
+maxShields = 1000
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 600
+enginesHitPoints = 0
+weaponsHitPoints = 600
+lifeSupportHitPoints = 600
+sensorsHitPoints = 600
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Military Shipyard-2138" "Military Shipyard-6351" "Military Shipyard-984" "Military Shipyard-2462"
+	"Military Shipyard-165" "Military Shipyard-3563" "Military Shipyard-5481" "Military Shipyard-1263" 
+
+//	
+	
+shieldhit = "shield_lyr_hitXL"
+shieldhitcritical = "shield_lyr_hitcritXL"
+shielddown = "shield_lyr_down"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Tractor Beam
+weapon1 = "gtracbm"
+weaponHardpoints1 = "hp05" "hp09" 
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp11" "hp12"
+weaponsTargetHardpoints = "hp05" "hp09" 
+shieldGeneratorTargetHardpoints = "hp10"
+sensorsTargetHardpoints = "hp03" "hp07"
+hullTargetHardpoints = "hp02" "hp04" "hp06" "hp08" 
+criticalTargetHardpoints = "hp11" "hp12"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+//Lyran Ships
+buildItem0 = "lscout"
+buildItem1 = "lfrigate"
+buildItem2 = "ldestroy"
+buildItem3 = "llcruise"
+buildItem4 = "lhcruise"
+buildItem5 = "lmonitor"
+
+buildItem0Availability = 2 // Hidden if not Lyran
+buildItem1Availability = 2
+buildItem2Availability = 2
+buildItem3Availability = 2
+buildItem4Availability = 2
+buildItem5Availability = 2
+
+//Hardpoint location for building.
+buildHardpoint = "build"
+repairHardpoint = "hp01"
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "shipyard"
+hotkeyLabel = "HOTKEY_F7"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+ScaleSOD = 0.825
+
+// Lyran Non-Combat Sensors
+rangeScan = 400.0f
+basename = "lyard"

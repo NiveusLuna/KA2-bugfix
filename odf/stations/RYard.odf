@@ -1,0 +1,151 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Standard Shipyard (R)"
+
+//tooltips
+tooltip = "Standard Shipyard - Vessel construction and repair facilities"
+verboseTooltip = "ROM_YARD1_V"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+buildTime = 250.0
+
+//Number of officers required to build this ship
+officerCost = 5
+
+//Number of crew required to build ship & Starting crew
+crewCost = 500
+
+//Dilithium Cost to build
+dilithiumCost = 1500
+
+//Metal cost to build
+metalCost = 1000
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 2000
+maxHealth = 500
+maxShields = 1000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+//Possible Craft Names
+possibleCraftNames = 
+	"T'sau Prime" "Gaivs Prime" "Hasdrabar Prime" "Cassivs Prime"
+
+// Romulan Non-Combat Sensors
+rangeScan = 800.0f
+
+shieldhit = "shield_rom_hitXL"
+shieldhitcritical = "shield_rom_hitcritXL"
+shielddown = "shield_rom_down"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Cloaking Device
+//weapon1 = "gcloak"
+//weaponHardpoints1 = "hp100"
+
+// Tractor Beam
+weapon1 = "gtracbm"
+weaponHardpoints1 = "hp01" "hp03"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp01" "hp03" 
+weaponsTargetHardpoints = "hp01" "hp03" 
+shieldGeneratorTargetHardpoints = "hp01" "hp03" 
+sensorsTargetHardpoints = "hp01" "hp03" 
+hullTargetHardpoints = "hp02" "hp04" 
+criticalTargetHardpoints = "hp01" "hp03" 
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+//Romulan Ships
+buildItem0 = "rkescort"
+buildItem1 = "rescort"
+buildItem2 = "rkscout"
+buildItem3 = "rscout"
+buildItem4 = "rkfrigate"
+buildItem5 = "rfrigate"
+buildItem6 = "rdestroy"
+buildItem7 = "rlcruise"
+buildItem8 = "rkcruise"
+buildItem9 = "rcruise"
+buildItem10 = "rtcruise"
+
+buildItem0Availability = 2 // Hidden if not Romulan
+buildItem1Availability = 2
+buildItem2Availability = 2
+buildItem3Availability = 2
+buildItem4Availability = 2
+buildItem5Availability = 2
+buildItem6Availability = 2
+buildItem7Availability = 2
+buildItem8Availability = 2
+buildItem9Availability = 2
+buildItem10Availability = 2
+
+//Hardpoint location for building.
+buildHardpoint = "hp06"
+repairHardpoint = "hp05"
+
+repairSide = 0
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "shipyard"
+hotkeyLabel = "HOTKEY_F7"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+ScaleSOD = 1.5
+
+baseName = "Ryard"

@@ -1,0 +1,156 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Standard Shipyard (K)"
+
+//tooltips
+tooltip = "Standard Shipyard - Vessel Construction and Repair Facilities."
+verboseTooltip = "KLI_YARD1_V"
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+buildTime = 250.0
+
+//Number of officers required to build this ship
+officerCost = 5
+
+//Number of crew required to build ship & Starting crew
+crewCost = 500
+
+//Dilithium Cost to build
+dilithiumCost = 1500
+
+//Metal cost to build
+metalCost = 1000
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 2000
+maxHealth = 500
+maxShields = 1000
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 600
+enginesHitPoints = 0
+weaponsHitPoints = 600
+lifeSupportHitPoints = 600
+sensorsHitPoints = 600
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+shieldhit = "shield_kli_hitXL"
+shieldhitcritical = "shield_kli_hitcritXL"
+shielddown = "shield_kli_down"
+
+//Possible Craft Names
+possibleCraftNames = "Duj Qach-2138" 
+					"Duj Qach-6351" 
+					"Duj Qach-984" 
+					"Duj Qach-2462"
+					"Duj Qach-165" 
+					"Duj Qach-3563" 
+					"Duj Qach-5481" 
+					"Duj Qach-1263" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Tractor Beam
+weapon1 = "gtracbm"
+weaponHardpoints1 = "hp01" "hp02" "hp03"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp04" 
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" 
+shieldGeneratorTargetHardpoints = "hp04" 
+sensorsTargetHardpoints = "hp04" 
+hullTargetHardpoints = "hp04" 
+criticalTargetHardpoints = "hp04" 
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+//Klingon Ships
+buildItem0 = "kescort"
+buildItem1 = "kfrigate"
+buildItem2 = "ksfrigate"
+buildItem3 = "kcfrigate"
+buildItem4 = "kdestroy"
+buildItem5 = "kdestroyl"
+buildItem6 = "klcruise"
+buildItem7 = "kcruise"
+buildItem8 = "kscruise"
+buildItem9 = "ktcruise"
+
+buildItem0Availability = 2 // Hidden if not Klingon
+buildItem1Availability = 2
+buildItem2Availability = 2
+buildItem3Availability = 2
+buildItem4Availability = 2
+buildItem5Availability = 2
+buildItem6Availability = 2
+buildItem7Availability = 2
+buildItem8Availability = 2
+buildItem9Availability = 2
+
+
+//Hardpoint location for building.
+buildHardpoint = "hp05"
+repairHardpoint = "hp06"
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "shipyard"
+hotkeyLabel = "HOTKEY_F7"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+ScaleSOD = 2.550
+
+// Klingon Non-Combat Sensors
+rangeScan = 400.0f
+basename = "kyard"

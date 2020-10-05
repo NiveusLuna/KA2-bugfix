@@ -1,0 +1,153 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Shipyard Type I"
+
+//tooltips
+tooltip = "Shipyard Type I - Vessel construction and repair facilities"
+verboseTooltip = "ISC_YARD1_V"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+buildTime = 250.0
+
+//Number of officers required to build this ship
+officerCost = 5
+
+//Number of crew required to build ship & Starting crew
+crewCost = 500
+
+//Dilithium Cost to build
+dilithiumCost = 1500
+
+//Metal cost to build
+metalCost = 1000
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 1000
+maxHealth = 500
+maxShields = 1000
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 800
+enginesHitPoints = 0
+weaponsHitPoints = 800
+lifeSupportHitPoints = 800
+sensorsHitPoints = 800
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+//Possible Craft Names
+possibleCraftNames = 
+	"STI-4441" "STI-44524" "STI-49521" "STI-44561" "STI-8721" "STI-477521" "STI-44211" "STI-49751" "STI-23499" 
+
+// ISC Non-Combat Sensors
+rangeScan = 600.0f
+
+shieldhit = "shield_isc_hitXL"
+shieldhitcritical = "shield_isc_hitcritXL"
+shielddown = "shield_isc_down"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Tractor Beam
+weapon1 = "gtracbm"
+weaponHardpoints1 = "hp01"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp08"
+weaponsTargetHardpoints = "hp01" 
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp08"
+sensorsTargetHardpoints = "hp01" "hp02" "hp08"
+hullTargetHardpoints = "hp03" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+criticalTargetHardpoints = "hp08" "hp09"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+//ISC Ships
+buildItem0 = "iscout"
+buildItem1 = "ifrigate"
+buildItem2 = "ifrigater"
+buildItem3 = "idestroy"
+buildItem4 = "idestroyr"
+buildItem5 = "idestroyl"
+buildItem6 = "idestroylr"
+buildItem7 = "ilcruise"
+buildItem8 = "ilccruise"
+buildItem9 = "icruise"
+buildItem10 = "icruiser"
+buildItem11 = "itcruise"
+
+buildItem0Availability = 2 // Hidden if not ISC
+buildItem1Availability = 2
+buildItem2Availability = 2
+buildItem3Availability = 2
+buildItem4Availability = 2
+buildItem5Availability = 2
+buildItem6Availability = 2
+buildItem7Availability = 2
+buildItem8Availability = 2
+buildItem9Availability = 2
+buildItem10Availability = 2
+buildItem11Availability = 2
+
+//Hardpoint location for building.
+buildHardpoint = "build"
+
+//Hardpoint location for repair.
+repairHardpoint = "repair"
+repairSide = 0
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+// Hotkey label
+hotkeyLabel = "HOTKEY_F7"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+baseName = "IYard"
+// make it bigger
+ScaleSOD = 1.125

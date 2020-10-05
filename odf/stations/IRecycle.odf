@@ -1,0 +1,138 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Disassembly Array"
+
+tooltip = "Disassembly Array - Pacified vessel processing"
+verboseTooltip = "ISC_RECYCLE_V"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+// we don't have a repair facility, though we do have a decommission facility
+repairFacility = 0
+decommissionFacility = 1
+
+//Amount of time required to build ship
+buildTime = 100.0
+
+//Number of officers required to build this ship
+officerCost = 4
+
+//Number of crew required to build ship & Starting crew
+crewCost = 250
+
+//Dilithium Cost to build
+dilithiumCost = 1000
+
+//Metal cost to build
+metalCost = 500
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 1000
+maxHealth = 5000
+maxShields = 1000
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 230
+enginesHitPoints = 0
+weaponsHitPoints = 230
+lifeSupportHitPoints = 230
+sensorsHitPoints = 230
+
+// ISC Non-Combat Sensors
+rangeScan = 600.0f
+
+shieldhit = "shield_isc_hitXL"
+shieldhitcritical = "shield_isc_hitcritXL"
+shielddown = "shield_isc_down"
+
+//repairSide = 5
+repairHardpoint = "hardpoints"
+//**********************************************************************
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+//Possible Craft Names
+possibleCraftNames = 
+	"DA-142 Alpha" "DA-142 Beta" "DA-142 Gamma" "DA-142 Delta" 
+	"DA-142 Epsilon" "DA-142 Zeta" "DA-142 Eta" "DA-142 Theta" 
+	"DA-142 Iota" "DA-142 Kappa" "DA-142 Lambda" "DA-142 Mu"   
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "iSphas"
+weaponHardpoints1 = "hp02" 
+
+// Phaser
+weapon2 = "iSphas2"
+weaponHardpoints2 = "hp03" 
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp08" "hp09"
+weaponsTargetHardpoints = "hp02" "hp03" 
+shieldGeneratorTargetHardpoints = "hp07"
+sensorsTargetHardpoints = "hp01"
+hullTargetHardpoints = "hp04" "hp05" "hp06" 
+criticalTargetHardpoints = "hp07" "hp08" "hp09" 
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+
+//**********************************************************************
+
+
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "RecyclerSelect"
+eventAcknowledge = "RecyclerAcknowledge"
+eventDecommission = "RecyclerDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "mining_station"
+hotkeyLabel = "HOTKEY_F4"
+
+//*************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 0
+transporter = 1
+recycler = 1
+SHOW_MOVEMENT_AUTONOMY = 0
+SHOW_SW_AUTONOMY = 0
+alert = 1
+
+// How much metal you get for dilithium and vice versa
+recycleExchangeRate = .7
+
+// How well they break down ships.
+dilithiumRecyclingFraction = 1
+metalRecyclingFraction = 1
+
+baseName = "IDisassembly"
+ScaleSOD = 3

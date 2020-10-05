@@ -1,0 +1,291 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Starbase (R)"
+
+//tooltips
+tooltip = "Starbase - Command and Control"
+verboseTooltip = "ROM_STARBASE_V"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+buildTime = 500.0
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Number of crew required to build ship & Starting crew
+crewCost = 6150
+
+//Number of maximum crew (only specified if different from crewCost)
+maximumCrew = 6150
+
+//The number of crew added to the capacity
+maxCrewGain = 10000
+
+//Dilithium Cost to build
+dilithiumCost = 3000
+
+//Metal cost to build
+metalCost = 2000
+
+//Number of Officers starbase gives by default
+officerGain = 30
+
+//Maximum number of officer quarters
+maximumUpgrades = 6
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 3550
+maxHealth = 1775
+maxShields = 3550
+
+shieldGeneratorHitPoints = 1560
+enginesHitPoints = 0
+weaponsHitPoints = 1560
+lifeSupportHitPoints = 1560
+sensorsHitPoints = 1560
+
+//This yard does repair ships.
+repairFacility = 1
+decommissionFacility = 1
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.75
+
+// Rate at which latinum is unloaded from freighters
+latinumTransferRate = 15.0
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 500
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 500
+specialEnergyDisplayMode = 2
+
+//Possible Craft Names
+possibleCraftNames = 
+	"D'deras Station" "Lvdanian Station" "Mvtvrivn Station" "D'qvirilian Station"
+	"Vigvs Station" "Cirgivs Station" "Atrevis Station" "D'dvrvvn Station"
+	
+shieldhit = "shield_rom_hitXL"
+shieldhitcritical = "shield_rom_hitcritXL"
+shielddown = "shield_rom_down"	
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Disruptor
+weapon1 = "Bdist"
+weaponHardpoints1 = "hp06" 
+
+// Disruptor
+weapon2 = "Bdist2"
+weaponHardpoints2 = "hp08" 
+
+// Disruptor
+weapon3 = "Bdist3"
+weaponHardpoints3 = "hp10"
+
+// Disruptor
+weapon4 = "Bdist"
+weaponHardpoints4 = "hp09"
+
+// Disruptor
+weapon5 = "Bdist2"
+weaponHardpoints5 = "hp05"
+
+// Disruptor
+weapon6 = "Bdist3"
+weaponHardpoints6 = "hp07"
+
+// Plasma H
+weapon7 = "bhplasma"
+weaponHardpoints7 = "hp06"
+
+// Plasma H
+weapon8 = "bhplasma2"
+weaponHardpoints8 = "hp08"
+
+// Plasma H
+weapon9 = "bhplasma3"
+weaponHardpoints9 = "hp10"
+
+// Plasma H
+weapon10 = "bhplasma"
+weaponHardpoints10 = "hp09"
+
+// Plasma H
+weapon11 = "bhplasma2"
+weaponHardpoints11 = "hp05"
+
+// Plasma H
+weapon12 = "bhplasma3"
+weaponHardpoints12 = "hp07"
+
+// CFDIC
+weapon13 = "grdcfdic"
+weaponHardpoints13 = "hp08"
+
+// CFDIC
+weapon14 = "grdcfdic2"
+weaponHardpoints14 = "hp09"
+
+// Cloaking Device
+weapon15 = "grcloak"
+weaponHardpoints15 = "hp30" 
+
+// Tractor Beam
+weapon16 = "gtracbm"
+weaponHardpoints16 = "hp03"
+
+// ECM
+weapon17 = "gecm"
+weaponHardpoints17 = "hp01"
+
+// ECCM
+weapon18 = "geccm"
+weaponHardpoints18 = "hp01"
+
+// Mirak Fleet Warp In
+//weapon19 = "RMirakWarpIn"
+//weaponHardpoints19 = "hp01"
+
+// Orion Pirate Fleet Warp In
+//weapon20= "ROrionWarpIn"
+//weaponHardpoints20 = "hp01"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp16" 
+weaponsTargetHardpoints = "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" 
+shieldGeneratorTargetHardpoints = "hp04"
+sensorsTargetHardpoints = "hp01"
+hullTargetHardpoints = "hp11" "hp13" "hp14" "hp15" 
+criticalTargetHardpoints = "hp02"
+
+//**********************************************************************
+
+//**********************************************************************
+//Construction Parameters
+buildItem0 = "rconst"
+buildItem1 = "rfreight"
+buildItem2 = "rcolony"
+buildItem3 = "rsrepair"
+buildItem5 = "rassault"
+buildItem6 = "rcargo"
+buildItem7 = "rcve"
+
+//Hardpoint location for building.
+buildHardpoint = "hp17"
+repairHardpoint = "hp03"
+dockinghardpoint = "hp12"
+
+repairSide = 2
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.50f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 2.00f
+
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.5f
+//**********************************************************************
+
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+
+//**********************************************************************
+
+//**********************************************************************
+
+
+
+//**********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+//Percent Chance out of 100 of engines being destroyed
+enginesHitPercent = 0.0f
+
+//Percent Chance out of 100 of life support being destroyed
+lifeSupportHitPercent = 10.5f
+
+//Percent Chance out of 100 of weapons being destroyed
+weaponsHitPercent = 10.0f
+
+//Percent Chance out of 100 of shields being destroyed
+shieldGeneratorHitPercent = 13.0f
+
+//Percent Chance out of 100 of sensors being destroyed
+sensorsHitPercent = 13.0f
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+crewHitPercent = 13.5f
+
+//Percent Chance out of 100 of entire ship exploding
+hullHitPercent = 40.0f
+//**********************************************************************
+
+
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+//hotkeyLabel = "HOTKEY_F1"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+combat = 1
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+baseName = "rbase"
+ScaleSOD = 4.0 
+
+// Romulan Starbase Sensors
+rangeScan = 2000.0f

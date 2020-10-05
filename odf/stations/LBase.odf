@@ -1,0 +1,289 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Starbase (L)"
+
+//tooltips
+tooltip = "Starbase - Command and Control"
+verboseTooltip = "LYR_STARBASE_V"
+
+//Race which can build ship & starting race of ship
+race = "lyran"
+
+//Amount of time required to build ship
+buildTime = 440.0
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Number of crew required to build ship & Starting crew
+crewCost = 7100
+
+//Number of maximum crew (only specified if different from crewCost)
+maximumCrew = 7100
+
+//The number of crew added to the capacity
+maxCrewGain = 10000
+
+//Dilithium Cost to build
+dilithiumCost = 3000
+
+//Metal cost to build
+metalCost = 3000
+
+//Number of Officers starbase gives by default
+officerGain = 30
+
+//Maximum number of officer quarters
+maximumUpgrades = 8
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 5400
+maxHealth = 2330
+maxShields = 4660
+
+shieldGeneratorHitPoints = 1800
+enginesHitPoints = 0
+weaponsHitPoints = 1800
+lifeSupportHitPoints = 1800
+sensorsHitPoints = 1800
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.75
+
+// Rate at which latinum is transfered from freighters
+latinumTransferRate = 15.0
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 500
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 500
+specialEnergyDisplayMode = 2
+
+//This yard does repair ships.
+repairFacility = 1
+decommissionFacility = 1
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Tiger Base" "Lion Base" "Sabretooth Base" "Leopard Base" "Panther Base" "Cougar Base" "Serval Base" "Occilot Base"
+
+// Lyran Starbase Sensors
+rangeScan = 1300.0f
+
+shieldhit = "shield_lyr_hitXL"
+shieldhitcritical = "shield_lyr_hitcritXL"
+shielddown = "shield_lyr_down"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Disruptor
+weapon1 = "Bdist"
+weaponHardpoints1 = "hp14" 
+
+// Disruptor
+weapon2 = "Bdist2"
+weaponHardpoints2 = "hp15" 
+
+// Disruptor
+weapon3 = "Bdist3"
+weaponHardpoints3 = "hp16" 
+
+// Disruptor
+weapon4 = "Bdist"
+weaponHardpoints4 = "hp17"
+
+// Disruptor
+weapon5 = "Bdist2"
+weaponHardpoints5 = "hp18"
+
+// Disruptor
+weapon6 = "Bdist3"
+weaponHardpoints6 = "hp19"
+
+// Heavy Disruptor
+weapon7 = "bHdist"
+weaponHardpoints7 = "hp07"
+
+// Heavy Disruptor
+weapon8 = "bHdist2"
+weaponHardpoints8 = "hp08"
+
+// Heavy Disruptor
+weapon9 = "bHdist"
+weaponHardpoints9 = "hp09"
+
+// Heavy Phaser
+weapon10 = "fhphas"
+weaponHardpoints10 = "hp01"
+
+// Heavy Phaser
+weapon11 = "fhphas2"
+weaponHardpoints11 = "hp04"
+
+// Heavy Phaser
+weapon12 = "fhphas3"
+weaponHardpoints12 = "hp05"
+
+// Mauler 
+weapon13 = "lmauler"
+weaponHardpoints13 = "hp02"
+
+// Mauler 
+weapon14 = "lmauler2"
+weaponHardpoints14 = "hp03"
+
+// Mauler 
+weapon15 = "lmauler3"
+weaponHardpoints15 = "hp06"
+
+// ECM
+weapon16 = "gecm"
+weaponHardpoints16 = "hp13"
+
+// ECCM
+weapon17 = "geccm"
+weaponHardpoints17 = "hp13"
+
+// Tractor Beam
+weapon18 = "gtracbm"
+weaponHardpoints18 = "hp22" "hp23" "hp24" "hp25" "hp26" "hp27"
+
+// Orion Pirate Fleet Warp In
+//weapon19 = "LOrionWarpIn"
+//weaponHardpoints19 = "hp01"
+
+// ShaKurian Fleet Warp In
+//weapon20 = "LShakurianWarpIn"
+//weaponHardpoints20 = "hp10"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp20" "hp21" 
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" 
+shieldGeneratorTargetHardpoints = "hp11" "hp12"
+sensorsTargetHardpoints = "hp10" "hp13"
+hullTargetHardpoints = "hp22" "hp23" "hp24" "hp25" "hp26" "hp27"
+criticalTargetHardpoints = "hp20" "hp21" 
+
+//**********************************************************************
+
+//**********************************************************************
+//Construction Parameters
+buildItem0 = "lconst"
+buildItem1 = "lfreight"
+buildItem2 = "lcolony"
+buildItem3 = "lsrepair"
+buildItem5 = "lassault"
+buildItem6 = "lcargo"
+
+//Hardpoint location for building.
+buildHardpoint = "build"
+repairHardpoint = "repair"
+dockinghardpoint = "dock"
+
+repairSide = 0
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.50f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 2.00f
+
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.5f
+//**********************************************************************
+
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+//**********************************************************************
+
+
+
+//**********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+//Percent Chance out of 100 of engines being destroyed
+enginesHitPercent = 0.0f
+
+//Percent Chance out of 100 of life support being destroyed
+lifeSupportHitPercent = 10.5f
+
+//Percent Chance out of 100 of weapons being destroyed
+weaponsHitPercent = 10.0f
+
+//Percent Chance out of 100 of shields being destroyed
+shieldGeneratorHitPercent = 13.0f
+
+//Percent Chance out of 100 of sensors being destroyed
+sensorsHitPercent = 13.0f
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+crewHitPercent = 13.5f
+
+//Percent Chance out of 100 of entire ship exploding
+hullHitPercent = 40.0f
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+//**********************************************************************
+resourcesCanHandle = "latinum"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+//hotkeyLabel = "HOTKEY_F1"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+combat = 1
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+
+baseName = "lbase"
+ScaleSOD = 0.8 
