@@ -1,0 +1,151 @@
+#include "tradingStation.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Trading Station (K)"
+
+//tooltips
+tooltip = "Trading Station - Resource Trading"
+verboseTooltip = "KLI_TRADING_V"
+
+//Name of the ODF file of the matching freighter to build with the station
+//freighterName = "ccargo"
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+// transfer rate from cargo ship to station
+//dilithiumTransferRate = 15.0
+cargoTransferRate = 50.0
+
+// what percent of trade profit this station gets
+percentTradeProfit = 15.0
+
+//Amount of time required to build ship
+buildTime = 250.0
+
+//Number of officers required to build this ship
+officerCost = 6
+
+//Number of crew required to build ship & Starting crew
+crewCost = 300
+
+//Dilithium Cost to build
+dilithiumCost = 750
+
+//Metal Cost to build
+metalCost = 750
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 1200
+maxHealth = 600
+maxShields = 1000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Deh'Qua B'lah" "Deh'Qua Nuq" "Deh'Qua Vak" "Deh'Qua Q'tu"
+	"Deh'Qua Kaq" "Deh'Qua N'quth" "Deh'Qua LuQ" "Deh'Qua Boq" 
+
+// Klingon Non-Combat Sensors
+rangeScan = 400.0f
+
+shieldhit = "shield_kli_hitXL"
+shieldhitcritical = "shield_kli_hitcritXL"
+shielddown = "shield_kli_down"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Orion Pirate Fleet Warp In
+weapon1 = "KOrionWarpIn"
+weaponHardpoints1 = "hp01"
+
+// ShaKurian Fleet Warp In
+weapon2 = "KShakurianWarpIn"
+weaponHardpoints2 = "hp02"
+
+// Hardpoints to hit for various systems and other locations.
+//enginesTargetHardpoints = "hpXX" "hpXX" "hpXX" "hpXX" "hpXX" "hpXX"
+//"hpXX" "hpXX" "hpXX" "hpXX"
+//lifeSupportTargetHardpoints = "hpXX" "hpXX" "hpXX" "hpXX" "hpXX" "hpXX"
+//"hpXX" "hpXX" "hpXX" "hpXX"
+//weaponsTargetHardpoints = "hpXX" "hpXX" "hpXX" "hpXX" "hpXX" "hpXX"
+//"hpXX" "hpXX" "hpXX" "hpXX"
+shieldGeneratorTargetHardpoints = "hp02" 
+lifeSupportTargetHardpoints = "hp01" 
+sensorsTargetHardpoints = "hp03" "hp04" "hp05" 
+hullTargetHardpoints = "hp08" "hp09" "hp10" "hp11" "hp12" "hp17" "hp18" "hp19" "hp20" "hp21"
+criticalTargetHardpoints = "hp06" "hp07" "hp13" "hp14" "hp15" "hp16"
+
+weaponsTargetHardpoints = "hp03" "hp04" "hp05" 
+weaponsHitPoints = 300
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+
+//**********************************************************************
+
+//change the scale
+ScaleSOD = 2.8
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "TradingStationSelect"
+eventAcknowledge = "TradingStationAcknowledge"
+eventDecommission = "TradingStationDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "trading_station"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "trading_station"
+hotkeyLabel = "HOTKEY_F4"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 0
+transporter = 1
+trade_station = 1
+basename = "ktrading"
+
+// Klingon Trade Goods
+
+cargoKey1 = "Klingon Bloodwine"
+cargoValue1 = 1.0
+
+cargoKey2 = "Mineral Ores"
+cargoValue2 = .8
+
+cargoKey3 = "Trilithium Pellets"
+cargoValue3 = 1.5
+
+cargoKey4 = "Heavy Metals"
+cargoValue4 = 1.0
+
+cargoKey5 = "Prisoners"
+cargoValue5 = 1.5
+
+cargoKey6 = "Live GagH"
+cargoValue6 = 1.8
+
+cargoKey7 = "Energy Cells"
+cargoValue7 = 1.1

@@ -1,0 +1,146 @@
+#include "tradingStation.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Trading Station (L)"
+
+//tooltips
+tooltip = "Trading Station - Resource Trading"
+verboseTooltip = "LYR_TRADING_V"
+
+//Name of the ODF file of the matching freighter to build with the station
+//freighterName = "ccargo"
+
+//Race which can build ship & starting race of ship
+race = "lyran"
+
+// transfer rate from cargo ship to station
+//dilithiumTransferRate = 15.0
+cargoTransferRate = 50.0
+
+// what percent of trade profit this station gets
+percentTradeProfit = 15.0
+
+//Amount of time required to build ship
+buildTime = 250.0
+
+//Number of officers required to build this ship
+officerCost = 6
+
+//Number of crew required to build ship & Starting crew
+crewCost = 300
+
+//Dilithium Cost to build
+dilithiumCost = 750
+
+//Metal Cost to build
+metalCost = 750
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 1200
+maxHealth = 600
+maxShields = 1000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Trade Hub Teredar" "Trade Hub Lyra" "Trade Hub Lanarat" "Trade Hub Amphos"
+	"Trade Hub Boro" "Trade Hub Todos" "Trade Hub Banthar" "Trade Hub Maratha" 
+
+// Lyran Non-Combat Sensors
+rangeScan = 400.0f
+
+shieldhit = "shield_lyr_hitXL"
+shieldhitcritical = "shield_lyr_hitcritXL"
+shielddown = "shield_lyr_down"
+
+weaponsHitPoints = 300
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp01" "hp04"
+weaponsTargetHardpoints = "hp10" 
+shieldGeneratorTargetHardpoints = "hp07" "hp08" "hp09"
+sensorsTargetHardpoints = "hp10"
+hullTargetHardpoints = "hp02" "hp03" "hp05" "hp06" 
+criticalTargetHardpoints = "hp10"
+
+// Orion Pirate Fleet Warp In
+weapon1 = "LOrionWarpIn"
+weaponHardpoints1 = "hp10"
+
+// ShaKurian Fleet Warp In
+weapon2 = "LShakurianWarpIn"
+weaponHardpoints2 = "hp10"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+
+//**********************************************************************
+
+//change the scale
+//ScaleSOD = 0.900
+ScaleSOD = 1.4
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "TradingStationSelect"
+eventAcknowledge = "TradingStationAcknowledge"
+eventDecommission = "TradingStationDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "trading_station"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "trading_station"
+hotkeyLabel = "HOTKEY_F4"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 0
+transporter = 1
+trade_station = 1
+basename = "ltrading"
+
+// Lyran Trade Goods
+
+cargoKey1 = "Blackroot Spirit"
+cargoValue1 = 1.0
+
+cargoKey2 = "Heavy Metal Ores"
+cargoValue2 = .8
+
+cargoKey3 = "Sphere Generators"
+cargoValue3 = 1.5
+
+cargoKey4 = "Lyran Herbs"
+cargoValue4 = 1.0
+
+cargoKey5 = "Mirak Slaves"
+cargoValue5 = 1.5
+
+cargoKey6 = "Classified Documents"
+cargoValue6 = 1.8
+
+cargoKey7 = "Disruptor Chambers"
+cargoValue7 = 1.1

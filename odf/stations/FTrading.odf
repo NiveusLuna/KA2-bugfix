@@ -1,0 +1,143 @@
+#include "tradingStation.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Trading Station (F)"
+
+
+//tooltips
+tooltip = "Trading Station - Resource Trading"
+verboseTooltip = "FED_TRADING_V"
+
+//Name of the ODF file of the matching freighter to build with the station
+//freighterName = "fcargo"
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+// transfer rate from cargo ship to station
+//dilithiumTransferRate = 15.0
+cargoTransferRate = 50.0
+
+// Federation Non-Combat Sensors
+rangeScan = 600.0f
+
+// what percent of trade profit this station gets
+percentTradeProfit = 15.0
+
+//Amount of time required to build ship
+buildTime = 250
+
+//Number of officers required to build this ship
+officerCost = 6
+
+//Number of crew required to build ship & Starting crew
+crewCost = 300
+
+//Dilithium Cost to build
+dilithiumCost = 500
+
+//Metal Cost to build
+metalCost = 1000
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 1000
+maxHealth = 600
+maxShields = 1000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 230
+enginesHitPoints = 0
+weaponsHitPoints = 230
+lifeSupportHitPoints = 230
+sensorsHitPoints = 230
+
+//Possible Craft Names
+possibleCraftNames = "Deep Space K1" "Deep Space K2" "Deep Space K3" "Deep Space K4" "Deep Space K5" "Deep Space K6" "Deep Space K7" "Deep Space K8" "Deep Space K9" "Deep Space K10" "Deep Space K11" "Deep Space K12" 
+	
+shieldhit = "shield_fed_hitXL"
+shieldhitcritical = "shield_fed_hitcritXL"
+shielddown = "shield_fed_down"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp04"
+weaponsTargetHardpoints = 
+shieldGeneratorTargetHardpoints = "hp05" "hp06" 
+sensorsTargetHardpoints = "hp12"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp07" "hp08" "hp09" 
+criticalTargetHardpoints = "hp10" "hp11"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+
+//**********************************************************************
+
+//change the scale
+ScaleSOD = 2.8
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "TradingStationSelect"
+eventAcknowledge = "TradingStationAcknowledge"
+eventDecommission = "TradingStationDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "trading_station"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "trading_station"
+hotkeyLabel = "HOTKEY_F4"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 0
+transporter = 1
+trade_station = 1
+
+// Federation Trade Goods
+
+cargoKey1 = "Synthethic Whiskey"
+cargoValue1 = 1.0
+
+cargoKey2 = "Quadrotriticale"
+cargoValue2 = .8
+
+cargoKey3 = "Scientific Equipment"
+cargoValue3 = 1.5
+
+cargoKey4 = "Flurosteel"
+cargoValue4 = 1.0
+
+cargoKey5 = "Passengers"
+cargoValue5 = 1.5
+
+cargoKey6 = "Commercial-grade Dilithium"
+cargoValue6 = 1.8
+
+cargoKey7 = "Protomatter Pellets"
+cargoValue7 = 1.9
+
