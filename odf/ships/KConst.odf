@@ -1,0 +1,185 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "L3 Maj'TagH Class"
+
+//tooltips
+tooltip = "L3 Maj'TagH (War Pig) Class - Construction Tender"
+verboseTooltip = "KLI_WARPIG_V"
+
+buildableByOwnerRaceOnly=1
+
+//Amount of time required to build ship
+buildTime = 60.0
+
+//Number of officers required to build this ship
+officerCost = 2
+
+//Number of crew required to build ship & Starting crew
+crewCost = 500
+
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+dilithiumCost = 224
+
+//Metal Cost to build
+metalCost = 840
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 280
+
+maxShields = 380
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 280
+enginesHitPoints = 280
+weaponsHitPoints = 280
+lifeSupportHitPoints = 280
+sensorsHitPoints = 280
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 0.75
+
+// Klingon Short Sensors
+rangeScan = 400.0f
+
+shieldhit = "shield_kli_hitM"
+shieldhitcritical = "shield_kli_hitcritM"
+shielddown = "shield_kli_down"
+
+//**********************************************************************
+//Construction Parameters
+
+buildItem0 = "KOutpost"
+buildItem1 = "KMining"
+buildItem2 = "KOrbital"
+buildItem3 = "KTrading"
+buildItem4 = "KSensor"
+buildItem5 = "KMine"
+buildItem6 = "KYard"
+buildItem7 = "KYard2"
+buildItem8 = "KResearcha"
+buildItem9 = "KResearchb"
+buildItem10 = "KResearchc"
+buildItem11 = "KUpgrade"
+buildItem12 = "KSuperbl"
+
+buildItem0Availability = 2
+buildItem1Availability = 2
+buildItem2Availability = 2
+buildItem3Availability = 2
+buildItem4Availability = 2
+buildItem5Availability = 2
+buildItem6Availability = 2
+buildItem7Availability = 2
+buildItem8Availability = 2
+buildItem9Availability = 2
+buildItem10Availability = 2
+buildItem11Availability = 2
+buildItem12Availability = 2
+
+//**********************************************************************
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "kbee"
+weldingBeamWidth = 5.0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+			"IKS Maj'Tagh" 
+			"IKS TujyopwaH" 
+			"IKS Vatlh'pI" 
+			"IKS MoDtIq" 
+			"IKS DeghwI'" 
+			"IKS TlhIb'" 
+			"IKS Nuj'ghich" 
+			"IKS Min'QOM" 
+			"IKS VahK'ToQ" 
+			"IKS TaGh'MoQ" 
+			"IKS VaQ'RenH" 
+			"IKS ylt'TaQ" 
+			"IKS Ko'Thoq" 
+			"IKS GoGh'oq'tihb" 
+			"IKS va'SoQ" 
+			"IKS Ti'QoK" 
+			"IKS go'Tlh'ihb" 
+			"IKS MagH'RaQ" 
+			"IKS Ta'Hkr" 
+			"IKS LiHt'OaLK"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Disruptor
+weapon1 = "dist"
+weaponHardpoints1 = "hp01"
+
+weapon1iconpos = -8    -12
+
+// Disruptor
+weapon2 = "dist2"
+weaponHardpoints2 = "hp02"
+
+weapon2iconpos = -8    10
+
+// Self Destruct Sequence
+weapon3 = "gselfdes"
+weaponHardpoints3 = "hp01"
+
+// Tractor Beam
+weapon4 = "gtracbm"
+weaponHardpoints4 = "hp14" 
+
+weapon4iconpos = 42    32
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp03" "hp04" 
+lifeSupportTargetHardpoints = "hp17" 
+weaponsTargetHardpoints = "hp01" "hp02" 
+shieldGeneratorTargetHardpoints = "hp12" 
+sensorsTargetHardpoints = "hp16"
+hullTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
+criticalTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
+
+
+//**********************************************************************
+
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 16.0f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 60.0f
+
+//************************************************************
+// Tara additions for context sensitive menus
+alert = 1
+combat = 1
+can_sandd = 1
+
+//physics file for all other physics stuff
+physicsFile = "physics_War_Pig.odf"
+
+baseName = "kwarpig"
+
+hotkeyLabel = "HOTKEY_F1"
+ScaleSOD = 0.5
+
+// Impulse Sound
+ambientSound = "Klnimp.wav"

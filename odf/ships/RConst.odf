@@ -1,0 +1,212 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Merlin Class"
+
+//tooltips
+tooltip = "Merlin Class - Construction Tender"
+verboseTooltip = "ROM_MERLIN_V"
+
+buildableByOwnerRaceOnly=1
+
+//Amount of time required to build ship
+buildTime = 70.0
+
+//Number of officers required to build this ship
+officerCost = 2
+
+//Number of crew required to build ship & Starting crew
+crewCost = 500
+
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+dilithiumCost = 250
+
+//Metal cost to build
+metalCost = 810
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 270
+
+maxShields = 282
+
+// Romulan Short Sensors
+rangeScan = 800.0f
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 270
+enginesHitPoints = 270
+weaponsHitPoints = 270
+lifeSupportHitPoints = 270
+sensorsHitPoints = 270
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 0.375
+
+shieldhit = "shield_rom_hitM"
+shieldhitcritical = "shield_rom_hitcritM"
+shielddown = "shield_rom_down"
+
+//**********************************************************************
+//Construction Parameters
+buildItem0 = "ROutpost"
+buildItem1 = "RMining"
+buildItem2 = "ROrbital"
+buildItem3 = "RTrading"
+buildItem4 = "RSensor"
+buildItem5 = "RMine"
+buildItem6 = "RYard"
+buildItem7 = "RYard2"
+buildItem8 = "RResearchA"
+buildItem9 = "RResearchB"
+buildItem10 = "RResearchC"
+buildItem11 = "RUpgrade"
+
+buildItem0Availability = 2
+buildItem1Availability = 2
+buildItem2Availability = 2
+buildItem3Availability = 2
+buildItem4Availability = 2
+buildItem5Availability = 2
+buildItem6Availability = 2
+buildItem7Availability = 2
+buildItem8Availability = 2
+buildItem9Availability = 2
+buildItem10Availability = 2
+buildItem11Availability = 2
+
+//**********************************************************************
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "rbee"
+weldingBeamWidth = 5.0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+			"RSE Aber"       
+			"RSE Agrianvs"  
+			"RSE Ampholivs"    
+			"RSE Annio"
+			"RSE Antinnvs"   
+			"RSE Aralax"    
+			"RSE Arranivs"     
+			"RSE Asinvs"
+			"RSE Ateivs"     
+			"RSE Avscvs"    
+			"RSE Avotolivs"    
+			"RSE Brvnia"
+			"RSE Cania"      
+			"RSE Carbo"     
+			"RSE Catannvs"     
+			"RSE Cetor"
+			"RSE Cinvs"      
+			"RSE Clecvs"    
+			"RSE Convs"        
+			"RSE Crianivs"
+			"RSE Cvlbvnia"   
+			"RSE Dresal"   
+			"RSE Eqvis"        
+			"RSE Falco"
+			"RSE Fena"       
+			"RSE Flanvmivs" 
+			"RSE Frvpivs"      
+			"RSE Ganinnivs"
+			"RSE Genvlvs"    
+			"RSE Grostis"   
+			"RSE Hancivs"      
+			"RSE Himbibo"
+			"RSE Ixis"       
+			"RSE Kevrek"    
+			"RSE Lalvdvs"      
+			"RSE Lillivs"
+			"RSE Lisivs"     
+			"RSE Loran"     
+			"RSE Lvvanivs"     
+			"RSE Mamivsias"
+			"RSE Mictivs"    
+			"RSE Mivllo"    
+			"RSE Natenis"      
+			"RSE Nirvtivs"
+			"RSE Nostan"     
+			"RSE Ostetivs"  
+			"RSE Pancrelivsvs" 
+			"RSE Pircenivs"
+			"RSE Plaenia"    
+			"RSE Prinnonvs" 
+			"RSE Qveritapis"   
+			"RSE Scriso"
+			"RSE Selvia"     
+			"RSE Silipivs"  
+			"RSE Sivlo"        
+			"RSE Svstivs"
+			"RSE Thranasivs" 
+			"RSE Aelpetvs"   
+			"RSE Aesvlo"        
+			"RSE Vebivlvs"
+			"RSE Velolivs"   
+			"RSE Vishan"    
+			"RSE Vistian"      
+			"RSE Vocania"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Self Destruct Sequence
+weapon1 = "gselfdes"
+weaponHardpoints1 = "hp02"
+
+// Cloaking Device
+weapon2 = "grcloak"
+weaponHardpoints2 = "hp02" 
+
+weapon2iconpos = 42    -12
+
+// Tractor Beam
+weapon3 = "gtracbm"
+weaponHardpoints3 = "hp11"
+
+weapon3iconpos = 42    32
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp20" "hp22" 
+lifeSupportTargetHardpoints = "hp12" 
+weaponsTargetHardpoints = "hp11" 
+shieldGeneratorTargetHardpoints = "hp02" 
+sensorsTargetHardpoints = "hp10" 
+hullTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+criticalTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.0f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 60.0f
+//**********************************************************************
+hotkeyLabel = "HOTKEY_F1"
+
+//physics file for all other physics stuff
+physicsFile = "physics_Merlin.odf"
+
+baseName = "rmerlin"
+ScaleSOD = 0.551
+
+// Impulse Sound
+ambientSound = "Romimp.wav"

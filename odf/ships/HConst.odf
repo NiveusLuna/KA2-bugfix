@@ -1,0 +1,180 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+race = "hydran"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Peasant Class"
+
+//tooltips
+tooltip = "Peasant Class - Construction Tender"
+verboseTooltip = "HYD_PEASANT_V"
+
+buildableByOwnerRaceOnly=1
+
+//Amount of time required to build ship
+buildTime = 80
+
+//Number of officers required to build this ship
+officerCost = 2
+
+//Number of crew required to build ship & Starting crew
+crewCost = 500
+
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+dilithiumCost = 160
+
+//Metal Cost to build
+metalCost = 750
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 250
+
+maxShields = 523
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 250
+enginesHitPoints = 250
+weaponsHitPoints = 250
+lifeSupportHitPoints = 250
+sensorsHitPoints = 250
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 0.5
+
+// Federation Non-Combat Sensors
+rangeScan = 600.0f
+
+//Maximum Value of Special Energy
+//maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+//specialEnergyRate = 10
+
+shieldhit = "shield_hyd_hitM"
+shieldhitcritical = "shield_hyd_hitcritM"
+shielddown = "shield_hyd_down"
+
+//**********************************************************************
+//Construction Parameters
+buildItem0 = "HOutpost"
+buildItem1 = "HMining"
+buildItem2 = "HOrbital"
+buildItem3 = "HTrading"
+buildItem4 = "HSensor"
+buildItem5 = "HMine"
+buildItem6 = "HYard"
+buildItem7 = "HDread"
+buildItem8 = "HResearchA"
+buildItem9 = "HResearchB"
+buildItem10 = "HResearchC"
+buildItem11 = "HUpgrade"
+buildItem12 = "HCarrier"
+
+buildItem0Availability = 2
+buildItem1Availability = 2
+buildItem2Availability = 2
+buildItem3Availability = 2
+buildItem4Availability = 2
+buildItem5Availability = 2
+buildItem6Availability = 2
+buildItem7Availability = 2
+buildItem8Availability = 2
+buildItem9Availability = 2
+buildItem10Availability = 2
+buildItem11Availability = 2
+buildItem12Availability = 2
+
+//**********************************************************************
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "hbee"
+weldingBeamWidth = 5.0
+
+// Number of worker bees.
+numberOfWorkerBees = 12
+
+// Home hardpoints for the worker bees, a.k.a. the points they are
+// created on and go back to.
+workerBeeHardpoints = "hp06" 
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+				"HMS Peasant" 
+				"HMS Commoner" 
+				"HMS Worker" 
+				"HMS Digger" 
+				"HMS Loronth" 
+				"HMS Tarthdex" 
+				"HMS Erroloth" 
+				"HMS Entordar" 
+				"HMS Frodor" 
+				"HMS Merrimeth" 
+				"HMS Pipsinth" 
+				"HMS Harrat" 
+				"HMS Samwroth" 
+				"HMS Gandath" 
+				"HMS Elrar" 
+				"HMS Strelsy"
+				"HMS Proletariat"
+				"HMS Navvy"
+				"HMS Indenture"
+				"HMS Conscript"
+
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Self Destruct Sequence
+weapon1 = "gselfdes"
+weaponHardpoints1 = "hp01"
+
+// Tractor Beam
+weapon2 = "gtracbm"
+weaponhardpoints2 = "hp03"
+
+weapon2iconpos = 42    32
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp04" "hp05"
+lifeSupportTargetHardpoints = "hp06" 
+weaponsTargetHardpoints = "hp03"
+shieldGeneratorTargetHardpoints = "hp06" 
+sensorsTargetHardpoints = "hp01" "hp02"
+hullTargetHardpoints = "hp01" "hp06" "hp07" "hp05"
+criticalTargetHardpoints =  "hp01" "hp06" "hp07" "hp05"
+
+//**********************************************************************
+
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.0f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 60.0f
+
+//physics file for all other physics stuff
+physicsFile = "physics_Peasant.odf"
+
+hotkeyLabel = "HOTKEY_F1"
+
+baseName = "hpeasant"
+ScaleSOD = 0.5
+
+// Impulse Sound
+ambientSound = "AMBhyd.wav"
