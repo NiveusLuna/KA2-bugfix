@@ -1,140 +1,15 @@
-#include "station.odf"
-
-//**********************************************************************
-//MAIN DESIGN PARAMETERS
-
-//Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Dilithium Mining Station"
-
-tooltip = "Dilithium Mining Station - Raw Dilithium Processing"
-verboseTooltip = "FED_MINING_V"
-
-//Name of the ODF file of the matching freighter to build with the station
-freighterName = "ffreight"
-
-//Race which can build ship & starting race of ship
-race = "federation"
-
-//Docking buffer (distance from center at which freighters begin to dock)
-dockingBuffer = 100.0
-
-//Dilithium transfer rate from freighter to station
-dilithiumTransferRate = 100.0
-
-//Amount of time required to build ship
-buildTime = 100.0
-
-//Number of officers required to build this ship
-officerCost = 4
-
-//Number of crew required to build ship & Starting crew
-crewCost = 250
+#include "FMining.odf"
 
 //Dilithium Cost to build
-dilithiumCost = 1000
+// dilithiumCost = 1000
 
 //Metal cost to build
-metalCost = 500
+// metalCost = 500
 
-//DecommissionValue (amount of dilithium you get back for scrapping it)
-//for mining station this should less than or equal to dilithiumCost - freighter's dilithiumCost
-decommissionValue = 900
+// Freighter costs
+// dilithiumCost = 320
+// metalCost = 750
 
-//Max Shield Strength & Begining Shield Strength <1000
-//maxHealth = 1000
-maxHealth = 500
-maxShields = 1000
-
-//SYSTEM HITPOINTS
-shieldGeneratorHitPoints = 230
-enginesHitPoints = 0
-weaponsHitPoints = 230
-lifeSupportHitPoints = 230
-sensorsHitPoints = 230
-
-// Federation Non-Combat Sensors
-rangeScan = 600.0f
-
-shieldhit = "shield_fed_hitXL"
-shieldhitcritical = "shield_fed_hitcritXL"
-shielddown = "shield_fed_down"
-
-//**********************************************************************
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 1.5
-
-//Possible Craft Names
-possibleCraftNames = 
-	"Station Alpha" "Station Beta" "Station Gamma" "Station Delta" 
-	"Station Omicron" "Station Theta" "Station Epsilon"     
-
-//**********************************************************************
-//ART PARAMETERS & WEAPON NAMES
-
-// Phaser
-weapon1 = "fsphas"
-weaponHardpoints1 = "hp21" 
-
-// Phaser
-weapon2 = "fsphas2"
-weaponHardpoints2 = "hp22" 
-
-// Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = 
-lifeSupportTargetHardpoints = "hp04"
-weaponsTargetHardpoints = "hp21" "hp22"
-shieldGeneratorTargetHardpoints = "hp07"
-sensorsTargetHardpoints = "hp18"
-hullTargetHardpoints = "hp01" "hp02" "hp03" "hp05" "hp06" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp19" "hp20" 
-criticalTargetHardpoints = "hp23" "hp24" "hp25"
-
-dockinghardpoint = "dock"
-
-
-//**********************************************************************
-//**********************************************************************
-//AI system parameters
-//These parameters influence how the AI evaluates and compares craft.
-
-//The normalized intrinsic value of a target.  High value craft make good
-//attack targets. (0.0=lowest value, 1.0=highest value)
-intrinsicValue = 1.50f
-
-
-//**********************************************************************
-
-
-
-
-//**********************************************************************
-//MESSAGE & SOUND PARAMETERS
-//**********************************************************************
-
-eventSelect = "MiningStationSelect"
-eventAcknowledge = "MiningStationAcknowledge"
-eventDecommission = "MiningStationDecommission"
-
-//**********************************************************************
-//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
-
-//Runtime class label for instantiation of object.
-classLabel = "mining"
-
-
-//**********************************************************************
-//KEYMAP LABEL
-// Obsolete, use hotkeyLabel
-// keymapLabel = "mining_station"
-hotkeyLabel = "HOTKEY_F2"
-
-//************************************************************
-// Brian additions for context sensitive menus
-transporter = 1
-alert = 1
-
-//*************************************************************
-// Make sure we can build this base near dilithium moons and planets
-resourcesCanHandle = "dilithium"
-
-baseName = "fmining"
-ScaleSOD = 1.4
+// Decom values; less than "station - freighter"
+recycleDilithium = 544
+// Don't get any metal; freighter metal > station metal
