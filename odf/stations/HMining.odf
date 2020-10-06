@@ -1,0 +1,140 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Dilithium Purifier"
+
+tooltip = "Dilithium Purifier - Raw Dilithium Purification"
+verboseTooltip = "HYD_MINING_V"
+
+//Name of the ODF file of the matching freighter to build with the station
+freighterName = "hfreight"
+
+//Race which can build ship & starting race of ship
+race = "hydran"
+
+//Docking buffer (distance from center at which freighters begin to dock)
+dockingBuffer = 90.0
+
+//Dilithium transfer rate from freighter to station
+dilithiumTransferRate = 100.0
+
+//Amount of time required to build ship
+buildTime = 100.0
+
+//Number of officers required to build this ship
+officerCost = 4
+
+//Number of crew required to build ship & Starting crew
+crewCost = 250
+
+//Dilithium Cost to build
+dilithiumCost = 1000
+
+//Metal cost to build
+metalCost = 500
+
+//DecommissionValue (amount of dilithium you get back for scrapping it)
+//for mining station this should less than or equal to dilithiumCost - freighter's dilithiumCost
+decommissionValue = 900
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 1000
+maxHealth = 500
+maxShields = 1000
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 230
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 230
+sensorsHitPoints = 230
+
+// Hydran Non-Combat Sensors
+rangeScan = 600.0f
+
+shieldhit = "shield_hyd_hitXL"
+shieldhitcritical = "shield_hyd_hitcritXL"
+shielddown = "shield_hyd_down"
+
+//**********************************************************************
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Purifier AA-13" "Purifier AA-17" "Purifier AA-23" "Purifier AA-28" 
+	"Purifier AA-33" "Purifier AA-37" "Purifier AA-45" "Purifier AA-48"  
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+//weapon1 = "fsphas"
+//weaponHardpoints1 = "hp01" 
+
+// Phaser
+//weapon2 = "fsphas2"
+//weaponHardpoints2 = "hp02" 
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp10"
+weaponsTargetHardpoints = 
+shieldGeneratorTargetHardpoints = "hp02"
+sensorsTargetHardpoints = "hp08"
+hullTargetHardpoints = "hp01" "hp03" "hp04" "hp05" "hp06" "hp09" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" 
+criticalTargetHardpoints = "hp07" 
+
+dockinghardpoint = "dock"
+
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+
+//**********************************************************************
+
+
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "MiningStationSelect"
+eventAcknowledge = "MiningStationAcknowledge"
+eventDecommission = "MiningStationDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "mining"
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "mining_station"
+hotkeyLabel = "HOTKEY_F2"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+alert = 0
+
+//*************************************************************
+// Make sure we can build this base near dilithium moons and planets
+resourcesCanHandle = "dilithium"
+
+baseName = "hmining"
+ScaleSOD = 0.750

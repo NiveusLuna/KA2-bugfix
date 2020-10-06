@@ -1,0 +1,148 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Resource Station"
+
+tooltip = "Resource Station - Raw Resource processing"
+verboseTooltip = "ISC_MINING_V"
+
+//Name of the ODF file of the matching freighter to build with the station
+freighterName = "ifreight"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Docking buffer (distance from center at which freighters begin to dock)
+dockingBuffer = 90.0
+
+//Dilithium transfer rate from freighter to station
+dilithiumTransferRate = 100.0
+metalTransferRate = 600.0
+
+//Amount of time required to build ship
+buildTime = 100.0
+
+//Number of officers required to build this ship
+officerCost = 4
+
+//Number of crew required to build ship & Starting crew
+crewCost = 250
+
+//Dilithium Cost to build
+dilithiumCost = 1000
+
+//Metal cost to build
+metalCost = 500
+
+//DecommissionValue (amount of dilithium you get back for scrapping it)
+//for mining station this should less than or equal to dilithiumCost - freighter's dilithiumCost
+decommissionValue = 900
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 1000
+maxHealth = 500
+maxShields = 1000
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 230
+enginesHitPoints = 0
+weaponsHitPoints = 230
+lifeSupportHitPoints = 230
+sensorsHitPoints = 230
+
+// ISC Non-Combat Sensors
+rangeScan = 600.0f
+
+shieldhit = "shield_isc_hitXL"
+shieldhitcritical = "shield_isc_hitcritXL"
+shielddown = "shield_isc_down"
+
+//**********************************************************************
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+//Possible Craft Names
+possibleCraftNames = 
+	"RS-142 Alpha" "RS-142 Beta" "RS-142 Gamma" "RS-142 Delta" 
+	"RS-142 Epsilon" "RS-142 Zeta" "RS-142 Eta" "RS-142 Theta" 
+	"RS-142 Iota" "RS-142 Kappa" "RS-142 Lambda" "RS-142 Mu"	
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "iSphas"
+weaponHardpoints1 = "hp02" 
+
+// Phaser
+weapon2 = "iSphas2"
+weaponHardpoints2 = "hp03" 
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp08" "hp09"
+weaponsTargetHardpoints = "hp02" "hp03" 
+shieldGeneratorTargetHardpoints = "hp07"
+sensorsTargetHardpoints = "hp01"
+hullTargetHardpoints = "hp04" "hp05" "hp06" 
+criticalTargetHardpoints = "hp07" "hp08" "hp09" 
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+
+//**********************************************************************
+
+
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "MiningStationSelect"
+eventAcknowledge = "MiningStationAcknowledge"
+eventDecommission = "MiningStationDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "mining"
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "mining_station"
+hotkeyLabel = "HOTKEY_F2"
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 0
+transporter = 1
+alert = 1
+recycler = 0
+
+//*************************************************************
+//for building near map resources
+resourcesCanHandle = "metal" "dilithium"
+
+// How much metal you get for dilithium and vice versa
+recycleExchangeRate = .7
+
+// How well they break down ships.
+dilithiumRecyclingFraction = 1
+metalRecyclingFraction = 1
+
+baseName = "IMining"
+ScaleSOD = 1.35
