@@ -1,3 +1,0 @@
-// 3.x launcher disables faction-wide versions, so we have to define it by yard
-dilithiumRecyclingFraction = 0.9
-metalRecyclingFraction = 0.9

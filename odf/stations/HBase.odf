@@ -1,6 +1,6 @@
 #include "hbase.odf"
 #include "0north-buffer.odf"
-#include "0hyd-decom-values.oif"
+
 
 // Dock to the right of the hardpoint
 repairSide = 2
