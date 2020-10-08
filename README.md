@@ -48,6 +48,7 @@ upgraded with Hydran technology.
 though the ISC don't use that resource. (swapped for tritanium/metal cost)
 - There is a small chance that a Class L Planet would be named J-30823.
 - The Gorn-ISC mixed-tech Plasmatic Pulsar Device is missing its hotkey.
+- Federation Reserve Fleet cap has a couple typos
 
 TODO
 
