@@ -122,6 +122,7 @@ String_Table_Entry translations[MAX_STRINGS] =
 	"GUI_CP_BIOMATTER_RES",		"Crystalene",
 	"GUI_CP_CREW_RES",			"personnel",
 	"GUI_CP_REQUIRE",			"requires:",
+	"GUI_CP_OBJ_INTENT",		"",
 	"GUI_CP_REQRACE",			"Following Allied Power must be present: %s",
 
 // Control Panel Button Tooltip and Verbose Tooltips.
