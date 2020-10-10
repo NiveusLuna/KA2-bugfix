@@ -55,9 +55,9 @@
 		<obj capValue="5">PDread.odf</obj>
 		<obj capValue="4">PBCruise.odf</obj>
 		<obj capValue="3">PCruise.odf</obj>
-		<obj>PLCruise.odf</obj><!-- Typo in original list; likely supposed to be 3 -->
+		<obj capValue="3">PLCruise.odf</obj><!-- Typo in original list; likely supposed to be 3 -->
 		<obj capValue="3">PCarrier.odf</obj>
-		<obj>PDestroy.odf</obj><!-- Typo in original list; likely supposed to be 2 -->
+		<obj capValue="2">PDestroy.odf</obj><!-- Typo in original list; likely supposed to be 2 -->
 		<obj capValue="2">PEscort.odf</obj>
 	</capacitylist>
 </techtree>
