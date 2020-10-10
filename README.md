@@ -29,7 +29,7 @@ due to lacking weapon hitpoints.
 station.
 - AIs don't use wormhole generators properly, always opening wormholes to
 the bottom left corner of the map.
-- Orion destroyers and light cruisers take up fewer slots than escorts.
+- Orion warp-in cap has typos that affect ship values
 - Mixed Tech research keyboard shortcuts don't work
 - Some keyboard shortcuts also trigger other shortcuts
 - Mixed Tech research shortcuts just plain don't function
@@ -61,5 +61,11 @@ TODO
 IN PROGRESS
 
 - Ship/station decom values are always 0 due to FO 3.2.7 engine limitations
-	- Fixed by using 4.0 launcher with my KA2-4.0-compat mod as a compatibility
-	layer
+	- Fixed by running KA2 under 4.0 launcher with my KA2-4.0-compat mod as a
+	compatibility layer (mostly techtree, replaceweapon requirements, and
+	warpin caps)
+	- For those unwilling to use the 4.0 launcher, I may slowly implement
+	FO-style recycleResource values for every ship and station in the game. It
+	depends on whether I feel like it or not.
+		- Constructors, mining stations, and trading stations already implemented.
+	- Patches and/or math welcome!
