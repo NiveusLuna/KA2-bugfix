@@ -49,8 +49,8 @@ though the ISC don't use that resource. (swapped for tritanium/metal cost)
 - There is a small chance that a Class L Planet would be named J-30823.
 - The Gorn-ISC mixed-tech Plasmatic Pulsar Device is missing its hotkey.
 - Federation Reserve Fleet cap has typos that affect ship values
+- Mirak warp-in cap has typos that affect ship values
 
 TODO
 
 - ISC carrier GDDS/ESG shows offensive mode button despite being defensive
-- Mirak warp-in cap has typos that affect ship values
