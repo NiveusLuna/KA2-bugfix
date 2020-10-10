@@ -54,6 +54,9 @@ though the ISC don't use that resource. (swapped for tritanium/metal cost)
 TODO
 
 - ISC carrier GDDS/ESG shows offensive mode button despite being defensive
+- 4.0: - The Hydran fighter miniaturization research doesn't do anything.
+	- Added as a requirement for the carrier conversion, since that appears to
+	be the intention.
 
 IN PROGRESS
 
