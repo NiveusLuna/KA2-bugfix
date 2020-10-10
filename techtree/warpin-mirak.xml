@@ -59,7 +59,6 @@
 		<obj capValue="4">MCruise.odf</obj>
 		<obj capValue="3">MLCruise.odf</obj>
 		<obj capValue="3">MDestroy.odf</obj><!-- Typo in original list; likely supposed to be 3 -->
-		<obj capValue="2">MScout.odf</obj>
 		<obj capValue="2">MFrigate.odf</obj><!-- Typo in original list; likely supposed to be 2 -->
 		<obj capValue="0">MFreight.odf</obj>
 	</capacitylist>
