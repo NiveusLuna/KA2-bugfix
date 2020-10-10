@@ -1,0 +1,66 @@
+<techtree>
+	<!-- OBJECT DEFINITIONS -->
+	<!-- Vixen -->
+	<object ODF="MCarrier.odf">
+		<requirement>
+			<capList>MirakCap</caplist>
+		</requirement>
+	</object>
+	<!-- Wolf -->
+	<object ODF="MCruise.odf">
+		<requirement>
+			<capList>MirakCap</caplist>
+		</requirement>
+	</object>
+	<!-- Fox -->
+	<object ODF="MDestroy.odf">
+		<requirement>
+			<capList>MirakCap</caplist>
+		</requirement>
+	</object>
+	<!-- Wolverine -->
+	<object ODF="MDread.odf">
+		<requirement>
+			<capList>MirakCap</caplist>
+		</requirement>
+	</object>
+	<!-- Dingo -->
+	<object ODF="MFrigate.odf">
+		<requirement>
+			<capList>MirakCap</caplist>
+		</requirement>
+	</object>
+	<!-- Jackal -->
+	<object ODF="MLCruise.odf">
+		<requirement>
+			<capList>MirakCap</caplist>
+		</requirement>
+	</object>
+	<!-- Daggerfang (Mirak scatterpack shuttle) -->
+	<!-- No requirement; can only be spawned by MCarrier, and warp-in means it can't be station-dependent -->
+	<object ODF="MFighter.odf" />
+	
+	<!-- Den Mother (Mirak Freighter) -->
+	<!-- Does not count toward the fleetcap, but mentions it anyway -->
+	<object ODF="MFreighter.odf">
+		<requirement>
+			<capList>MirakCap</caplist>
+		</requirement>
+	</object>
+	
+	<!-- FLEETCAP -->
+	<capacitylist name="MirakCap" maxCapValue="10"
+	tooltip="         Mirak Diaspora support ( %d / %d )"
+	tooltipOver="Maximum number of Mirak refugees hired"
+	tooltipReached="Maximum number of Mirak refugees hired">
+		<!-- Arranged in descending order of (intended) slots used -->
+		<obj capValue="5">MCarrier.odf</obj>
+		<obj capValue="5">MDread.odf</obj>
+		<obj capValue="4">MCruise.odf</obj>
+		<obj capValue="3">MLCruise.odf</obj>
+		<obj>MDestroy.odf</obj><!-- Typo in original list; likely supposed to be 3 -->
+		<obj capValue="2">MScout.odf</obj>
+		<obj>MFrigate.odf</obj><!-- Typo in original list; likely supposed to be 2 -->
+		<obj capValue="0">MFreight.odf</obj>
+	</capacitylist>
+</techtree>
