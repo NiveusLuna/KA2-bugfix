@@ -1,0 +1,60 @@
+<techtree>
+	<!-- OBJECT DEFINITIONS -->
+	<!-- Langley -->
+	<object ODF="FOBattle.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Constitution -->
+	<object ODF="FOCruise.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Akula -->
+	<object ODF="FODestroy.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Federation -->
+	<object ODF="FODread.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Davids -->
+	<object ODF="FOFrigate.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Surya -->
+	<object ODF="FOLCruise.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Davids (S) -->
+	<object ODF="FOScout.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+
+	<!-- FLEETCAP -->
+	<capacitylist name="ReserveFleetCap" maxCapValue="10"
+	tooltip="         Reserve Fleet Support ( %d / %d )"
+	tooltipOver="Maximum number of Reserve Fleet vessels requisitioned"
+	tooltipReached="Maximum number of Reserve Fleet vessels requisitioned">
+		<!-- Arranged in descending order of (intended) slots used -->
+		<obj capValue="6">FOBattle.odf</obj>
+		<obj capValue="5">FODread.odf</obj>
+		<obj capValue="4">FOCruise.odf</obj>
+		<obj capValue="3">FOLCruise.odf</obj>
+		<obj capValue="3">FODestroy.odf</obj><!-- Typo in original list; likely supposed to be 3 -->
+		<obj capValue="2">FOScout.odf</obj>
+		<obj capValue="2">FOFrigate.odf</obj><!-- Typo in original list; likely supposed to be 2 -->
+	</capacitylist>
+</techtree>
