@@ -61,5 +61,5 @@ TODO
 IN PROGRESS
 
 - Ship/station decom values are always 0 due to FO 3.2.7 engine limitations
-	- Fixed by using 4.0 launcher with my KA2-4.0-compat mod as a compatibility
-	layer
+	- Fixed by running KA2 under 4.0 launcher with my KA2-4.0-compat mod as a
+	compatibility layer
