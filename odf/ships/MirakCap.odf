@@ -1,0 +1,19 @@
+maxcap = 10
+captooltip = "         Mirak Diaspora Support ( %d / %d )"
+capTooltipReached = "Maximum number of Mirak starships recruited"
+fleetcapclass0 = "MFreight"
+fleetcapclass0capvalue = 0
+fleetcapclass1 = "MFrigate"
+fleetcapclass0capvalue = 2
+fleetcapclass2 = "MDestroy"
+fleetcapclass3capvalue = 3
+fleetcapclass3 = "MLCruise"
+fleetcapclass3capvalue = 3
+fleetcapclass4 = "MCruise"
+fleetcapclass4capvalue = 4
+fleetcapclass5 = "MDread"
+fleetcapclass5capvalue = 5
+fleetcapclass6 = "MCarrier"
+fleetcapclass6capvalue = 5
+
+
