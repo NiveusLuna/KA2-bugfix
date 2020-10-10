@@ -1,0 +1,63 @@
+<techtree>
+	<!-- OBJECT DEFINITIONS -->
+	<!-- Blackjack -->
+	<object ODF="PBCruise.odf">
+		<requirement>
+			<capList>OrionCap</caplist>
+		</requirement>
+	</object>
+	<!-- Scabbard -->
+	<object ODF="PCarrier.odf">
+		<requirement>
+			<capList>OrionCap</caplist>
+		</requirement>
+	</object>
+	<!-- Buccaneer -->
+	<object ODF="PCruise.odf">
+		<requirement>
+			<capList>OrionCap</caplist>
+		</requirement>
+	</object>
+	<!-- Pilferer -->
+	<object ODF="PDestroy.odf">
+		<requirement>
+			<capList>OrionCap</caplist>
+		</requirement>
+	</object>
+	<!-- Kingpin -->
+	<object ODF="PDread.odf">
+		<requirement>
+			<capList>OrionCap</caplist>
+		</requirement>
+	</object>
+	<!-- Dirk -->
+	<object ODF="PEscort.odf">
+		<requirement>
+			<capList>OrionCap</caplist>
+		</requirement>
+	</object>
+	<!-- Cutlass -->
+	<object ODF="PLCruise.odf">
+		<requirement>
+			<capList>OrionCap</caplist>
+		</requirement>
+	</object>
+	<!-- Flintlock Assault Craft -->
+	<!-- No requirement; can only be spawned by PCarrier, and warp-in means it can't be station-dependent -->
+	<object ODF="PFighter.odf" />
+	
+	<!-- FLEETCAP -->
+	<capacitylist name="OrionCap" maxCapValue="10"
+	tooltip="         Orion Pirate Cartel support ( %d / %d )"
+	tooltipOver="Maximum number of Orion Pirate ships hired"
+	tooltipReached="Maximum number of Orion Pirate ships hired">
+		<!-- Arranged in descending order of (intended) slots used -->
+		<obj capValue="5">PDread.odf</obj>
+		<obj capValue="4">PBCruise.odf</obj>
+		<obj capValue="3">PCruise.odf</obj>
+		<obj capValue="3">PLCruise.odf</obj><!-- Typo in original list; likely supposed to be 3 -->
+		<obj capValue="3">PCarrier.odf</obj>
+		<obj capValue="2">PDestroy.odf</obj><!-- Typo in original list; likely supposed to be 2 -->
+		<obj capValue="2">PEscort.odf</obj>
+	</capacitylist>
+</techtree>
