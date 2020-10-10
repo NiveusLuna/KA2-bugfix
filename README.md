@@ -62,4 +62,10 @@ IN PROGRESS
 
 - Ship/station decom values are always 0 due to FO 3.2.7 engine limitations
 	- Fixed by running KA2 under 4.0 launcher with my KA2-4.0-compat mod as a
-	compatibility layer
+	compatibility layer (mostly techtree, replaceweapon requirements, and
+	warpin caps)
+	- For those unwilling to use the 4.0 launcher, I may slowly implement
+	FO-style recycleResource values for every ship and station in the game. It
+	depends on whether I feel like it or not.
+		- Constructors, mining stations, and trading stations already implemented.
+	- Patches and/or math welcome!
