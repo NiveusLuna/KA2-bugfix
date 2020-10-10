@@ -52,3 +52,4 @@ though the ISC don't use that resource. (swapped for tritanium/metal cost)
 TODO
 
 - ISC carrier GDDS/ESG shows offensive mode button despite being defensive
+- Mirak frigate consumes 1 slot instead of 2
