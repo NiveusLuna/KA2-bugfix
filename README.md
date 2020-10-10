@@ -29,7 +29,7 @@ due to lacking weapon hitpoints.
 station.
 - AIs don't use wormhole generators properly, always opening wormholes to
 the bottom left corner of the map.
-- Orion destroyers and light cruisers take up fewer slots than escorts.
+- Orion warp-in cap has typos that affect ship values
 - Mixed Tech research keyboard shortcuts don't work
 - Some keyboard shortcuts also trigger other shortcuts
 - Mixed Tech research shortcuts just plain don't function
