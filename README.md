@@ -54,3 +54,7 @@ though the ISC don't use that resource. (swapped for tritanium/metal cost)
 TODO
 
 - ISC carrier GDDS/ESG shows offensive mode button despite being defensive
+
+IN PROGRESS
+
+- Ship/station decom values are always 0 due to FO 3.2.7 engine limitations
