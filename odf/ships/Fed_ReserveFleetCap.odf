@@ -1,0 +1,5 @@
+#include "Fed_ReserveFleetCap.odf"
+// fleetcapclass1 = "FOFrigate"
+fleetcapclass1capvalue = 2
+// fleetcapclass2 = "FODestroy"
+fleetcapclass2capvalue = 3
