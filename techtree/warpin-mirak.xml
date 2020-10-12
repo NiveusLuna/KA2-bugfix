@@ -42,7 +42,7 @@
 	
 	<!-- Den Mother (Mirak Freighter) -->
 	<!-- Does not count toward the fleetcap, but mentions it anyway -->
-	<object ODF="MFreighter.odf">
+	<object ODF="MFreight.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
