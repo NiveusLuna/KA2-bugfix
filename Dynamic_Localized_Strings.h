@@ -5937,5 +5937,14 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 	"GAME-HOTKEY-CONTROL_ALT_SHIFT_H", "
 (Hotkey: Control + Alt + Shift + H)",
 	"GAME-HOTKEY-CONTROL_ALT_SHIFT_L", "
-(Hotkey: Control + Alt + Shift + L)"
+(Hotkey: Control + Alt + Shift + L)",
+
+	// FLEET OPS 4.0 TOOLTIPS
+
+	// prepended to names of objects in requirement lists
+	"GUI_CP_OBJ_INTENT",		"",
+	// default cap tooltips
+	"GUI_CP_CAP_TOOLTIP", "Available for research",
+	"GUI_CP_CAP_TOOLTIP_REACHED", "Already researched",
+	"GUI_CP_CAP_TOOLTIP_OVER", "My, you're a greedy one. (Limit exceeded)"
 };
