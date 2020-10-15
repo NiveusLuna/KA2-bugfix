@@ -42,6 +42,10 @@
 			<capList>ReserveFleetCap</caplist>
 		</requirement>
 	</object>
+	
+	<!-- Weapons needed to call in the Reserve Fleet -->
+	<object ODF="ReserveFleetWarpInE.odf" />
+	<object ODF="ReserveFleetWarpInA.odf" />
 
 	<!-- FLEETCAP -->
 	<capacitylist name="ReserveFleetCap" maxCapValue="10"
