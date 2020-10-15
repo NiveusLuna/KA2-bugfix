@@ -46,6 +46,10 @@
 	<!-- No requirement; can only be spawned by PCarrier, and warp-in means it can't be station-dependent -->
 	<object ODF="PFighter.odf" />
 	
+	<!-- Weapons needed to call in the Orions -->
+	<object ODF="OrionWarpInE.odf" />
+	<object ODF="OrionWarpInA.odf" />
+	
 	<!-- FLEETCAP -->
 	<capacitylist name="OrionCap" maxCapValue="10"
 	tooltip="         Orion Pirate Cartel support ( %d / %d )"
