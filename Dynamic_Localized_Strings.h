@@ -23,7 +23,7 @@ struct String_Table_Entry
 
 //
 // dynamic_strings
-// 
+//
 // A list of all strings that need to be translated on the fly
 //
 String_Table_Entry translations[MAX_STRINGS] =
@@ -333,7 +333,7 @@ String_Table_Entry translations[MAX_STRINGS] =
 	"GUI_SD_ANTIGRAV",			"Power Generators",
 	"GUI_SD_QUADROTRITICALE",	"Civilian Grade Deuterium",
 	"GUI_SD_RAKTAJINO",			"Foodstuffs",
-	
+
 	"GUI_WI_ANALYSIS",			"Analysis of",
 	"GUI_WI_GRAVMINE",			"Gravitic mines have been detected on the hull.",
 	"GUI_WI_SPY",				"Unofficial transmission detected, indicating spy aboard.",
@@ -526,7 +526,7 @@ String_Table_Entry translations[MAX_STRINGS] =
 	"GT_Latinum_Collect_A",	" has collected ",
 	"GT_Latinum_Collect_AP"," have collected ",
 	"GT_Latinum_Collect_B",	" precious metals.",
-	
+
 
 	// launch failure codes, as reported on the machine that had the launch failure
 	// the OK code should never be printed to the console - it is just for debugging / logging completeness
@@ -595,7 +595,7 @@ String_Table_Entry translations[MAX_STRINGS] =
 	//
 
 	"REPLAY_CHAPTER_CREATED",	"Replay Chapter Created.",
-	
+
 	// Map Objects
 	"NEBULA_RADIOACTIVE",	"Radioactive Nebula",
 	"NEBULA_RADIOACTIVE_V",	"These nebulas will kill off a ship's crew at a steady rate, regardless of the ship's status.",
@@ -680,7 +680,7 @@ String_Table_Entry translations[MAX_STRINGS] =
 	"ADLOG_TALLY_TAB",               "Tally",
 
 	// Admiral's Log Economy Screen labels
-	"ADLOG_RESOURCE_GATHERED",		"Gathered: ",		
+	"ADLOG_RESOURCE_GATHERED",		"Gathered: ",
 	"ADLOG_RESOURCE_SPENT",			"Spent: ",
 	"ADLOG_RESOURCE_BOUGHT",		"Bought: ",
 	"ADLOG_RESOURCE_SOLD",			"Sold: ",
@@ -774,7 +774,7 @@ Location: near BD-1586, Federation Frontier, Alpha Quadrant",
 	"MISSION_FED_3_BASE_DEAD",						"THE STARBASE HAS BEEN DESTROYED",
 	"MISSION_FED_3_ELVIS_HAS_LEFT_THE_BUILDING",	"THE USS YORKTOWN HAS LEFT THE SYSTEM",
 	"MISSION_FED_3_BASE_DEAD_2",					"STARBASE 176 HAS BEEN DESTROYED",
-	
+
 
     // ***[ ST:A2 - FEDERATION MISSION 4 ]***********************
 	"MISSION_FED_4_TITLE",			"Perdition's Edge",
@@ -831,7 +831,7 @@ Location: Rentras System, Galactic Fringe",
 
     // ***[ ST:A2 - FEDERATION MISSION 9 ]***********************
 	"MISSION_FED_9_TITLE",		"Heart of Darkness",
-	"MISSION_FED_9_WIN1",		"YOU HAVE DESTROYED THE ISC STAGING", 
+	"MISSION_FED_9_WIN1",		"YOU HAVE DESTROYED THE ISC STAGING",
 	"MISSION_FED_9_WIN2",		"GROUNDS AND SAVED YOUR FLEET",
 	"MISSION_FED_9_ENT_DEAD",	"THE ENTERPRISE HAS BEEN DESTROYED",
 	"MISSION_FED_9_SUBTITLE",	"March 10th, 2292
@@ -887,7 +887,7 @@ Location: Bernard System, inside the Federation, Beta Quadrant",
 
     // ***[ ST:A2 - KLINGON MISSION 4 ]**************************
 	"MISSION_KLING_4_TITLE",	"Starvation",
-	"MISSION_KLING_4_SUBTITLE",	"March 9th, 2292 
+	"MISSION_KLING_4_SUBTITLE",	"March 9th, 2292
 Location: Near the Mornaur System, Klingon/Romulan/Federation Border, Beta Quadrant",
 	"MISSION_KLING_4_WIN",		"YOU HAVE DESTROYED THE KLINGON CONVOY",
 	"MISSION_KLING_4_LOSE",		"YOUR FORCES HAVE BEEN DESTROYED",
@@ -1162,7 +1162,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 	"GUI_CP_RECYCLE_DILITHIUM_TOOLTIP", "Transmute dilithium into tritanium <^D>",
 	"GUI_CP_RECYCLE_DILITHIUM_VTOOLTIP", "Transmute 143 units of dilithium into 100 units of tritanium.",
 
-	// *** [ EVENTS.ODF ] ***	
+	// *** [ EVENTS.ODF ] ***
 	"EVENTS_FERENGI_SCAVENGER",					"Scavengers have commandeered one of your derelict vessels.",
 	"EVENTS_NO_REPAIR_FACILITIES",				"You have no repair facilities. Build a shipyard.",
 	"EVENTS_BEGINNING_SHIP_CONSTRUCTION",		"Beginning ship construction.",
@@ -1186,7 +1186,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 	"EVENTS_CONQUERED_PLANET",					"New planet under your control.",
 	"EVENTS_LOST_PLANET",						"You have lost control of a colony",
 	"EVENTS_INSUFFICIENT_CREW",					"Insufficient personnel to build. Colonise a planet.",
-	
+
 	"EVENTS_RESERVE_FLEET_CALLED",					"Reserve Fleet Starship on-route.",
 	"EVENTS_MIRAK_FLEET_CALLED",					"Mirak Survivors on-route.",
 	"EVENTS_PIRATE_FLEET_CALLED",					"A deal has been struck...",
@@ -1260,7 +1260,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 	"UI_GRAPHICS_STARTUP_ERROR_MESSAGE",	"Graphics startup failed.  Reboot you computer, then run dxdiag.exe, select the Display tab, and test Direct3D",
 	"UI_INSUFFICIENT_VIRTUAL_MEMORY", 		"There is insufficient virtual memory to run KA2.  Increase the size of your windows swap file.",
-	
+
 	"GUI_OD_BRIEFING_SUMMARY",				"BRIEFING SUMMARY:",
 	"GUI_OD_OBJECTIVES",					"OBJECTIVES:",
 
@@ -1275,7 +1275,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 	// This is how you set the date/time format for saved games.
 	// The format is taken from the Windows strftime() command.  The symbols
 	// give you the following:
-	// %b (month abbreviation) %d (day of month) 
+	// %b (month abbreviation) %d (day of month)
 	// %I (hour in 12-hour format) %M (Minutes) %p (am/pm) %H (hour in 24 hour format)
 	// The format you choose should be equivalently small, ie, no weekday name, or year.
 	"GUI_DATE_TIME_FORMAT",					"%d %b %I:%M %p",
@@ -1350,12 +1350,12 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "8472_RESOURCEBEAM_V",  		"Breaks down ships and stations into their raw materials",
 
 //****************
-//** SHIPS								
-//****************	
+//** SHIPS
+//****************
 
 "FED_WASHINGTON_V", " - Washington Class
  - Troop Transport (FAPA)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Marines
  - Hull Rating: 420 HSF
  - Shield Rating: 725 FSP
@@ -1369,13 +1369,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_MISSOURI_V", " - Missouri Class
  - Battleship (FBB)
- - Crew Complement: 1190 
+ - Crew Complement: 1190
  - Crew Training Level: Professional
  - Hull Rating: 900 HSF
  - Shield Rating: 1850 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 28.5 Mk/s
- - Wasp Attack Shuttles (3 Total) 
+ - Wasp Attack Shuttles (3 Total)
 
  - 6x Type B Phaser Emitter
  - 6x Photon Torpedo Tube
@@ -1390,7 +1390,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 1400 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 30 Mk/s
- - Wasp Attack Shuttles (2 Total) 
+ - Wasp Attack Shuttles (2 Total)
 
  - 5x Type B Phaser Emitter
  - 4x Heavy Photon Torpedo Tube
@@ -1398,13 +1398,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_EXCELSIOR_REFIT_V", " - Excelsior Class Refit
  - Heavy Battlecruiser (FBCH)
- - Crew Complement: 795 
+ - Crew Complement: 795
  - Crew Training Level: Professional
  - Hull Rating: 540 HSF
  - Shield Rating: 980 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 33 Mk/s
- - Wasp Attack Shuttle (1 Total) 
+ - Wasp Attack Shuttle (1 Total)
 
  - 4x Type B Phaser Emitter
  - 4x Photon Torpedo Tube
@@ -1412,13 +1412,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_EXCELSIOR_V", " - Excelsior Class
  - Battlecruiser (FBC)
- - Crew Complement: 795 
+ - Crew Complement: 795
  - Crew Training Level: Professional
  - Hull Rating: 420 HSF
  - Shield Rating: 725 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 33 Mk/s
- - Wasp Attack Shuttle (1 Total) 
+ - Wasp Attack Shuttle (1 Total)
 
  - 4x Type B Phaser Emitter
  - 4x Photon Torpedo Tube
@@ -1426,7 +1426,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_CLYDESDALE_V", " - Clydesdale Class
  - Cargo Freighter (FAK)
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Crew Training Level: Civilian
  - Hull Rating: 250 HSF
  - Shield Rating: 523 FSP
@@ -1438,13 +1438,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_ARKROYAL_V", " - Ark Royal Class
  - Fleet Carrier (FCVN)
- - Crew Complement: 1290 
+ - Crew Complement: 1290
  - Crew Training Level: Professional
  - Hull Rating: 944 HSF
  - Shield Rating: 1600 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 30.75 Mk/s
- - Hornet Strike Fighters (12 Total) 
+ - Hornet Strike Fighters (12 Total)
 
  - 3x Type B Phaser Emitter
  - 2x Photon Torpedo Tube
@@ -1452,13 +1452,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_ARKROYALB_V", " - Ark Royal Class
  - Fleet Carrier (FCVN)
- - Crew Complement: 1290 
+ - Crew Complement: 1290
  - Crew Training Level: Professional
  - Hull Rating: 944 HSF
  - Shield Rating: 1600 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 30.75 Mk/s
- - Hornet-B Strike Fighters (12 Total) 
+ - Hornet-B Strike Fighters (12 Total)
 
  - 3x Type B Phaser Emitter
  - 2x Photon Torpedo Tube
@@ -1466,13 +1466,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_LEXINGTON_V", " - Lexington Class
  - Command Cruiser (FCC)
- - Crew Complement: 610 
+ - Crew Complement: 610
  - Crew Training Level: Professional
  - Hull Rating: 300 HSF
  - Shield Rating: 697 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 35.25 Mk/s
- - Type 2 Shuttles (3 Total) 
+ - Type 2 Shuttles (3 Total)
 
  - 4x Type B Phaser Emitter
  - 2x Photon Torpedo Tube
@@ -1482,7 +1482,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_INDEPENDENCE_V", " - Independence Class
  - Colony Ship (FFB)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Civilian
  - Hull Rating: 250 HSF
  - Shield Rating: 523 FSP
@@ -1494,7 +1494,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_LIBERTY_V", " - Liberty Class
  - Construction Tender (FACS)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Civilian
  - Hull Rating: 250 HSF
  - Shield Rating: 523 FSP
@@ -1506,13 +1506,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_CONSTITUTION_REFIT_V", " - Constitution Class Refit
  - Heavy Cruiser (FCA)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Professional
  - Hull Rating: 250 HSF
  - Shield Rating: 523 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 37.5 Mk/s
- - Type 2 Shuttles (2 Total) 
+ - Type 2 Shuttles (2 Total)
 
  - 4x Type B Phaser Emitter
  - 2x Photon Torpedo Tube
@@ -1520,7 +1520,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_AKULA_REFIT_V", " - Akula Class Refit
  - Destroyer (FDD)
- - Crew Complement: 110 
+ - Crew Complement: 110
  - Crew Training Level: Professional
  - Hull Rating: 230 HSF
  - Shield Rating: 407 FSP
@@ -1533,7 +1533,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_WARSAW_V", " - Warsaw Class
  - Destroyer Leader (FDL)
- - Crew Complement: 110 
+ - Crew Complement: 110
  - Crew Training Level: Professional
  - Hull Rating: 230 HSF
  - Shield Rating: 407 FSP
@@ -1548,13 +1548,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_ULYSSES_V", " - Ulysses Class
  - Dreadnought (FDN)
- - Crew Complement: 1005 
+ - Crew Complement: 1005
  - Crew Training Level: Professional
  - Hull Rating: 600 HSF
  - Shield Rating: 1260 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 30.75 Mk/s
- - Wasp Attack Shuttles (2 Total) 
+ - Wasp Attack Shuttles (2 Total)
 
  - 5x Type B Phaser Emitter
  - 4x Photon Torpedo Tube
@@ -1564,13 +1564,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_BELKNAP_V", " - Belknap Class
  - Plasma Dreadnought (FDNp)
- - Crew Complement: 1005 
+ - Crew Complement: 1005
  - Crew Training Level: Professional
  - Hull Rating: 600 HSF
  - Shield Rating: 1260 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 30.75 Mk/s
- - Wasp Attack Shuttles (2 Total) 
+ - Wasp Attack Shuttles (2 Total)
 
  - 5x Type B Phaser Emitter
  - 2x Type H Plasma Torpedo Tube
@@ -1579,7 +1579,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_OBERTH_V", " - Oberth Class
  - Escort (FEC)
- - Crew Complement: 45 
+ - Crew Complement: 45
  - Crew Training Level: Professional
  - Hull Rating: 130 HSF
  - Shield Rating: 252 FSP
@@ -1618,7 +1618,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_FREELANCER_V", " - Freelancer Class
  - Mining Freighter (FDF)
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Crew Training Level: Civilian
  - Hull Rating: 250 HSF
  - Shield Rating: 523 FSP
@@ -1630,7 +1630,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_OKINAWA_V", " - Okinawa Class
  - Frigate (FFF)
- - Crew Complement: 90 
+ - Crew Complement: 90
  - Crew Training Level: Professional
  - Hull Rating: 170 HSF
  - Shield Rating: 350 FSP
@@ -1643,13 +1643,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_SOYUZ_V", " - Soyuz Class
  - Gun Cruiser (FCG)
- - Crew Complement: 390 
+ - Crew Complement: 390
  - Crew Training Level: Professional
  - Hull Rating: 250 HSF
  - Shield Rating: 480 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 39.75 Mk/s
- - Type 2 Shuttle (1 Total) 
+ - Type 2 Shuttle (1 Total)
 
  - 3x Type B Phaser Emitter
  - 5x Type H Phaser Emitter
@@ -1657,13 +1657,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_RANGER_V", " - Ranger Class
  - Galactic Survey Cruiser (FGSC)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Professional
  - Hull Rating: 250 HSF
  - Shield Rating: 523 FSP
  - Sensor Rating: 1000 SRU
  - Impulse Speed: 37.5 Mk/s
- - Type 2 Shuttles (2 Total) 
+ - Type 2 Shuttles (2 Total)
 
  - 2x Type B Phaser Emitter
  - 2x Photon Torpedo Tube
@@ -1672,13 +1672,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_MIRANDA_V", " - Miranda Class
  - Light Cruiser (FCL)
- - Crew Complement: 390 
+ - Crew Complement: 390
  - Crew Training Level: Professional
  - Hull Rating: 250 HSF
  - Shield Rating: 480 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 39.75 Mk/s
- - Type 2 Shuttle (1 Total) 
+ - Type 2 Shuttle (1 Total)
 
  - 3x Type B Phaser Emitter
  - 2x Photon Torpedo Tube
@@ -1686,13 +1686,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_RICHMOND_V", " - Richmond Class
  - Heavy Cruiser, New (FNCA)
- - Crew Complement: 610 
+ - Crew Complement: 610
  - Crew Training Level: Professional
  - Hull Rating: 300 HSF
  - Shield Rating: 697 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 35.25 Mk/s
- - Type 2 Shuttles (3 Total) 
+ - Type 2 Shuttles (3 Total)
 
  - 5x Type B Phaser Emitter
  - 2x Photon Torpedo Tube
@@ -1700,7 +1700,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_LANGLEY_V", " - Langley Class
  - Battleship, Obsolete (FOBB)
- - Crew Complement: 1070 
+ - Crew Complement: 1070
  - Crew Training Level: Professional
  - Hull Rating: 850 HSF
  - Shield Rating: 1700 FSP
@@ -1714,7 +1714,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_CONSTITUTION_V", " - Constitution Class
  - Heavy Cruiser, Obsolete (FOCA)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Professional
  - Hull Rating: 230 HSF
  - Shield Rating: 450 FSP
@@ -1727,7 +1727,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_AKULA_V", " - Akula Class
  - Destroyer, Obsolete (FODD)
- - Crew Complement: 95 
+ - Crew Complement: 95
  - Crew Training Level: Professional
  - Hull Rating: 200 HSF
  - Shield Rating: 350 FSP
@@ -1740,7 +1740,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_FEDERATION_V", " - Federation Class
  - Dreadnought, Obsolete (FODN)
- - Crew Complement: 1005 
+ - Crew Complement: 1005
  - Crew Training Level: Professional
  - Hull Rating: 650 HSF
  - Shield Rating: 1150 FSP
@@ -1753,7 +1753,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_DAVIDS_V", " - Davids Class
  - Frigate, Obsolete (FOFF)
- - Crew Complement: 80 
+ - Crew Complement: 80
  - Crew Training Level: Professional
  - Hull Rating: 140 HSF
  - Shield Rating: 300 FSP
@@ -1766,7 +1766,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_SURYA_V", " - Surya Class
  - Light Cruiser, Obsolete (FOCL)
- - Crew Complement: 390 
+ - Crew Complement: 390
  - Crew Training Level: Professional
  - Hull Rating: 230 HSF
  - Shield Rating: 400 FSP
@@ -1823,7 +1823,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 523 FSP
  - Sensor Rating: 1000 SRU
  - Impulse Speed: 37.5 Mk/s
- - Type 2 Shuttles (2 Total) 
+ - Type 2 Shuttles (2 Total)
 
  - 2x Type B Phaser Emitter
  - 4x Photon Torpedo Tube
@@ -1838,7 +1838,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 1983 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 30.75 Mk/s
- - Wasp Attack Shuttles (3 Total) 
+ - Wasp Attack Shuttles (3 Total)
 
  - 6x Type B Phaser Emitter
  - 4x Photon Torpedo Tube
@@ -1847,7 +1847,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_ASP_V", " - Asp Class
  - Assault Transport (GAPA)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Marines
  - Hull Rating: 750 HSF
  - Shield Rating: 480 FSP
@@ -1861,7 +1861,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_KING_GRENDEL_V", " - King Grendel Class
  - Battleship (GBB)
- - Crew Complement: 652 
+ - Crew Complement: 652
  - Crew Training Level: Professional
  - Hull Rating: 1200 HSF
  - Shield Rating: 800 FSP
@@ -1889,7 +1889,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_COBRA_V", " - Cobra Class
  - Cargo Freighter (GAK)
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Crew Training Level: Civilian
  - Hull Rating: 750 HSF
  - Shield Rating: 480 FSP
@@ -1901,7 +1901,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_BEOWULF_V", " - Beowulf Class
  - Command Cruiser (GCC)
- - Crew Complement: 334 
+ - Crew Complement: 334
  - Crew Training Level: Professional
  - Hull Rating: 750 HSF
  - Shield Rating: 480 FSP
@@ -1915,7 +1915,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_PYTHON_V", " - Python Class
  - Colony Ship (GFB)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Civilian
  - Hull Rating: 750 HSF
  - Shield Rating: 480 FSP
@@ -1927,7 +1927,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_LIZARD_V", " - Lizard Class
  - Construction Tender (GACS)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Civilian
  - Hull Rating: 600 HSF
  - Shield Rating: 320 FSP
@@ -1939,7 +1939,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_EUROMASTYX_V", " - Euromastyx Class
  - Heavy Cruiser (GCA)
- - Crew Complement: 244 
+ - Crew Complement: 244
  - Crew Training Level: Professional
  - Hull Rating: 600 HSF
  - Shield Rating: 320 FSP
@@ -1953,7 +1953,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_ANACONDA_V", " - Anaconda Class
  - Destroyer (GDD)
- - Crew Complement: 75 
+ - Crew Complement: 75
  - Crew Training Level: Professional
  - Hull Rating: 380 HSF
  - Shield Rating: 220 FSP
@@ -1966,7 +1966,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_GRENDEL_V", " - Grendel Class
  - Dreadnought (GDN)
- - Crew Complement: 478 
+ - Crew Complement: 478
  - Crew Training Level: Professional
  - Hull Rating: 960 HSF
  - Shield Rating: 650 FSP
@@ -1980,7 +1980,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_ADDER_V", " - Adder Class
  - Mining Freighter (GDF)
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Crew Training Level: Civilian
  - Hull Rating: 600 HSF
  - Shield Rating: 320 FSP
@@ -1992,7 +1992,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_KING_SNAKE_V", " - King Snake Class
  - Frigate (GFF)
- - Crew Complement: 49 
+ - Crew Complement: 49
  - Crew Training Level: Professional
  - Hull Rating: 260 HSF
  - Shield Rating: 150 FSP
@@ -2005,7 +2005,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_RATTLESNAKE_V", " - Rattlesnake Class
  - Light Cruiser (GCL)
- - Crew Complement: 125 
+ - Crew Complement: 125
  - Crew Training Level: Professional
  - Hull Rating: 540 HSF
  - Shield Rating: 275 FSP
@@ -2030,7 +2030,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_KING_SNAKE_S_V", " - King Snake Class, Scout Variant
  - Scout Frigate (GFS)
- - Crew Complement: 49 
+ - Crew Complement: 49
  - Crew Training Level: Professional
  - Hull Rating: 260 HSF
  - Shield Rating: 150 FSP
@@ -2043,7 +2043,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_SAURUS_V", " - Saurus Class
  - Scout Cruiser (GCS)
- - Crew Complement: 244 
+ - Crew Complement: 244
  - Crew Training Level: Professional
  - Hull Rating: 600 HSF
  - Shield Rating: 320 FSP
@@ -2057,7 +2057,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_GECKO_V", " - Gecko Class
  - Fleet Repair Tender (GAR)
- - Crew Complement: 75 
+ - Crew Complement: 75
  - Crew Training Level: Civilian
  - Hull Rating: 380 HSF
  - Shield Rating: 220 FSP
@@ -2069,7 +2069,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_GLORMASKT_V", " - Glormaskt Class
  - Special Duties Vessel (GXX)
- - Crew Complement: 50 
+ - Crew Complement: 50
  - Crew Training Level: Professional
  - Hull Rating: 750 HSF
  - Shield Rating: 480 FSP
@@ -2081,7 +2081,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_REPTILLON_V", " - Reptillon Class
  - Torpedo Cruiser (GCT)
- - Crew Complement: 244 
+ - Crew Complement: 244
  - Crew Training Level: Professional
  - Hull Rating: 600 HSF
  - Shield Rating: 320 FSP
@@ -2090,12 +2090,12 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
  - 2x Gorn Type Phaser Emitter
  - 3x Type G Plasma Torpedo Tube
- - 2x Parallax Torpedo Tube 
+ - 2x Parallax Torpedo Tube
 ",
 
 "HYD_SARACEN_V", " - Saracen Class
  - Troop Transport (HAPA)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Marines
  - Hull Rating: 420 HSF
  - Shield Rating: 725 FSP
@@ -2108,7 +2108,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_PEASANT_V", " - Peasant Class
  - Construction Tender (HACS)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Civilian
  - Hull Rating: 250 HSF
  - Shield Rating: 523 FSP
@@ -2120,7 +2120,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_AUTOCRAT_V", " - Autocrat Class
  - Colony Ship (HFB)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Civilian
  - Hull Rating: 250 HSF
  - Shield Rating: 523 FSP
@@ -2144,13 +2144,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_REGENT_V", " - Regent Class
  - Light Cruiser (HCL)
- - Crew Complement: 335 
+ - Crew Complement: 335
  - Crew Training Level: Professional
  - Hull Rating: 280 HSF
  - Shield Rating: 415 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 38.75 Mk/s
- - Fusileer Hellbore Fighters (4 Total) 
+ - Fusileer Hellbore Fighters (4 Total)
 
  - 4x Hydran Type Gatling Phaser Emitter
  - 2x Fusion Beam Emitter
@@ -2164,7 +2164,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 520 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 37 Mk/s
- - Halberdier Fusion Beam Fighters (5 Total) 
+ - Halberdier Fusion Beam Fighters (5 Total)
 
  - 4x Hydran Type Gatling Phaser Emitter
  - 2x Hellbore Cannon
@@ -2173,13 +2173,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_DUKE_V", " - Duke Class
  - Command Cruiser (HCC)
- - Crew Complement: 445 
+ - Crew Complement: 445
  - Crew Training Level: Professional
  - Hull Rating: 430 HSF
  - Shield Rating: 660 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 37 Mk/s
- - Halberdier Fusion Beam Fighters (6 Total)  
+ - Halberdier Fusion Beam Fighters (6 Total)
 
  - 5x Hydran Type Gatling Phaser Emitter
  - 2x Hellbore Cannon
@@ -2195,7 +2195,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 580 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 20 Mk/s
- - Halberdier Fusion Beam Fighters (5 Total) 
+ - Halberdier Fusion Beam Fighters (5 Total)
 
  - 2x Hydran Type Gatling Phaser Emitter
  - 4x Hellbore Cannon
@@ -2210,7 +2210,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 405 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 44.25 Mk/s
- - Fusileer Hellbore Fighters (3 Total) 
+ - Fusileer Hellbore Fighters (3 Total)
 
  - 3x Hydran Type Gatling Phaser Emitter
  - 1x Fusion Beam Emitter
@@ -2224,7 +2224,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 405 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 44.25 Mk/s
- - Fusileer Hellbore Fighters (3 Total) 
+ - Fusileer Hellbore Fighters (3 Total)
 
  - 3x Hydran Type Gatling Phaser Emitter
  - 1x Fusion Beam Emitter
@@ -2239,7 +2239,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 1200 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 30 Mk/s
- - Halberdier Fusion Beam Fighters (6 Total) 
+ - Halberdier Fusion Beam Fighters (6 Total)
 
  - 6x Hydran Type Gatling Phaser Emitter
  - 2x Hellbore Cannon
@@ -2254,7 +2254,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 1600 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 30.75 Mk/s
- - Mixed Fighter Complement (12 Total) 
+ - Mixed Fighter Complement (12 Total)
 
  - 4x Hydran Type Gatling Phaser Emitter
  - 2x Fusion Beam Emitter
@@ -2275,7 +2275,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_SERF_V", " - Serf Class
  - Mining Freighter (HDF)
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Crew Training Level: Civilian
  - Hull Rating: 230 HSF
  - Shield Rating: 550 FSP
@@ -2287,7 +2287,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_MERCHANT_V", " - Merchant Class
  - Cargo Freighter (HAK)
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Crew Training Level: Civilian
  - Hull Rating: 250 HSF
  - Shield Rating: 523 FSP
@@ -2299,13 +2299,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_YEOMAN_V", " - Yeoman Class
  - Frigate (HFF)
- - Crew Complement: 55 
+ - Crew Complement: 55
  - Crew Training Level: Professional
  - Hull Rating: 190 HSF
  - Shield Rating: 290 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 42.5 Mk/s
- - Halberdier Fusion Beam Fighters (2 Total) 
+ - Halberdier Fusion Beam Fighters (2 Total)
 
  - 2x Hydran Type Gatling Phaser Emitter
  - 1x Hellbore Cannon
@@ -2313,7 +2313,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_ARCHER_V", " - Archer Class
  - Scout Frigate (HFS)
- - Crew Complement: 55 
+ - Crew Complement: 55
  - Crew Training Level: Professional
  - Hull Rating: 190 HSF
  - Shield Rating: 290 FSP
@@ -2326,7 +2326,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IAPA_V", " - Type APA-VII
  - Troop Transport (IAPA)
- - Crew Complement: 520 
+ - Crew Complement: 520
  - Crew Training Level: Marines
  - Hull Rating: 530 HSF
  - Shield Rating: 260 FSP
@@ -2339,13 +2339,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_ICVN_V", " - Type CVN-VI
  - Fleet Carrier (ICVN)
- - Crew Complement: 1140 
+ - Crew Complement: 1140
  - Crew Training Level: Professional
  - Hull Rating: 944 HSF
  - Shield Rating: 1750 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 28.5 Mk/s
- - Type FA-VII Strike Fighters (12 Total) 
+ - Type FA-VII Strike Fighters (12 Total)
 
  - 6x Concordium Type Phaser Emitter
  - 2x Type I Plasma Torpedo Tube
@@ -2354,13 +2354,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_ICVNB_V", " - Type CVN-VI
  - Fleet Carrier (ICVN)
- - Crew Complement: 1140 
+ - Crew Complement: 1140
  - Crew Training Level: Professional
  - Hull Rating: 944 HSF
  - Shield Rating: 1750 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 28.5 Mk/s
- - Type FA-IX Strike Fighters (12 Total) 
+ - Type FA-IX Strike Fighters (12 Total)
 
  - 6x Concordium Type Phaser Emitter
  - 2x Type I Plasma Torpedo Tube
@@ -2369,7 +2369,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IFB_V", " - Type FB-I
  - Colony Ship (IFB)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Civilian
  - Hull Rating: 260 HSF
  - Shield Rating: 530 FSP
@@ -2381,7 +2381,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IACS_V", " - Type ACS-XIV
  - Construction Tender (IACS)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Civilian
  - Hull Rating: 260 HSF
  - Shield Rating: 530 FSP
@@ -2393,7 +2393,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_ICA_V", " - Type CA-VIII
  - Heavy Cruiser (ICA)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Professional
  - Hull Rating: 260 HSF
  - Shield Rating: 530 FSP
@@ -2407,7 +2407,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_ICAD_V", " - Type CA-VIIId
  - Heavy Cruiser, Disruptor Refit (ICAd)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Professional
  - Hull Rating: 260 HSF
  - Shield Rating: 530 FSP
@@ -2422,7 +2422,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IDD_V", " - Type DD-III
  - Destroyer (IDD)
- - Crew Complement: 110 
+ - Crew Complement: 110
  - Crew Training Level: Professional
  - Hull Rating: 240 HSF
  - Shield Rating: 410 FSP
@@ -2435,7 +2435,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IDL_V", " - Type DD-IIIFL
  - Destroyer Leader (IDL)
- - Crew Complement: 110 
+ - Crew Complement: 110
  - Crew Training Level: Professional
  - Hull Rating: 240 HSF
  - Shield Rating: 410 FSP
@@ -2449,7 +2449,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IDLD_V", " - Type DD-IIIFLd
  - Destroyer Leader, Disruptor Refit (IDLd)
- - Crew Complement: 110 
+ - Crew Complement: 110
  - Crew Training Level: Professional
  - Hull Rating: 240 HSF
  - Shield Rating: 410 FSP
@@ -2464,7 +2464,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IDDD_V", " - Type DD-IIId
  - Destroyer, Disruptor Refit (IDDd)
- - Crew Complement: 110 
+ - Crew Complement: 110
  - Crew Training Level: Professional
  - Hull Rating: 240 HSF
  - Shield Rating: 410 FSP
@@ -2478,7 +2478,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IDN_V", " - Type DN-III
  - Dreadnought (IDN)
- - Crew Complement: 1005 
+ - Crew Complement: 1005
  - Crew Training Level: Professional
  - Hull Rating: 944 HSF
  - Shield Rating: 1875 FSP
@@ -2493,7 +2493,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IDND_V", " - Type DN-IIId
  - Dreadnought, Disruptor Refit (IDNd)
- - Crew Complement: 1005 
+ - Crew Complement: 1005
  - Crew Training Level: Professional
  - Hull Rating: 944 HSF
  - Shield Rating: 1875 FSP
@@ -2535,7 +2535,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IDF_V", " - Type DF-XX
  - Mining Freighter (IDF)
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Crew Training Level: Civilian
  - Hull Rating: 260 HSF
  - Shield Rating: 530 FSP
@@ -2547,7 +2547,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IFF_V", " - Type FF-IV
  - Frigate (IFF)
- - Crew Complement: 90 
+ - Crew Complement: 90
  - Crew Training Level: Professional
  - Hull Rating: 180 HSF
  - Shield Rating: 340 FSP
@@ -2561,7 +2561,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IFFD_V", " - Type FF-IVd
  - Frigate, Disruptor Refit (IFFd)
- - Crew Complement: 90 
+ - Crew Complement: 90
  - Crew Training Level: Professional
  - Hull Rating: 180 HSF
  - Shield Rating: 340 FSP
@@ -2576,7 +2576,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_ICCL_V", " - Type CCL-II
  - Light Command Cruiser (ICCL)
- - Crew Complement: 390 
+ - Crew Complement: 390
  - Crew Training Level: Professional
  - Hull Rating: 235 HSF
  - Shield Rating: 495 FSP
@@ -2591,7 +2591,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_ICL_V", " - Type CL-V
  - Light Cruiser (ICL)
- - Crew Complement: 390 
+ - Crew Complement: 390
  - Crew Training Level: Professional
  - Hull Rating: 235 HSF
  - Shield Rating: 495 FSP
@@ -2605,7 +2605,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IFS_V", " - Type FF-IVsc
  - Scout Frigate (IFS)
- - Crew Complement: 90 
+ - Crew Complement: 90
  - Crew Training Level: Professional
  - Hull Rating: 180 HSF
  - Shield Rating: 340 FSP
@@ -2619,7 +2619,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_ICSA_V", " - Type CSA-III
  - Star Cruiser (ICSA)
- - Crew Complement: 520 
+ - Crew Complement: 520
  - Crew Training Level: Professional
  - Hull Rating: 425 HSF
  - Shield Rating: 650 FSP
@@ -2634,7 +2634,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_IAR_V", " - Type AR-XII
  - Fleet Repair Tender (IAR)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Civilian
  - Hull Rating: 260 HSF
  - Shield Rating: 530 FSP
@@ -2646,7 +2646,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_ICT_V", " - Type CT-II
  - Torpedo Cruiser (ICT)
- - Crew Complement: 480 
+ - Crew Complement: 480
  - Crew Training Level: Professional
  - Hull Rating: 260 HSF
  - Shield Rating: 530 FSP
@@ -2660,7 +2660,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "KLI_POISONEDBARB_V", " - D7Q Chava'Kal (Poisoned Barb) Class
  - Assault Transport (KAPA)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Marines
  - Hull Rating: 280 HSF
  - Shield Rating: 380 FSP
@@ -2679,7 +2679,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 1260 FSP
  - Sensor Rating: 600 SRU
  - Impulse Speed: 26.25 Mk/s
- - D'ktagh (Dagger) Shuttles (3 Total)  
+ - D'ktagh (Dagger) Shuttles (3 Total)
 
  - 6x Disruptor
  - 4x Heavy Photon Torpedo Tube
@@ -2694,7 +2694,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 573 FSP
  - Sensor Rating: 600 SRU
  - Impulse Speed: 30.75 Mk/s
- - D'ktagh (Dagger) Shuttles (2 Total)  
+ - D'ktagh (Dagger) Shuttles (2 Total)
 
  - 4x Disruptor
  - 2x Frequency Modulated Particle Accelerator Cannon
@@ -2710,7 +2710,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 670 FSP
  - Sensor Rating: 600 SRU
  - Impulse Speed: 30 Mk/s
- - D'ktagh (Dagger) Shuttles (3 Total)  
+ - D'ktagh (Dagger) Shuttles (3 Total)
 
  - 4x Disruptor
  - 5x Photon Torpedo Tube
@@ -2737,7 +2737,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 980 FSP
  - Sensor Rating: 600 SRU
  - Impulse Speed: 25 Mk/s
- - Hegh'GogH (Iron Fist) Heavy Fighters (9 Total)  
+ - Hegh'GogH (Iron Fist) Heavy Fighters (9 Total)
 
  - 6x Disruptor
  - 1x Heavy Photon Torpedo Tube
@@ -2751,7 +2751,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 980 FSP
  - Sensor Rating: 600 SRU
  - Impulse Speed: 25 Mk/s
- - StoH'GogH (Steel Fist) Heavy Fighters (9 Total)  
+ - StoH'GogH (Steel Fist) Heavy Fighters (9 Total)
 
  - 6x Disruptor
  - 1x Heavy Photon Torpedo Tube
@@ -2765,12 +2765,12 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 478 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 33 Mk/s
- - D'ktagh (Dagger) Shuttles (2 Total)  
+ - D'ktagh (Dagger) Shuttles (2 Total)
 
  - 4x Disruptor
  - 2x Photon Torpedo Tube
  - Gravimetric Harmonic Resonance Cannon (w/ Research)
- - Electronic Countermeasures (ECM) 
+ - Electronic Countermeasures (ECM)
  - Cloaking Device
 ",
 
@@ -2819,7 +2819,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 380 FSP
  - Sensor Rating: 600 SRU
  - Impulse Speed: 33 Mk/s
- - D'ktagh (Dagger) Shuttle (1 Total)  
+ - D'ktagh (Dagger) Shuttle (1 Total)
 
  - 2x Disruptor
  - 2x Heavy Disruptor
@@ -2866,12 +2866,12 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 830 FSP
  - Sensor Rating: 600 SRU
  - Impulse Speed: 28.5 Mk/s
- - D'ktagh (Dagger) Shuttles (3 Total)  
+ - D'ktagh (Dagger) Shuttles (3 Total)
 
  - 5x Disruptor
  - 2x Heavy Photon Torpedo Tube
  - Anti-Matter Field Projector (w/ Research)
- - Electronic Countermeasures (ECM) 
+ - Electronic Countermeasures (ECM)
  - Cloaking Device
 ",
 
@@ -2950,7 +2950,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 490 FSP
  - Sensor Rating: 600 SRU
  - Impulse Speed: 33 Mk/s
- - D'ktagh (Dagger) Shuttles (1 Total)  
+ - D'ktagh (Dagger) Shuttles (1 Total)
 
  - 4x Disruptor
  - 2x Heavy Disruptor
@@ -2969,7 +2969,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
  - 4x Disruptor
  - 1x Photon Torpedo Tube
- - Electronic Countermeasures (ECM) 
+ - Electronic Countermeasures (ECM)
  - Cloaking Device
 ",
 
@@ -2984,7 +2984,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
  - 4x Disruptor
  - Sensor Jamming Equipment
- - Electronic Countermeasures (ECM) 
+ - Electronic Countermeasures (ECM)
  - Cloaking Device
 ",
 
@@ -3023,7 +3023,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 380 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 33 Mk/s
- - D'ktagh (Dagger) Shuttles (2 Total)  
+ - D'ktagh (Dagger) Shuttles (2 Total)
 
  - 2x Disruptor
  - 4x Photon Torpedo Tube
@@ -3038,7 +3038,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 980 FSP
  - Sensor Rating: 600 SRU
  - Impulse Speed: 26.25 Mk/s
- - Occicat Pseudo-Fighters (6 Total) 
+ - Occicat Pseudo-Fighters (6 Total)
 
  - 2x Light Disruptor
  - 2x Disruptor
@@ -3053,7 +3053,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 980 FSP
  - Sensor Rating: 600 SRU
  - Impulse Speed: 26.25 Mk/s
- - Occilot Pseudo-Fighters (6 Total) 
+ - Occilot Pseudo-Fighters (6 Total)
 
  - 2x Light Disruptor
  - 2x Disruptor
@@ -3073,7 +3073,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - 4x Heavy Disruptor
  - 4x Heavy Phaser Cannon
  - 2x Mauler Cannon
- - Expanding Sphere Generator 
+ - Expanding Sphere Generator
 ",
 
 "LYR_LION_V", " - Lion Class
@@ -3172,7 +3172,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "LYR_SERVAL_V", " - Serval Class
  - Assault Transport (LAPA)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Marines
  - Hull Rating: 280 HSF
  - Shield Rating: 380 FSP
@@ -3423,7 +3423,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 523 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 33 Mk/s
- - Flintlock Assault Craft (6 Total) 
+ - Flintlock Assault Craft (6 Total)
 
  - 3x Disruptor
 ",
@@ -3501,7 +3501,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ROM_KESTREL_V", " - Kestrel Class
  - Assault Transport (RAPA)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Marines
  - Hull Rating: 370 HSF
  - Shield Rating: 500 FSP
@@ -3610,19 +3610,19 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - 2x Disruptor
  - 2x Type M Plasma Torpedo Tube
  - Tal Shiar Transporter Pad (w/ Research)
- - Electronic Countermeasures (ECM) 
+ - Electronic Countermeasures (ECM)
  - Cloaking Device
 ",
 
 "ROM_TRIBUNE_V", " - Tribune Class
  - Escort Carrier (RCVE)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Professional
  - Hull Rating: 370 HSF
  - Shield Rating: 500 FSP
  - Sensor Rating: 1000 SRU
  - Impulse Speed: 22.5 Mk/s
- - Blade Cloakshape Fighters (6 Total) 
+ - Blade Cloakshape Fighters (6 Total)
 
  - 2x Disruptor
  - 1x Type L Plasma Torpedo Tube
@@ -3632,13 +3632,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ROM_TRIBUNEB_V", " - Tribune Class
  - Escort Carrier (RCVE)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Professional
  - Hull Rating: 370 HSF
  - Shield Rating: 500 FSP
  - Sensor Rating: 1000 SRU
  - Impulse Speed: 22.5 Mk/s
- - Shadowblade Cloakshape Fighters (6 Total) 
+ - Shadowblade Cloakshape Fighters (6 Total)
 
  - 2x Disruptor
  - 1x Type L Plasma Torpedo Tube
@@ -3706,7 +3706,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ROM_OSPREY_V", " - Osprey Class
  - Mining Freighter (RDF)
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Crew Training Level: Civilian
  - Hull Rating: 270 HSF
  - Shield Rating: 282 FSP
@@ -3843,14 +3843,14 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Impulse Speed: 39.75 Mk/s
 
  - 2x Disruptor
- - Electronic Countermeasures (ECM) 
+ - Electronic Countermeasures (ECM)
  - Tal Shiar Transporter Pad (w/ Research)
  - Cloaking Device
 ",
 
 "ROM_TALON_V", " - Talon Class
  - Fleet Repair Tender (RAR)
- - Crew Complement: 150 
+ - Crew Complement: 150
  - Crew Training Level: Civilian
  - Hull Rating: 270 HSF
  - Shield Rating: 282 FSP
@@ -3896,7 +3896,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 350 FSP
  - Sensor Rating: 1000 SRU
  - Impulse Speed: 36.38 Mk/s
- - Mixed Fighter Complement (12 Total) 
+ - Mixed Fighter Complement (12 Total)
 
  - 2x Sha'Kurian Type Gatling Phaser Emitter
  - 2x Multiwarhead Projectile Tube
@@ -3912,7 +3912,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 770 FSP
  - Sensor Rating: 1000 SRU
  - Impulse Speed: 31.88 Mk/s
- - Mixed Fighter Complement (24 Total) 
+ - Mixed Fighter Complement (24 Total)
 
  - 2x Sha'Kurian Type Gatling Phaser Emitter
  - 5x Multiwarhead Projectile Tube
@@ -3928,7 +3928,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Shield Rating: 210 FSP
  - Sensor Rating: 1000 SRU
  - Impulse Speed: 40.88 Mk/s
- - Claw Space Superiority Fighters (6 Total) 
+ - Claw Space Superiority Fighters (6 Total)
 
  - 1x Sha'Kurian Type Gatling Phaser Emitter
  - 2x Active Terminal Projectile (Ship) Tube
@@ -4058,7 +4058,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "TER_DOMINATOR_V", " - Dominator Class
  - Battlecruiser (EBC)
- - Crew Complement: 795 
+ - Crew Complement: 795
  - Crew Training Level: Professional
  - Hull Rating: 420 HSF
  - Shield Rating: 725 FSP
@@ -4071,7 +4071,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "TER_CONFLAGRATION_V", " - Conflagration Class
  - Heavy Cruiser (ECA)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Professional
  - Hull Rating: 250 HSF
  - Shield Rating: 523 FSP
@@ -4084,7 +4084,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "TER_TEMPEST_V", " - Tempest Class
  - Light Cruiser (ECL)
- - Crew Complement: 390 
+ - Crew Complement: 390
  - Crew Training Level: Professional
  - Hull Rating: 250 HSF
  - Shield Rating: 480 FSP
@@ -4098,7 +4098,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "TER_MAKO_V", " - Mako Class
  - Destroyer (EDD)
- - Crew Complement: 110 
+ - Crew Complement: 110
  - Crew Training Level: Professional
  - Hull Rating: 230 HSF
  - Shield Rating: 407 FSP
@@ -4112,7 +4112,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "TER_LEGIONARY_V", " - Legionary Class
  - Frigate (EFF)
- - Crew Complement: 90 
+ - Crew Complement: 90
  - Crew Training Level: Professional
  - Hull Rating: 170 HSF
  - Shield Rating: 350 FSP
@@ -4322,14 +4322,14 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 ",
 
 //****************
-//** STATIONS								
+//** STATIONS
 //****************
 
 "FED_STARBASE_V", " - Starbase
  - Command & Control Centre
  - Ship Construction & Repair
  - Precious Metal Processing
- - Crew Complement: 7100 
+ - Crew Complement: 7100
  - Defensive Rating: 5400 HSF/FSP
  - Sensor Rating: 1500 SRU
 
@@ -4343,7 +4343,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Command & Control Centre
  - Ship Construction & Repair
  - Precious Metal Processing
- - Crew Complement: 7100 
+ - Crew Complement: 7100
  - Defensive Rating: 5400 HSF/FSP
  - Sensor Rating: 1500 SRU
 
@@ -4364,7 +4364,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_MINING_V", " - Dilithium Mining Station
  - Dilithium Processing
- - Crew Complement: 250 
+ - Crew Complement: 250
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4374,7 +4374,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "FED_MONITORING_V", " - Monitoring Station
  - Probe Net Control
  - Ship Repair
- - Crew Complement: 80 
+ - Crew Complement: 80
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 1000 SRU
 
@@ -4385,7 +4385,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_ORBITAL_V", " - Orbital Processing Facility
  - Tritanium Extraction & Processing
- - Crew Complement: 40 
+ - Crew Complement: 40
  - Defensive Rating: 300 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4394,7 +4394,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_RESEARCHA_V", " - Research Station
  - Hull Research & Development
- - Crew Complement: 40 
+ - Crew Complement: 40
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4403,7 +4403,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_RESEARCHB_V", " - Research Station
  - Hull Conversion Package Development
- - Crew Complement: 40 
+ - Crew Complement: 40
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4412,7 +4412,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_RESEARCHC_V", " - Research Station
  - Weapon/Ship Systems Research & Development
- - Crew Complement: 40 
+ - Crew Complement: 40
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4429,7 +4429,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_SUPERBL_V", " - Research Station
  - Cutting-Edge Research & Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4439,7 +4439,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "FED_TRADING_V", " - Trading Station
  - Resource Trading
  - Civilian Trading Outpost
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4448,7 +4448,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_UPGRADE_V", " - Research Institute
  - Ship Internal Systems Development
- - Crew Complement: 400 
+ - Crew Complement: 400
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4458,7 +4458,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "FED_YARD1_V", " - Standard Shipyard
  - Ship Construction & Repair
  - Escort to Torpedo Cruiser Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4468,7 +4468,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "FED_YARD2_V", " - Advanced Shipyard
  - Ship Construction & Repair
  - Command Cruiser to Experimental Battleship Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 2500 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4479,7 +4479,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Command & Control Centre
  - Ship Construction & Repair
  - Precious Metal Processing
- - Crew Complement: 7100 
+ - Crew Complement: 7100
  - Defensive Rating: 5400 HSF/FSP
  - Sensor Rating: 1500 SRU
 
@@ -4500,7 +4500,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_MINING_V", " - Dilithium Emulsifier
  - Dilithium Processing
- - Crew Complement: 250 
+ - Crew Complement: 250
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4509,7 +4509,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_ORBITAL_V", " - Orbital Processing Facility
  - Tritanium Extraction & Processing
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4520,7 +4520,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Area Defense
  - Viper Psuedo-Fighters (6 Total)
  - Ship Repair
- - Crew Complement: 80 
+ - Crew Complement: 80
  - Defensive Rating: 1500 HSF/FSP
  - Sensor Rating: 1000 SRU
 
@@ -4532,7 +4532,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Area Defense
  - Viper Psuedo-Fighters (9 Total)
  - Ship Repair
- - Crew Complement: 80 
+ - Crew Complement: 80
  - Defensive Rating: 1500 HSF/FSP
  - Sensor Rating: 1000 SRU
 
@@ -4542,7 +4542,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_RESEARCHA_V", " - Research Station
  - Hull Research & Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4551,7 +4551,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_RESEARCHB_V", " - Research Station
  - Hull Conversion Package Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4560,7 +4560,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_RESEARCHC_V", " - Research Station
  - Weapon/Ship Systems Research & Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4577,7 +4577,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_SUPERBL_V", " - Project Glormaskt Station
  - Glormaskt Class Ship Construction
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4587,7 +4587,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "GOR_TRADING_V", " - Trading Station
  - Resource Trading
  - Civilian Trading Outpost
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 2500 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4596,7 +4596,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "GOR_UPGRADE_V", " - Research Institute
  - Ship Internal Systems Development
- - Crew Complement: 400 
+ - Crew Complement: 400
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4606,7 +4606,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "GOR_YARD1_V", " - Standard Shipyard
  - Ship Construction & Repair
  - Frigate to Torpedo Cruiser Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4616,7 +4616,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "GOR_YARD2_V", " - Royal Shipyard
  - Ship Construction & Repair
  - Command Cruiser to Battleship Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 2500 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4627,7 +4627,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Command & Control Centre
  - Ship Construction & Repair
  - Precious Metal Processing
- - Crew Complement: 7100 
+ - Crew Complement: 7100
  - Defensive Rating: 5400 HSF/FSP
  - Sensor Rating: 1500 SRU
 
@@ -4640,7 +4640,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_MINING_V", " - Dilithium Purifier
  - Dilithium Processing
- - Crew Complement: 250 
+ - Crew Complement: 250
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4649,9 +4649,9 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_OUTPOST_V", " - Outpost
  - Area Defense
- - Mixed Fighter Compliment (6 Total) 
+ - Mixed Fighter Compliment (6 Total)
  - Ship Repair
- - Crew Complement: 80 
+ - Crew Complement: 80
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 1000 SRU
 
@@ -4662,7 +4662,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_ORBITAL_V", " - Orbital Processing Facility
  - Tritanium Extraction & Processing
- - Crew Complement: 40 
+ - Crew Complement: 40
  - Defensive Rating: 300 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4672,7 +4672,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "HYD_YARD1_V", " - Standard Shipyard
  - Ship Construction & Repair
  - Scout Frigate to Command Cruiser Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4682,7 +4682,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "HYD_TRADING_V", " - Trading Station
  - Resource Trading
  - Civilian Trading Outpost
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4708,7 +4708,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_RESEARCHA_V", " - Research Station
  - Hull Research & Development
- - Crew Complement: 40 
+ - Crew Complement: 40
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4717,7 +4717,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_RESEARCHB_V", " - Research Station
  - Hull Conversion Package Development
- - Crew Complement: 40 
+ - Crew Complement: 40
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4726,7 +4726,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_RESEARCHC_V", " - Research Station
  - Weapon/Ship Systems Research & Development
- - Crew Complement: 40 
+ - Crew Complement: 40
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4735,7 +4735,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "HYD_UPGRADE_V", " - Royal Shipyard Committee
  - Ship Internal Systems Development
- - Crew Complement: 400 
+ - Crew Complement: 400
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4745,7 +4745,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "ISC_STARBASE_V", " - Starbase
  - Command & Control Centre
  - Ship Construction & Repair
- - Crew Complement: 7100 
+ - Crew Complement: 7100
  - Defensive Rating: 5400 HSF/FSP
  - Sensor Rating: 1500 SRU
 
@@ -4774,7 +4774,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_MINING_V", " - Resource Station
  - Tritanium & Dilithium Processing
- - Crew Complement: 250 
+ - Crew Complement: 250
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4784,7 +4784,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "ISC_RECYCLE_V", " - Disassembly Array
  - Resource Transmuting
  - Ship Recycling
- - Crew Complement: 250 
+ - Crew Complement: 250
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4793,7 +4793,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_RESEARCHA_V", " - Research Station
  - Hull Research & Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4802,7 +4802,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_RESEARCHB_V", " - Research Station
  - Hull Conversion Package Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4811,7 +4811,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_RESEARCHC_V", " - Research Station
  - Weapon/Ship Systems Research & Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4832,7 +4832,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ISC_UPGRADE_V", " - Research Station
  - Ship Internal Systems Development
- - Crew Complement: 400 
+ - Crew Complement: 400
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4842,7 +4842,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "ISC_YARD1_V", " - Shipyard Type I
  - Ship Construction & Repair
  - Frigate to Torpedo Cruiser Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4852,7 +4852,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "ISC_YARD2_V", " - Shipyard Type II
  - Ship Construction & Repair
  - Star Cruiser to Fleet Carrier Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 2500 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4863,7 +4863,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Command & Control Centre
  - Ship Construction & Repair
  - Precious Metal Processing
- - Crew Complement: 6150 
+ - Crew Complement: 6150
  - Defensive Rating: 4660 HSF/FSP
  - Sensor Rating: 1300 SRU
 
@@ -4884,7 +4884,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "KLI_MINING_V", " - Dilithium Refinery
  - Dilithium Processing
- - Crew Complement: 250 
+ - Crew Complement: 250
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -4893,7 +4893,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "KLI_ORBITAL_V", " - Orbital Processing Facility
  - Tritanium Extraction & Processing
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -4903,7 +4903,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "KLI_OUTPOST_V", " - Outpost
  - Area Defense
  - Ship Repair
- - Crew Complement: 80 
+ - Crew Complement: 80
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 700 SRU
 
@@ -4913,7 +4913,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "KLI_RESEARCHA_V", " - Research Station
  - Hull Research & Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -4922,7 +4922,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "KLI_RESEARCHB_V", " - Research Station
  - Hull Conversion Package Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -4931,7 +4931,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "KLI_RESEARCHC_V", " - Research Station
  - Weapon/Ship Systems Research & Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -4948,7 +4948,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "KLI_SUPERBL_V", " - Project pIH D'ktagh (Hidden Dagger) Station
  - E12X Experimental B'Rel Class Ship Construction
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -4958,7 +4958,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "KLI_TRADING_V", " - Trading Station
  - Resource Trading
  - Civilian Trading Outpost
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -4967,7 +4967,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "KLI_UPGRADE_V", " - Research Institute
  - Ship Internal Systems Development
- - Crew Complement: 400 
+ - Crew Complement: 400
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -4977,7 +4977,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "KLI_YARD1_V", " - Standard Shipyard
  - Ship Construction & Repair
  - Escort to Torpedo Cruiser Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -4987,7 +4987,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "KLI_YARD2_V", " - Imperial Shipyard
  - Ship Construction & Repair
  - Command Cruiser to Battleship Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 2500 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -4998,7 +4998,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Command & Control Centre
  - Ship Construction & Repair
  - Precious Metal Processing
- - Crew Complement: 7100 
+ - Crew Complement: 7100
  - Defensive Rating: 5400 HSF/FSP
  - Sensor Rating: 1500 SRU
 
@@ -5013,7 +5013,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Area Defense
  - Occicat Psuedo-Fighters (6 Total)
  - Ship Repair
- - Crew Complement: 80 
+ - Crew Complement: 80
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 700 SRU
 
@@ -5026,7 +5026,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Area Defense
  - Occilot Psuedo-Fighters (6 Total)
  - Ship Repair
- - Crew Complement: 80 
+ - Crew Complement: 80
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 700 SRU
 
@@ -5037,7 +5037,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "LYR_MINING_V", " - Dilithium Grader
  - Dilithium Processing
- - Crew Complement: 250 
+ - Crew Complement: 250
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -5046,7 +5046,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "LYR_ORBITAL_V", " - Orbital Processing Facility
  - Tritanium Extraction & Processing
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -5064,7 +5064,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "LYR_RESEARCHA_V", " - Research Station
  - Hull Research & Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -5073,7 +5073,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "LYR_RESEARCHB_V", " - Research Station
  - Hull Conversion Package Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -5082,7 +5082,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "LYR_RESEARCHC_V", " - Research Station
  - Weapon/Ship Systems Research & Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -5100,7 +5100,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "LYR_TRADING_V", " - Trading Station
  - Resource Trading
  - Civilian Trading Outpost
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -5109,7 +5109,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "LYR_UPGRADE_V", " - Naval Commissariat
  - Ship Internal Systems Development
- - Crew Complement: 400 
+ - Crew Complement: 400
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -5119,7 +5119,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "LYR_YARD1_V", " - Standard Shipyard
  - Ship Construction & Repair
  - Scout Frigate to Guided Missile Monitor Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -5129,7 +5129,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "LYR_YARD2_V", " - Grand Shipyard
  - Ship Construction & Repair
  - Battlecruiser to Pseudo-Fighter Tender Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 2500 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -5140,7 +5140,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Command & Control Centre
  - Ship Construction & Repair
  - Precious Metal & Dilithium Processing
- - Crew Complement: 7100 
+ - Crew Complement: 7100
  - Defensive Rating: 5400 HSF/FSP
  - Sensor Rating: 1500 SRU
 
@@ -5151,7 +5151,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ORI_STARBASE_V", " - Orion Pirate Base
  - Command & Control Centre
- - Crew Complement: 3500 
+ - Crew Complement: 3500
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5163,7 +5163,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
  - Command & Control Centre
  - Ship Construction & Repair
  - Precious Metal Processing
- - Crew Complement: 6150 
+ - Crew Complement: 6150
  - Defensive Rating: 3550 HSF/FSP
  - Sensor Rating: 1500 SRU
 
@@ -5185,7 +5185,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ROM_MINING_V", " - Dilithium Processor
  - Dilithium Processing
- - Crew Complement: 250 
+ - Crew Complement: 250
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5194,7 +5194,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ROM_ORBITAL_V", " - Orbital Processing Facility
  - Tritanium Extraction & Processing
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5205,7 +5205,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "ROM_OUTPOST_V", " - Outpost
  - Area Defense
  - Ship Repair
- - Crew Complement: 80 
+ - Crew Complement: 80
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 1000 SRU
 
@@ -5216,7 +5216,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ROM_RESEARCHA_V", " - Research Station
  - Hull Research & Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -5226,7 +5226,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ROM_RESEARCHB_V", " - Research Station
  - Hull Conversion Package Development
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 400 SRU
 
@@ -5236,7 +5236,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ROM_RESEARCHC_V", " - Research Station
  - Weapon/Ship Systems Research & Development
- - Crew Complement: 200 
+ - Crew Complement: 200
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 600 SRU
 
@@ -5255,7 +5255,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "ROM_TRADING_V", " - Trading Station
  - Resource Trading
  - Civilian Trading Outpost
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1200 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5264,7 +5264,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "ROM_UPGRADE_V", " - Enhancement Institute
  - Ship Internal Systems Development
- - Crew Complement: 400 
+ - Crew Complement: 400
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5274,7 +5274,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "ROM_YARD1_V", " - Standard Shipyard
  - Ship Construction & Repair
  - Escort to Torpedo Cruiser Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5284,7 +5284,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "ROM_YARD2_V", " - Praetorial Shipyard
  - Ship Construction & Repair
  - Command Cruiser to Battleship Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 2500 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5315,7 +5315,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "THO_MINING_V", " - Crystalene Converter
  - Resource Processing
- - Crew Complement: 250 
+ - Crew Complement: 250
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5324,7 +5324,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "THO_RESEARCHA_V", " - Crystal Library
  - Recovering Lost Ship Hull Technologies
- - Crew Complement: 49 
+ - Crew Complement: 49
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5333,7 +5333,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "THO_RESEARCHB_V", " - Crystal Pre-Former
  - Hull Conversion Package Development
- - Crew Complement: 40 
+ - Crew Complement: 40
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5342,7 +5342,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "THO_RESEARCHC_V", " - Crystal Capacitor
  - Miscellaneous Data Storage
- - Crew Complement: 40 
+ - Crew Complement: 40
  - Defensive Rating: 690 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5359,7 +5359,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "THO_TRANSMIT_V", " - Transmission Resolver
  - Intergalactic Communications
- - Crew Complement: 300 
+ - Crew Complement: 300
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5368,7 +5368,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "THO_UPGRADE_V", " - Research Assembly
  - Ship Internal Systems Development
- - Crew Complement: 400 
+ - Crew Complement: 400
  - Defensive Rating: 1000 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5378,7 +5378,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "THO_YARD1_V", " - Crystal Former
  - Ship Construction & Repair
  - Escort to Defence Monitor Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 2000 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5388,7 +5388,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 "THO_YARD2_V", " - Neo-Tholian Gate
  - Ship Requisition
  - Battlecruiser to Battleship Class
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Defensive Rating: 2500 HSF/FSP
  - Sensor Rating: 800 SRU
 
@@ -5397,7 +5397,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "THO_SUPERBL_V", " - Tholian Rift Generator
  - Instantaneous Travel
- - Crew Complement: 0 
+ - Crew Complement: 0
  - Defensive Rating: 3000 HSF/FSP
  - Sensor Rating: 1500 SRU
 
@@ -5406,13 +5406,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_CONSTELLATION_V", " - Constellation Class
  - Light Cruiser (FCL)
- - Crew Complement: 535 
+ - Crew Complement: 535
  - Crew Training Level: Professional
  - Hull Rating: 250 HSF
  - Shield Rating: 523 FSP
  - Sensor Rating: 800 SRU
  - Impulse Speed: 37.5 Mk/s
- - Type 2 Shuttles (2 Total) 
+ - Type 2 Shuttles (2 Total)
 
  - 4x Type B Phaser Emitter
  - 2x Photon Torpedo Tube
@@ -5420,7 +5420,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_CENTAUR_V", " - Centaur Class
  - Destroyer (FDD)
- - Crew Complement: 225 
+ - Crew Complement: 225
  - Crew Training Level: Professional
  - Hull Rating: 230 HSF
  - Shield Rating: 407 FSP
@@ -5459,7 +5459,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_EXCELSIORRET_V", " - Excelsior Class Retrofit
  - Cruiser (FCC)
- - Crew Complement: 795 
+ - Crew Complement: 795
  - Crew Training Level: Professional
  - Hull Rating: 580 HSF
  - Shield Rating: 1080 FSP
@@ -5524,7 +5524,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_BRADSHAW_V", " - Bradshaw Class
  - Construction Tender (FACS)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Civilian
  - Hull Rating: 450 HSF
  - Shield Rating: 650 FSP
@@ -5536,7 +5536,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_LONDON_V", " - London Class
  - Mining Freighter (FDF)
- - Crew Complement: 100 
+ - Crew Complement: 100
  - Crew Training Level: Civilian
  - Hull Rating: 450 HSF
  - Shield Rating: 650 FSP
@@ -5548,7 +5548,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 
 "FED_GLASGOW_V", " - Glasgow Class
  - Colony Ship (FFB)
- - Crew Complement: 500 
+ - Crew Complement: 500
  - Crew Training Level: Civilian
  - Hull Rating: 450 HSF
  - Shield Rating: 650 FSP
@@ -5866,7 +5866,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 	"MP_DEFAULT_GAME_NAME_LEFT",			"",
 	"MP_DEFAULT_GAME_NAME_RIGHT",			"'s Game",
 
-	// these permit the translation of the default GameSpy room names.  
+	// these permit the translation of the default GameSpy room names.
 	// Note, additional rooms may be added by GameSpy at any time, and will be untranslated (unless a key is in here)
 	"MP_ROOM_NAME_Cadet",					"Cadet",
 	"MP_ROOM_NAME_Captain",					"Captain",
@@ -5906,7 +5906,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 	"GUI_REPLAY_NORMAL_V",					"Play the replay at normal playback speed.",
 	"GUI_REPLAY_FAST",						"Fast Playback",
 	"GUI_REPLAY_FAST_V",					"Play the replay back at a faster than normal rate.  Press Normal Playback to restore the normal playback speed."
-	
+
 	// *******************************************
 	// ADDITIONS FOR DERIVATIVES OF KA2 BEGIN HERE
 	// *******************************************
