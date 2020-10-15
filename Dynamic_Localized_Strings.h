@@ -5802,35 +5802,7 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 (Hotkey: Numblock 9)",
 	"GAME-HOTKEY-CONTROL_C", "
 (Hotkey: Ctrl + C)",
-// Added for KA2 Hotkeys 
-// BEGIN BUGFIX
-	"GAME-HOTKEY-CONTROL_SHIFT_F", "
-(Hotkey: Control + Shift + F)",
-	"GAME-HOTKEY-CONTROL_SHIFT_K", "
-(Hotkey: Control + Shift + K)",
-	"GAME-HOTKEY-CONTROL_SHIFT_R", "
-(Hotkey: Control + Shift + R)",
-	"GAME-HOTKEY-CONTROL_SHIFT_G", "
-(Hotkey: Control + Shift + G)",
-	"GAME-HOTKEY-CONTROL_SHIFT_I", "
-(Hotkey: Control + Shift + I)",
-	"GAME-HOTKEY-CONTROL_SHIFT_H", "
-(Hotkey: Control + Shift + H)",
-	"GAME-HOTKEY-CONTROL_SHIFT_L", "
-(Hotkey: Control + Shift + L)",
-	"GAME-HOTKEY-CONTROL_ALT_SHIFT_F", "
-(Hotkey: Control + Alt + Shift + F)",
-	"GAME-HOTKEY-CONTROL_ALT_SHIFT_K", "
-(Hotkey: Control + Alt + Shift + K)",
-	"GAME-HOTKEY-CONTROL_ALT_SHIFT_R", "
-(Hotkey: Control + Alt + Shift + R)",
-	"GAME-HOTKEY-CONTROL_ALT_SHIFT_G", "
-(Hotkey: Control + Alt + Shift + G)",
-	"GAME-HOTKEY-CONTROL_ALT_SHIFT_H", "
-(Hotkey: Control + Alt + Shift + H)",
-	"GAME-HOTKEY-CONTROL_ALT_SHIFT_L", "
-(Hotkey: Control + Alt + Shift + L)",
-// END BUGFIX
+// Added for KA2 Hotkeys
 	"GAME-HOTKEY-BACKQUOTE_E", "
 (Hotkey: Tilde + E)",
 	"GAME-HOTKEY-BACKQUOTE_SHIFT_E", "
@@ -5935,7 +5907,45 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 	"GUI_REPLAY_NORMAL_V",					"Play the replay at normal playback speed.",
 	"GUI_REPLAY_FAST",						"Fast Playback",
 	"GUI_REPLAY_FAST_V",					"Play the replay back at a faster than normal rate.  Press Normal Playback to restore the normal playback speed."
+	
+	// *******************************************
+	// ADDITIONS FOR DERIVATIVES OF KA2 BEGIN HERE
+	// *******************************************
+
+	// ALTERED MIXED TECH RESEARCH HOTKEYS
+	"GAME-HOTKEY-CONTROL_SHIFT_F", "
+(Hotkey: Control + Shift + F)",
+	"GAME-HOTKEY-CONTROL_SHIFT_K", "
+(Hotkey: Control + Shift + K)",
+	"GAME-HOTKEY-CONTROL_SHIFT_R", "
+(Hotkey: Control + Shift + R)",
+	"GAME-HOTKEY-CONTROL_SHIFT_G", "
+(Hotkey: Control + Shift + G)",
+	"GAME-HOTKEY-CONTROL_SHIFT_I", "
+(Hotkey: Control + Shift + I)",
+	"GAME-HOTKEY-CONTROL_SHIFT_H", "
+(Hotkey: Control + Shift + H)",
+	"GAME-HOTKEY-CONTROL_SHIFT_L", "
+(Hotkey: Control + Shift + L)",
+	"GAME-HOTKEY-CONTROL_ALT_SHIFT_F", "
+(Hotkey: Control + Alt + Shift + F)",
+	"GAME-HOTKEY-CONTROL_ALT_SHIFT_K", "
+(Hotkey: Control + Alt + Shift + K)",
+	"GAME-HOTKEY-CONTROL_ALT_SHIFT_R", "
+(Hotkey: Control + Alt + Shift + R)",
+	"GAME-HOTKEY-CONTROL_ALT_SHIFT_G", "
+(Hotkey: Control + Alt + Shift + G)",
+	"GAME-HOTKEY-CONTROL_ALT_SHIFT_H", "
+(Hotkey: Control + Alt + Shift + H)",
+	"GAME-HOTKEY-CONTROL_ALT_SHIFT_L", "
+(Hotkey: Control + Alt + Shift + L)",
+
+	// FLEET OPS 4.0 TOOLTIPS
+
+	// prepended to names of objects in requirement lists
+	"GUI_CP_OBJ_INTENT",		"",
+	// default cap tooltips
+	"GUI_CP_CAP_TOOLTIP", "Available for research",
+	"GUI_CP_CAP_TOOLTIP_REACHED", "Already researched",
+	"GUI_CP_CAP_TOOLTIP_OVER", "My, you're a greedy one. (Limit exceeded)"
 };
-
-
-
