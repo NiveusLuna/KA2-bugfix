@@ -48,6 +48,10 @@
 		</requirement>
 	</object>
 	
+	<!-- Weapons needed to call in the Mirak -->
+	<object ODF="MirakWarpInE.odf" />
+	<object ODF="MirakWarpInA.odf" />
+	
 	<!-- FLEETCAP -->
 	<capacitylist name="MirakCap" maxCapValue="10"
 	tooltip="         Mirak Diaspora support ( %d / %d )"
