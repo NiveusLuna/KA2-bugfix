@@ -5905,11 +5905,13 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 	"GUI_REPLAY_NORMAL",					"Normal Playback",
 	"GUI_REPLAY_NORMAL_V",					"Play the replay at normal playback speed.",
 	"GUI_REPLAY_FAST",						"Fast Playback",
-	"GUI_REPLAY_FAST_V",					"Play the replay back at a faster than normal rate.  Press Normal Playback to restore the normal playback speed.",
+	"GUI_REPLAY_FAST_V",					"Play the replay back at a faster than normal rate.  Press Normal Playback to restore the normal playback speed."
 
 	// *******************************************
 	// ADDITIONS FOR DERIVATIVES OF KA2 BEGIN HERE
 	// *******************************************
+
+	, // Remember your array delimiters, folks!
 
 	// ALTERED MIXED TECH RESEARCH HOTKEYS
 	"GAME-HOTKEY-CONTROL_SHIFT_F", "
