@@ -1,0 +1,4 @@
+#include "KResearchC.odf"
+//BuildItem12 = "KliMix3"
+// this research cannot be used due to engine restrictions...
+buildItem12Availability = 255 // ... therefore, hide at all times.
