@@ -15,10 +15,12 @@ Bugs fixed:
 - The Solar System, a 4-player map, causes crashes due to size.
 	- now 35k square, down from 50k square
 	- More maps will be added to this as I play them
-- Romulan capture tech does not provide a cloaking device to Lyran scout
+- 3.x: Lyr-Rom capture tech does not provide a cloaking device to Lyran scout
 	- This bug was only mitigated, not fixed. I chose to hide the research
 	from the player and let upstream decide what to do with the technology.
 	- See Issue 1 for details.
+	- Working under 4.0 launcher; please use KA2-4.0-compat to run KA2 under the
+	4.0 launcher.
 - Units exiting ISC large yard can get stuck against northern barrier
 - Upgrading Gorn outpost results in it losing its footprint
 - Upgrading Lyran outpost results in it losing its footprint
@@ -30,7 +32,6 @@ station.
 - AIs don't use wormhole generators properly, always opening wormholes to
 the bottom left corner of the map.
 - Orion warp-in cap has typos that affect ship values
-- Mixed Tech research keyboard shortcuts don't work
 - Some keyboard shortcuts also trigger other shortcuts
 - Mixed Tech research shortcuts just plain don't function
 	- Because some pairings have both capture and ally tech:
@@ -50,13 +51,15 @@ though the ISC don't use that resource. (swapped for tritanium/metal cost)
 - The Gorn-ISC mixed-tech Plasmatic Pulsar Device is missing its hotkey.
 - Federation Reserve Fleet cap has typos that affect ship values
 - Mirak warp-in cap has typos that affect ship values
+- ISC carrier GDDS/ESG shows offensive mode button despite being defensive
+- Finch class does not show Special Weapons Autonomy, despite Preax and Gladius
+both doing so (all three have just the CFDIC).
+- 3.x: Kli-Rom capture tech does not provide cloaking device to Klingon sensor
+turret. Same problem as Lyr-Rom tech, with same workaround.
 
 TODO
 
-- ISC carrier GDDS/ESG shows offensive mode button despite being defensive
-- 4.0: - The Hydran fighter miniaturization research doesn't do anything.
-	- Added as a requirement for the carrier conversion, since that appears to
-	be the intention.
+Empty!
 
 IN PROGRESS
 

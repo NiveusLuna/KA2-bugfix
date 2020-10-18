@@ -1,0 +1,4 @@
+sprite_table
+
+@include gui_global-orig.spr
+@include gui_bugfix.spr
