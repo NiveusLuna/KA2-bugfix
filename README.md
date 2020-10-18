@@ -15,7 +15,7 @@ Bugs fixed:
 - The Solar System, a 4-player map, causes crashes due to size.
 	- now 35k square, down from 50k square
 	- More maps will be added to this as I play them
-- Romulan capture tech does not provide a cloaking device to Lyran scout
+- 3.x: Lyr-Rom capture tech does not provide a cloaking device to Lyran scout
 	- This bug was only mitigated, not fixed. I chose to hide the research
 	from the player and let upstream decide what to do with the technology.
 	- See Issue 1 for details.
