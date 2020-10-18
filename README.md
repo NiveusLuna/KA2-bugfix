@@ -32,7 +32,6 @@ station.
 - AIs don't use wormhole generators properly, always opening wormholes to
 the bottom left corner of the map.
 - Orion warp-in cap has typos that affect ship values
-- Mixed Tech research keyboard shortcuts don't work
 - Some keyboard shortcuts also trigger other shortcuts
 - Mixed Tech research shortcuts just plain don't function
 	- Because some pairings have both capture and ally tech:
