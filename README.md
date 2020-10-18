@@ -52,10 +52,10 @@ though the ISC don't use that resource. (swapped for tritanium/metal cost)
 - The Gorn-ISC mixed-tech Plasmatic Pulsar Device is missing its hotkey.
 - Federation Reserve Fleet cap has typos that affect ship values
 - Mirak warp-in cap has typos that affect ship values
+- ISC carrier GDDS/ESG shows offensive mode button despite being defensive
 
 TODO
 
-- ISC carrier GDDS/ESG shows offensive mode button despite being defensive
 - 3.x: Kli-Rom capture tech does not provide cloaking device to Klingon sensor
 turret. Same problem as Lyr-Rom tech.
 - Finch class does not show Special Weapons Autonomy, despite Preax and Gladius
