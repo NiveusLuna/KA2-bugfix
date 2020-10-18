@@ -10,4 +10,4 @@ sprite_table
 @tmaterial=interface
 
 b_gGDDSDefensive all_interface_buttons09	312	312	96	96		#	3	4
-b_gLESG2    	all_interface_buttons09	312	312	96	96		#	4	4
+b_gIESG2    	all_interface_buttons09	312	312	96	96		#	4	4
