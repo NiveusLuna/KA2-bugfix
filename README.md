@@ -53,13 +53,13 @@ though the ISC don't use that resource. (swapped for tritanium/metal cost)
 - Federation Reserve Fleet cap has typos that affect ship values
 - Mirak warp-in cap has typos that affect ship values
 - ISC carrier GDDS/ESG shows offensive mode button despite being defensive
+- Finch class does not show Special Weapons Autonomy, despite Preax and Gladius
+both doing so (all three have just the CFDIC).
 
 TODO
 
 - 3.x: Kli-Rom capture tech does not provide cloaking device to Klingon sensor
 turret. Same problem as Lyr-Rom tech, with same workaround.
-- Finch class does not show Special Weapons Autonomy, despite Preax and Gladius
-both doing so (all three have just the CFDIC).
 
 IN PROGRESS
 
