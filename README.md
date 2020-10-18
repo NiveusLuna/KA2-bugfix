@@ -54,11 +54,12 @@ though the ISC don't use that resource. (swapped for tritanium/metal cost)
 - ISC carrier GDDS/ESG shows offensive mode button despite being defensive
 - Finch class does not show Special Weapons Autonomy, despite Preax and Gladius
 both doing so (all three have just the CFDIC).
+- 3.x: Kli-Rom capture tech does not provide cloaking device to Klingon sensor
+turret. Same problem as Lyr-Rom tech, with same workaround.
 
 TODO
 
-- 3.x: Kli-Rom capture tech does not provide cloaking device to Klingon sensor
-turret. Same problem as Lyr-Rom tech, with same workaround.
+Empty!
 
 IN PROGRESS
 
