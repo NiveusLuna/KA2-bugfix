@@ -622,7 +622,7 @@ String_Table_Entry translations[MAX_STRINGS] =
 	"HOTKEY_F4", " (Hotkey: F4)",
 	"HOTKEY_F5", " (Hotkey: F5)",
 	"HOTKEY_F6", " (Hotkey: F6)",
-	"HOTKEY_F7", " (Hotkey: F7)>",
+	"HOTKEY_F7", " (Hotkey: F7)",
 	"HOTKEY_F8", " (Hotkey: F8)",
 	"HOTKEY_F9", " (Hotkey: F9)",
 	"HOTKEY_F10"," (Hotkey: F10)",
