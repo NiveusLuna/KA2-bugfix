@@ -56,6 +56,7 @@ though the ISC don't use that resource. (swapped for tritanium/metal cost)
 both doing so (all three have just the CFDIC).
 - 3.x: Kli-Rom capture tech does not provide cloaking device to Klingon sensor
 turret. Same problem as Lyr-Rom tech, with same workaround.
+- The map "Wide Open" is missing a directional light.
 
 TODO
 
