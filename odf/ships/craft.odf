@@ -76,7 +76,9 @@ weldingRadius = 0.5
 
 // this is the percent (1.0 = 100%) the ships health and shields or crew must be at
 // before a warning is given (only when in a dangerous nebula)
-percentNebulaWarn = 1.0f
+// Note to other modders: this is the IMMINENT DEATH warning
+// Default is 0.3f
+// percentNebulaWarn = 1.0f
 
 //**********************************************************************
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
