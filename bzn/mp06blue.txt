@@ -1,0 +1,241 @@
+	// Map Definitions
+
+	// Handle for TARDIS (Tardis) object Tardis1450
+	Handle Tardis1450
+
+	// Handle for Class T Planet (PB_CLSST) object PB_CLSST1448
+	Handle PB_CLSST1448
+
+	// Handle for Class C Planet (PB_CLSSC) object PB_CLSSC1445
+	Handle PB_CLSSC1445
+
+	// Handle for Class M4 Planet (PB_CLSSMC) object PB_CLSSM1442
+	Handle PB_CLSSM1442
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1387
+	Handle mdmoon1387
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1386
+	Handle mdmoon1386
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1385
+	Handle mdmoon1385
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1381
+	Handle mdmoon1381
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1380
+	Handle mdmoon1380
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1376
+	Handle mdmoon1376
+
+	// Handle for Class E Planet (PB_CLSSE) object pb_clsse1375
+	Handle pb_clsse1375
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1371
+	Handle pb_clssd1371
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1368
+	Handle pb_clssd1368
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1367
+	Handle mdmoon1367
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1366
+	Handle mdmoon1366
+
+	// Handle for Ice Moon (mdtritan2) object mdtritan1361
+	Handle mdtritan1361
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1356
+	Handle mdmoon1356
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1355
+	Handle mdmoon1355
+
+	// Handle for Class G Planet (PB_CLSSG) object pb_clssg1354
+	Handle pb_clssg1354
+
+	// Handle for Class A Planet (PB_CLSSA) object pb_clssa1351
+	Handle pb_clssa1351
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1350
+	Handle mdmoon1350
+
+	// Handle for Blue Dilithium Moon (mdmoon1) object mdmoon11348
+	Handle mdmoon11348
+
+	// Handle for Blue Dilithium Moon (mdmoon1) object mdmoon11347
+	Handle mdmoon11347
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1342
+	Handle mdmoon1342
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1340
+	Handle pb_clssd1340
+
+	// Handle for Class C Planet (PB_CLSSC) object pb_clssc1339
+	Handle pb_clssc1339
+
+	// Handle for Crystaline Moon (mdtritan4) object mdtritan1337
+	Handle mdtritan1337
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1336
+	Handle mdmoon1336
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1335
+	Handle mdmoon1335
+
+	// Handle for Class B Planet (PB_CLSSB) object pb_clssb1330
+	Handle pb_clssb1330
+
+	// Handle for Class C Planet (PB_CLSSC) object pb_clssc1327
+	Handle pb_clssc1327
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1322
+	Handle mdmoon1322
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1321
+	Handle mdmoon1321
+
+	// Handle for Class P Planet (PB_CLSSP) object pb_clssp1319
+	Handle pb_clssp1319
+
+	// Handle for Class O Planet (PB_CLSSO) object pb_clsso1318
+	Handle pb_clsso1318
+
+	// Handle for Class Q Planet (PB_CLSSP) object pb_clssq1315
+	Handle pb_clssq1315
+
+	// Handle for Class O Planet (PB_CLSSO) object pb_clsso1314
+	Handle pb_clsso1314
+
+	// Handle for Class P Planet (PB_CLSSP) object pb_clssp1311
+	Handle pb_clssp1311
+
+	// Handle for Class D Planet (PB_CLSSD) object pb_clssd1307
+	Handle pb_clssd1307
+
+	// Handle for DY-6000 Class (zdy6000) object zdy6001240
+	Handle zdy6001240
+
+	// Handle for DY-6000 Class (zdy6000) object zdy6001239
+	Handle zdy6001239
+
+	// Handle for Star Class (zaltair) object zwarp1238
+	Handle zwarp1238
+
+	// Handle for Star Class (zaltair) object zwarp1237
+	Handle zwarp1237
+
+	// Handle for Star Class (zaltair) object zwarp1236
+	Handle zwarp1236
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1123
+	Handle mdmoon1123
+
+	// Handle for Volcanic Moon (mdmoon) object mdmoon1121
+	Handle mdmoon1121
+
+	// Handle for GENERIC SCAVENGER SHIP ODF (zhumpback) object zferscav1006
+	Handle zferscav1006
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1007
+	Handle zfercarg1007
+
+	// Handle for GENERIC SCAVENGER SHIP ODF (zhumpback) object zferscav1008
+	Handle zferscav1008
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1009
+	Handle zfercarg1009
+
+	// Handle for GENERIC SCAVENGER SHIP ODF (zhumpback) object zferscav1010
+	Handle zferscav1010
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1011
+	Handle zfercarg1011
+
+	// Handle for GENERIC SCAVENGER SHIP ODF (zhumpback) object zferscav1012
+	Handle zferscav1012
+
+	// Handle for GENERIC CARGO SHIP ODF (zhumpback) object zfercarg1013
+	Handle zfercarg1013
+
+
+
+
+	// Map Object Initialization
+
+	Tardis1450 = GetHandle( "Tardis1450" );
+	PB_CLSST1448 = GetHandle( "PB_CLSST1448" );
+	PB_CLSSC1445 = GetHandle( "PB_CLSSC1445" );
+	PB_CLSSM1442 = GetHandle( "PB_CLSSM1442" );
+	mdmoon1387 = GetHandle( "mdmoon1387" );
+	mdmoon1386 = GetHandle( "mdmoon1386" );
+	mdmoon1385 = GetHandle( "mdmoon1385" );
+	mdmoon1381 = GetHandle( "mdmoon1381" );
+	mdmoon1380 = GetHandle( "mdmoon1380" );
+	mdmoon1376 = GetHandle( "mdmoon1376" );
+	pb_clsse1375 = GetHandle( "pb_clsse1375" );
+	pb_clssd1371 = GetHandle( "pb_clssd1371" );
+	pb_clssd1368 = GetHandle( "pb_clssd1368" );
+	mdmoon1367 = GetHandle( "mdmoon1367" );
+	mdmoon1366 = GetHandle( "mdmoon1366" );
+	mdtritan1361 = GetHandle( "mdtritan1361" );
+	mdmoon1356 = GetHandle( "mdmoon1356" );
+	mdmoon1355 = GetHandle( "mdmoon1355" );
+	pb_clssg1354 = GetHandle( "pb_clssg1354" );
+	pb_clssa1351 = GetHandle( "pb_clssa1351" );
+	mdmoon1350 = GetHandle( "mdmoon1350" );
+	mdmoon11348 = GetHandle( "mdmoon11348" );
+	mdmoon11347 = GetHandle( "mdmoon11347" );
+	mdmoon1342 = GetHandle( "mdmoon1342" );
+	pb_clssd1340 = GetHandle( "pb_clssd1340" );
+	pb_clssc1339 = GetHandle( "pb_clssc1339" );
+	mdtritan1337 = GetHandle( "mdtritan1337" );
+	mdmoon1336 = GetHandle( "mdmoon1336" );
+	mdmoon1335 = GetHandle( "mdmoon1335" );
+	pb_clssb1330 = GetHandle( "pb_clssb1330" );
+	pb_clssc1327 = GetHandle( "pb_clssc1327" );
+	mdmoon1322 = GetHandle( "mdmoon1322" );
+	mdmoon1321 = GetHandle( "mdmoon1321" );
+	pb_clssp1319 = GetHandle( "pb_clssp1319" );
+	pb_clsso1318 = GetHandle( "pb_clsso1318" );
+	pb_clssq1315 = GetHandle( "pb_clssq1315" );
+	pb_clsso1314 = GetHandle( "pb_clsso1314" );
+	pb_clssp1311 = GetHandle( "pb_clssp1311" );
+	pb_clssd1307 = GetHandle( "pb_clssd1307" );
+	zdy6001240 = GetHandle( "zdy6001240" );
+	zdy6001239 = GetHandle( "zdy6001239" );
+	zwarp1238 = GetHandle( "zwarp1238" );
+	zwarp1237 = GetHandle( "zwarp1237" );
+	zwarp1236 = GetHandle( "zwarp1236" );
+	mdmoon1123 = GetHandle( "mdmoon1123" );
+	mdmoon1121 = GetHandle( "mdmoon1121" );
+	zferscav1006 = GetHandle( "zferscav1006" );
+	zfercarg1007 = GetHandle( "zfercarg1007" );
+	zferscav1008 = GetHandle( "zferscav1008" );
+	zfercarg1009 = GetHandle( "zfercarg1009" );
+	zferscav1010 = GetHandle( "zferscav1010" );
+	zfercarg1011 = GetHandle( "zfercarg1011" );
+	zferscav1012 = GetHandle( "zferscav1012" );
+	zfercarg1013 = GetHandle( "zfercarg1013" );
+
+
+
+	// AI special forces
+
+	SetSpecialForcesFlag( Tardis1450, true );
+
+
+	//
+	// PATHS
+	//
+
+	// Path: "Camera_1" (1 points)
+	// Path: "Camera_2" (1 points)
+	// Path: "Camera_3" (1 points)
+	// Path: "Camera_4" (1 points)
+	// Path: "Camera_5" (2 points)
+	// Path: "Camera_6" (2 points)

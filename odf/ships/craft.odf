@@ -1,0 +1,111 @@
+//This is the main file for all craft (non-stations)
+
+//Delay before shield begins recharging once it has reached zero (secs)
+shieldDelay = 3.0f
+
+//This is the range in meters which the ships sensors can see (LOS)
+rangeScan = 800.0f
+
+//This is the range in meters which the ships sensors can see when destroyed
+damagedScan = 0.0
+
+healthRate = 0.01
+
+//**********************************************************************
+//SYSTEM REPAIR RATES
+//This is the amount of time in seconds to repair ONE hitpoint of damage
+//modified by race and crew status
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+//**********************************************************************
+
+
+//**********************************************************************
+//CREW CASUALTY FOR SYSTEM DESTRUCTION
+//The percentage of crew killed when the engines are destroyed
+enginesCrewLoss = 1.0f
+
+//The percentage of crew killed when the lifesupport is destroyed
+lifeSupportCrewLoss = 40.0f
+
+//The percentage of crew killed when the weapons are destroyed
+weaponsCrewLoss = 0.0f
+
+//The percentage of crew killed when the shields are destroyed
+shieldGeneratorCrewLoss = 1.0f
+
+//The percentage of crew killed when the sensors are destroyed
+sensorsCrewLoss = 1.0f
+
+//The percentage of crew lost every second while life support is disabled
+lifeSupportLoss = 1.0f
+
+//**********************************************************************
+
+//**********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+//Percent Chance out of 100 of engines being destroyed
+enginesHitPercent = 6.0f
+
+//Percent Chance out of 100 of life support being destroyed
+lifeSupportHitPercent = 5.0f
+
+//Percent Chance out of 100 of weapons being destroyed
+weaponsHitPercent = 0.2f
+
+//Percent Chance out of 100 of shields being destroyed
+shieldGeneratorHitPercent = 6.0f
+
+//Percent Chance out of 100 of sensors being destroyed
+sensorsHitPercent = 6.0f
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+crewHitPercent = 0.8f
+
+//Percent Chance out of 100 of entire ship exploding
+hullHitPercent = 76.0f
+//**********************************************************************
+
+
+// This is the size of the build animation sparks.
+weldingRadius = 0.5
+
+// this is the percent (1.0 = 100%) the ships health and shields or crew must be at
+// before a warning is given (only when in a dangerous nebula)
+// Note to other modders: this is the IMMINENT DEATH warning
+// Default is 0.3f
+// percentNebulaWarn = 1.0f
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//programming thing DO NOT CHANGE
+classLabel = "craft"
+
+//AI stuff UNKNOWN May be related to sound stuff
+aiName = "CraftProcess"
+
+//assume mid-size ship
+avoidanceClass = 5
+
+//Explosion to use
+//fireball = "xfirebmd"
+fireball = "x_medium_explosion"
+
+//************************************************************
+// Tara additions for context sensitive menus
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+can_explore = 1
+
+saneCrewLossMethod = 1
+
+eventRedAlert = "ComputerRedAlert"
+eventYellowAlert = "ComputerYellowAlert"
