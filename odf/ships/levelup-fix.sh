@@ -3,9 +3,10 @@
 SHIP_LIST=$(cat ../../ship_list.txt)
 
 for f in $SHIP_LIST ; do
-	
 	touch $f
-	cat $f > $f << EOF
+	NEW_FILE="${f}.new"
+	echo $NEW_FILE
+	cat $f > $NEW_FILE << EOF
 \#include \"$f\"
 nextRankClass = \"$f\"
 EOF
