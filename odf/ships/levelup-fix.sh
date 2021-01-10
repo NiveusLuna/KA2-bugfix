@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SHIP_LIST = $(cat ../../ship_list.txt)
+SHIP_LIST=$(cat ../../ship_list.txt)
 
 for f in $SHIP_LIST ; do
 	
