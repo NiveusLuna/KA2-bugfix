@@ -1,2 +1,3 @@
 #include "RKFrigate.odf"
 show_sw_autonomy = 1
+nextRankClass = "RKFrigate.odf"

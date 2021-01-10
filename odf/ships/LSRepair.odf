@@ -1,2 +1,3 @@
 #include "LSRepair.odf"
 show_sw_autonomy = 1
+nextRankClass = "LSRepair.odf"

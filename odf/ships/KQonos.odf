@@ -1,3 +1,4 @@
 #include "KQonos.odf"
 // We're a capital ship, we can do this.
 canAttackPlanets = 1
+nextRankClass = "KQonos.odf"

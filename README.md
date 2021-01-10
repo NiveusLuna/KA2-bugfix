@@ -57,6 +57,7 @@ both doing so (all three have just the CFDIC).
 - 3.x: Kli-Rom capture tech does not provide cloaking device to Klingon sensor
 turret. Same problem as Lyr-Rom tech, with same workaround.
 - The map "KA2: Wide Open" is missing a directional light.
+- The map "KA2: Dead on Arrival" is missing a directional light.
 - Craft ODF does not distinguish between ships being in dangerous nebulae and
 ships dying in dangerous nebulae.
 

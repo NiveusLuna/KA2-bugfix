@@ -1,0 +1,12 @@
+#include "KConst.odf"
+
+// Dilithium cost to build
+// dilithiumCost = 224
+
+//Metal Cost to build
+// metalCost = 840
+
+// add decom values due to 3.x being poorly coded with regard to decom values
+recycleDilithium = 90
+recycleMetal = 672
+nextRankClass = "KConst.odf"
