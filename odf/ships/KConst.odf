@@ -9,5 +9,4 @@
 // add decom values due to 3.x being poorly coded with regard to decom values
 recycleDilithium = 90
 recycleMetal = 672
-#include "KConst.odf"
 nextRankClass = "KConst.odf"

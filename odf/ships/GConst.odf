@@ -9,5 +9,4 @@
 // add decom values due to 3.x being poorly coded with regard to decom values
 recycleDilithium = 224
 recycleMetal = 1260
-#include "GConst.odf"
 nextRankClass = "GConst.odf"
