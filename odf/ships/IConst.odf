@@ -9,3 +9,5 @@
 // add decom values due to 3.x being poorly coded with regard to decom values
 recycleDilithium = 96
 recycleMetal = 468
+#include "IConst.odf"
+nextRankClass = "IConst.odf"
