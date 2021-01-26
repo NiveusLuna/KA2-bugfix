@@ -1,0 +1,4 @@
+#include "gecm.odf"
+
+// alter button slot
+buttonslot = 99
