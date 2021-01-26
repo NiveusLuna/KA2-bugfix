@@ -1,0 +1,71 @@
+//Display name for this weapon
+wpnName = "Electronic Counter Countermeasures"
+
+//tooltips
+tooltip = "Electronic Counter Countermeasures - ECCM"
+verboseTooltip = "An electronic sensor enhancer, used to burn through enemy electronic defences and increase firing accuracy."
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "eccm"
+
+//Location of the button in the speed panel
+buttonSlot = 2
+
+// location of the button in the popup palette
+popupSlot = 12
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 2
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+// Mark this as a special weapon.
+special = 1
+
+// The weapon is not harmful to the target (so don't fire regular weapons at it)
+beneficial = 1
+
+//Time Delay between shots
+shotDelay = 0.1
+
+// Range within which the weapon will fire.
+range = 150.0f
+
+//Sound which is played when the weapon fires
+//fireSound = "swbsremx.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "areacannon"
+
+//Should not be used
+wpnReticle = "gblast"
+
+//UNKNOWN
+wpnPriority = 0
+
+//UNKNOWN
+wpnCategory = "AREA"
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 1
+
+//this special weapon can be assimilated by the borg tech assimilator
+//assimilatable = "klipod6"
+
+hotkeyLabel = "GAME-HOTKEY-BACKQUOTE_SHIFT_E"
+
+// Do not speak on attack, will say a move command instead.
+speakOnAttack = 0
+
+//Don't switch to attack mode upon cloaking
+switchToAttack = 0
+
+// Do not say "attack" when turned on.
+attackSpeech = 0;
